@@ -1,0 +1,703 @@
+[
+  {
+    "id": "Activity",
+    "name": "Process::Activity"
+  },
+  {
+    "id": "Agent",
+    "name": "Agents::Agent"
+  },
+  {
+    "id": "AgentListing",
+    "name": "Agents::AgentListing"
+  },
+  {
+    "id": "AgentPosition",
+    "name": "Agents::AgentPosition"
+  },
+  {
+    "id": "AgentRelationship",
+    "name": "Agents::AgentRelationship"
+  },
+  {
+    "id": "AgentStructure",
+    "name": "Agents::AgentStructure"
+  },
+  {
+    "id": "AllenIntervalAlgebra",
+    "name": "Process::AllenIntervalAlgebra",
+    "parent": "TemporalConstraints"
+  },
+  {
+    "id": "AttributeComponent",
+    "name": "Components::AttributeComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "AuthorizationSource",
+    "name": "Representations::AuthorizationSource"
+  },
+  {
+    "id": "Category",
+    "name": "Conceptual::Category",
+    "parent": "Concept"
+  },
+  {
+    "id": "CategoryPosition",
+    "name": "Conceptual::CategoryPosition"
+  },
+  {
+    "id": "CategoryRelationStructure",
+    "name": "Conceptual::CategoryRelationStructure"
+  },
+  {
+    "id": "CategoryRelationship",
+    "name": "Conceptual::CategoryRelationship"
+  },
+  {
+    "id": "CategorySet",
+    "name": "Conceptual::CategorySet",
+    "parent": "ConceptSystem"
+  },
+  {
+    "id": "CategoryStatistic",
+    "name": "Representations::CategoryStatistic"
+  },
+  {
+    "id": "ClassificationFamily",
+    "name": "Representations::ClassificationFamily"
+  },
+  {
+    "id": "ClassificationIndex",
+    "name": "Representations::ClassificationIndex"
+  },
+  {
+    "id": "ClassificationIndexEntry",
+    "name": "Representations::ClassificationIndexEntry"
+  },
+  {
+    "id": "ClassificationIndexEntryPosition",
+    "name": "Representations::ClassificationIndexEntryPosition"
+  },
+  {
+    "id": "ClassificationItem",
+    "name": "Representations::ClassificationItem"
+  },
+  {
+    "id": "ClassificationItemPosition",
+    "name": "Representations::ClassificationItemPosition"
+  },
+  {
+    "id": "ClassificationItemRelationship",
+    "name": "Representations::ClassificationItemRelationship"
+  },
+  {
+    "id": "ClassificationItemStructure",
+    "name": "Representations::ClassificationItemStructure"
+  },
+  {
+    "id": "ClassificationPosition",
+    "name": "Representations::ClassificationPosition"
+  },
+  {
+    "id": "ClassificationSeries",
+    "name": "Representations::ClassificationSeries"
+  },
+  {
+    "id": "ClassificationSeriesStructure",
+    "name": "Representations::ClassificationSeriesStructure"
+  },
+  {
+    "id": "Code",
+    "name": "Representations::Code"
+  },
+  {
+    "id": "CodeList",
+    "name": "Representations::CodeList",
+    "parent": "EnumerationDomain"
+  },
+  {
+    "id": "CodeListStructure",
+    "name": "Representations::CodeListStructure"
+  },
+  {
+    "id": "CodePosition",
+    "name": "Representations::CodePosition"
+  },
+  {
+    "id": "CodeRelationship",
+    "name": "Representations::CodeRelationship"
+  },
+  {
+    "id": "ComponentPosition",
+    "name": "Components::ComponentPosition"
+  },
+  {
+    "id": "Concept",
+    "name": "Conceptual::Concept"
+  },
+  {
+    "id": "ConceptMap",
+    "name": "Conceptual::ConceptMap"
+  },
+  {
+    "id": "ConceptRelationship",
+    "name": "Conceptual::ConceptRelationship"
+  },
+  {
+    "id": "ConceptStructure",
+    "name": "Conceptual::ConceptStructure"
+  },
+  {
+    "id": "ConceptSystem",
+    "name": "Conceptual::ConceptSystem"
+  },
+  {
+    "id": "ConceptSystemCorrespondence",
+    "name": "Conceptual::ConceptSystemCorrespondence"
+  },
+  {
+    "id": "ConceptualDomain",
+    "name": "Conceptual::ConceptualDomain"
+  },
+  {
+    "id": "ConceptualValue",
+    "name": "DataDescription::ConceptualValue",
+    "parent": "Concept"
+  },
+  {
+    "id": "ConceptualVariable",
+    "name": "Conceptual::ConceptualVariable",
+    "parent": "Concept"
+  },
+  {
+    "id": "ConditionalControlLogic",
+    "name": "Process::ConditionalControlLogic",
+    "parent": "DeterministicImperative"
+  },
+  {
+    "id": "ContextualComponent",
+    "name": "KeyValue::ContextualComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "ControlLogic",
+    "name": "Process::ControlLogic"
+  },
+  {
+    "id": "CorrespondenceTable",
+    "name": "Representations::CorrespondenceTable"
+  },
+  {
+    "id": "Curator",
+    "name": "Process::Curator",
+    "parent": "ProcessingAgent"
+  },
+  {
+    "id": "DataPoint",
+    "name": "DataDescription::DataPoint"
+  },
+  {
+    "id": "DataPointPosition",
+    "name": "FormatDescription::DataPointPosition"
+  },
+  {
+    "id": "DataPointRelationship",
+    "name": "FormatDescription::DataPointRelationship"
+  },
+  {
+    "id": "DataSet",
+    "name": "DataDescription::DataSet"
+  },
+  {
+    "id": "DataStore",
+    "name": "FormatDescription::DataStore"
+  },
+  {
+    "id": "DataStructure",
+    "name": "DataDescription::DataStructure",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "DataStructureComponent",
+    "name": "Components::DataStructureComponent"
+  },
+  {
+    "id": "Datum",
+    "name": "DataDescription::Datum"
+  },
+  {
+    "id": "Descriptor",
+    "name": "Long::Descriptor",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "DescriptorValueDomain",
+    "name": "Long::DescriptorValueDomain",
+    "parent": "SubstantiveValueDomain"
+  },
+  {
+    "id": "DescriptorVariable",
+    "name": "Long::DescriptorVariable",
+    "parent": "InstanceVariable"
+  },
+  {
+    "id": "DeterministicImperative",
+    "name": "Process::DeterministicImperative",
+    "parent": "ControlLogic"
+  },
+  {
+    "id": "DimensionComponent",
+    "name": "Components::DimensionComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "DimensionGroup",
+    "name": "Dimensional::DimensionGroup"
+  },
+  {
+    "id": "DimensionalDataSet",
+    "name": "Dimensional::DimensionalDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "DimensionalDataStructure",
+    "name": "Dimensional::DimensionalDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "DimensionalKey",
+    "name": "Dimensional::DimensionalKey",
+    "parent": "Key"
+  },
+  {
+    "id": "DimensionalKeyDefinition",
+    "name": "Dimensional::DimensionalKeyDefinition",
+    "parent": "KeyDefinition"
+  },
+  {
+    "id": "DimensionalKeyDefinitionMember",
+    "name": "Dimensional::DimensionalKeyDefinitionMember",
+    "parent": "ConceptualValue"
+  },
+  {
+    "id": "DimensionalKeyMember",
+    "name": "Dimensional::DimensionalKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "EnumerationDomain",
+    "name": "Representations::EnumerationDomain"
+  },
+  {
+    "id": "ForeignKey",
+    "name": "Components::ForeignKey"
+  },
+  {
+    "id": "ForeignKeyComponent",
+    "name": "Components::ForeignKeyComponent"
+  },
+  {
+    "id": "IdentifierComponent",
+    "name": "Components::IdentifierComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "Individual",
+    "name": "Agents::Individual",
+    "parent": "Agent"
+  },
+  {
+    "id": "InformationFlowDefinition",
+    "name": "Process::InformationFlowDefinition"
+  },
+  {
+    "id": "InstanceKey",
+    "name": "KeyValue::InstanceKey",
+    "parent": "Key"
+  },
+  {
+    "id": "InstanceValue",
+    "name": "DataDescription::InstanceValue"
+  },
+  {
+    "id": "InstanceVariable",
+    "name": "Conceptual::InstanceVariable",
+    "parent": "RepresentedVariable"
+  },
+  {
+    "id": "InstanceVariableMap",
+    "name": "FormatDescription::InstanceVariableMap"
+  },
+  {
+    "id": "Key",
+    "name": "DataDescription::Key"
+  },
+  {
+    "id": "KeyDefinition",
+    "name": "DataDescription::KeyDefinition"
+  },
+  {
+    "id": "KeyDefinitionMember",
+    "name": "DataDescription::KeyDefinitionMember",
+    "parent": "ConceptualValue"
+  },
+  {
+    "id": "KeyMember",
+    "name": "DataDescription::KeyMember",
+    "parent": "InstanceValue"
+  },
+  {
+    "id": "KeyValueDataStore",
+    "name": "KeyValue::KeyValueDataStore",
+    "parent": "DataSet"
+  },
+  {
+    "id": "KeyValueStructure",
+    "name": "KeyValue::KeyValueStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "Level",
+    "name": "Representations::Level"
+  },
+  {
+    "id": "LevelStructure",
+    "name": "Representations::LevelStructure"
+  },
+  {
+    "id": "LogicalRecord",
+    "name": "FormatDescription::LogicalRecord"
+  },
+  {
+    "id": "LogicalRecordPosition",
+    "name": "FormatDescription::LogicalRecordPosition"
+  },
+  {
+    "id": "LogicalRecordRelationStructure",
+    "name": "FormatDescription::LogicalRecordRelationStructure"
+  },
+  {
+    "id": "LogicalRecordRelationship",
+    "name": "FormatDescription::LogicalRecordRelationship"
+  },
+  {
+    "id": "LongDataSet",
+    "name": "Long::LongDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "LongDataStructure",
+    "name": "Long::LongDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "LongKey",
+    "name": "Long::LongKey",
+    "parent": "Key"
+  },
+  {
+    "id": "LongMainKeyMember",
+    "name": "Long::LongMainKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "Machine",
+    "name": "Agents::Machine",
+    "parent": "Agent"
+  },
+  {
+    "id": "MainKeyMember",
+    "name": "KeyValue::MainKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "MeasureComponent",
+    "name": "Components::MeasureComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "NonDeterministicDeclarative",
+    "name": "Process::NonDeterministicDeclarative",
+    "parent": "ControlLogic"
+  },
+  {
+    "id": "Notation",
+    "name": "DataDescription::Notation"
+  },
+  {
+    "id": "Organization",
+    "name": "Agents::Organization",
+    "parent": "Agent"
+  },
+  {
+    "id": "Parameter",
+    "name": "Process::Parameter"
+  },
+  {
+    "id": "PhysicalDataSet",
+    "name": "FormatDescription::PhysicalDataSet"
+  },
+  {
+    "id": "PhysicalDataSetStructure",
+    "name": "FormatDescription::PhysicalDataSetStructure"
+  },
+  {
+    "id": "PhysicalLayoutRelationStructure",
+    "name": "FormatDescription::PhysicalLayoutRelationStructure"
+  },
+  {
+    "id": "PhysicalRecordSegment",
+    "name": "FormatDescription::PhysicalRecordSegment"
+  },
+  {
+    "id": "PhysicalRecordSegmentPosition",
+    "name": "FormatDescription::PhysicalRecordSegmentPosition"
+  },
+  {
+    "id": "PhysicalRecordSegmentRelationship",
+    "name": "FormatDescription::PhysicalRecordSegmentRelationship"
+  },
+  {
+    "id": "PhysicalRecordSegmentStructure",
+    "name": "FormatDescription::PhysicalRecordSegmentStructure"
+  },
+  {
+    "id": "PhysicalSegmentLayout",
+    "name": "FormatDescription::PhysicalSegmentLayout"
+  },
+  {
+    "id": "PhysicalSegmentLocation",
+    "name": "FormatDescription::PhysicalSegmentLocation"
+  },
+  {
+    "id": "Population",
+    "name": "Conceptual::Population",
+    "parent": "Universe"
+  },
+  {
+    "id": "PrimaryKey",
+    "name": "Components::PrimaryKey"
+  },
+  {
+    "id": "PrimaryKeyComponent",
+    "name": "Components::PrimaryKeyComponent"
+  },
+  {
+    "id": "ProcessingAgent",
+    "name": "Process::ProcessingAgent",
+    "parent": "Agent"
+  },
+  {
+    "id": "ProductionEnvironment",
+    "name": "Process::ProductionEnvironment"
+  },
+  {
+    "id": "QualifiedMeasure",
+    "name": "Dimensional::QualifiedMeasure",
+    "parent": "MeasureComponent"
+  },
+  {
+    "id": "RecordRelation",
+    "name": "FormatDescription::RecordRelation"
+  },
+  {
+    "id": "ReferenceValue",
+    "name": "Long::ReferenceValue",
+    "parent": "InstanceValue"
+  },
+  {
+    "id": "ReferenceValueDomain",
+    "name": "Long::ReferenceValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "ReferenceVariable",
+    "name": "Long::ReferenceVariable",
+    "parent": "InstanceVariable"
+  },
+  {
+    "id": "RepresentedVariable",
+    "name": "Conceptual::RepresentedVariable",
+    "parent": "ConceptualVariable"
+  },
+  {
+    "id": "RevisableDatum",
+    "name": "Dimensional::RevisableDatum",
+    "parent": "Datum"
+  },
+  {
+    "id": "Revision",
+    "name": "Dimensional::Revision"
+  },
+  {
+    "id": "Rule",
+    "name": "Process::Rule"
+  },
+  {
+    "id": "RuleBasedScheduling",
+    "name": "Process::RuleBasedScheduling",
+    "parent": "NonDeterministicDeclarative"
+  },
+  {
+    "id": "RuleSet",
+    "name": "Process::RuleSet"
+  },
+  {
+    "id": "ScopedMeasure",
+    "name": "Dimensional::ScopedMeasure"
+  },
+  {
+    "id": "SegmentByText",
+    "name": "FormatDescription::SegmentByText",
+    "parent": "PhysicalSegmentLocation"
+  },
+  {
+    "id": "SentinelConceptualDomain",
+    "name": "Conceptual::SentinelConceptualDomain",
+    "parent": "ConceptualDomain"
+  },
+  {
+    "id": "SentinelValueDomain",
+    "name": "Representations::SentinelValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "Sequence",
+    "name": "Process::Sequence",
+    "parent": "DeterministicImperative"
+  },
+  {
+    "id": "SequencePosition",
+    "name": "Process::SequencePosition"
+  },
+  {
+    "id": "Service",
+    "name": "Process::Service",
+    "parent": "ProcessingAgent"
+  },
+  {
+    "id": "StatisticalClassification",
+    "name": "Representations::StatisticalClassification",
+    "parent": "EnumerationDomain"
+  },
+  {
+    "id": "StatisticalClassificationRelationship",
+    "name": "Representations::StatisticalClassificationRelationship"
+  },
+  {
+    "id": "Step",
+    "name": "Process::Step",
+    "parent": "Activity"
+  },
+  {
+    "id": "SubstantiveConceptualDomain",
+    "name": "Conceptual::SubstantiveConceptualDomain",
+    "parent": "ConceptualDomain"
+  },
+  {
+    "id": "SubstantiveValueDomain",
+    "name": "Representations::SubstantiveValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "SyntheticIdComponent",
+    "name": "KeyValue::SyntheticIdComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "TemporalConstraints",
+    "name": "Process::TemporalConstraints",
+    "parent": "NonDeterministicDeclarative"
+  },
+  {
+    "id": "TemporalControlConstruct",
+    "name": "Process::TemporalControlConstruct",
+    "parent": "TemporalConstraints"
+  },
+  {
+    "id": "Unit",
+    "name": "Conceptual::Unit"
+  },
+  {
+    "id": "UnitSegmentLayout",
+    "name": "FormatDescription::UnitSegmentLayout",
+    "parent": "PhysicalSegmentLayout"
+  },
+  {
+    "id": "UnitType",
+    "name": "Conceptual::UnitType",
+    "parent": "Concept"
+  },
+  {
+    "id": "Universe",
+    "name": "Conceptual::Universe",
+    "parent": "UnitType"
+  },
+  {
+    "id": "ValueAndConceptDescription",
+    "name": "Representations::ValueAndConceptDescription"
+  },
+  {
+    "id": "ValueDomain",
+    "name": "Representations::ValueDomain"
+  },
+  {
+    "id": "ValueMapping",
+    "name": "FormatDescription::ValueMapping"
+  },
+  {
+    "id": "ValueMappingPosition",
+    "name": "FormatDescription::ValueMappingPosition"
+  },
+  {
+    "id": "ValueMappingRelationship",
+    "name": "FormatDescription::ValueMappingRelationship"
+  },
+  {
+    "id": "VariableCollection",
+    "name": "Conceptual::VariableCollection"
+  },
+  {
+    "id": "VariableDescriptorComponent",
+    "name": "Components::VariableDescriptorComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "VariablePosition",
+    "name": "Conceptual::VariablePosition"
+  },
+  {
+    "id": "VariableRelationship",
+    "name": "Conceptual::VariableRelationship"
+  },
+  {
+    "id": "VariableStructure",
+    "name": "Conceptual::VariableStructure"
+  },
+  {
+    "id": "VariableValueComponent",
+    "name": "Components::VariableValueComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "WideDataSet",
+    "name": "Wide::WideDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "WideDataStructure",
+    "name": "Wide::WideDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "WideKey",
+    "name": "Wide::WideKey",
+    "parent": "Key"
+  },
+  {
+    "id": "WideKeyMember",
+    "name": "Wide::WideKeyMember",
+    "parent": "KeyMember"
+  }
+]
