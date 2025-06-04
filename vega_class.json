@@ -1,11 +1,17 @@
 [
   {
+    "id": 0,
+    "name": "ROOT"
+  },
+  {
     "id": 1,
-    "name": "Process::Activity"
+    "name": "Process::Activity",
+    "parent": 0
   },
   {
     "id": 2,
-    "name": "Agents::Agent"
+    "name": "Agents::Agent",
+    "parent": 0
   },
   {
     "id": 3,
@@ -134,7 +140,8 @@
   },
   {
     "id": 33,
-    "name": "Conceptual::Concept"
+    "name": "Conceptual::Concept",
+    "parent": 0
   },
   {
     "id": 34,
@@ -150,7 +157,8 @@
   },
   {
     "id": 37,
-    "name": "Conceptual::ConceptSystem"
+    "name": "Conceptual::ConceptSystem",
+    "parent": 0
   },
   {
     "id": 38,
@@ -158,7 +166,8 @@
   },
   {
     "id": 39,
-    "name": "Conceptual::ConceptualDomain"
+    "name": "Conceptual::ConceptualDomain",
+    "parent": 0
   },
   {
     "id": 40,
@@ -182,7 +191,8 @@
   },
   {
     "id": 44,
-    "name": "Process::ControlLogic"
+    "name": "Process::ControlLogic",
+    "parent": 0
   },
   {
     "id": 45,
@@ -207,7 +217,8 @@
   },
   {
     "id": 50,
-    "name": "DataDescription::DataSet"
+    "name": "DataDescription::DataSet",
+    "parent": 0
   },
   {
     "id": 51,
@@ -220,11 +231,13 @@
   },
   {
     "id": 53,
-    "name": "Components::DataStructureComponent"
+    "name": "Components::DataStructureComponent",
+    "parent": 0
   },
   {
     "id": 54,
-    "name": "DataDescription::Datum"
+    "name": "DataDescription::Datum",
+    "parent": 0
   },
   {
     "id": 55,
@@ -287,7 +300,8 @@
   },
   {
     "id": 67,
-    "name": "Representations::EnumerationDomain"
+    "name": "Representations::EnumerationDomain",
+    "parent": 0
   },
   {
     "id": 68,
@@ -318,7 +332,8 @@
   },
   {
     "id": 74,
-    "name": "DataDescription::InstanceValue"
+    "name": "DataDescription::InstanceValue",
+    "parent": 0
   },
   {
     "id": 75,
@@ -331,11 +346,13 @@
   },
   {
     "id": 77,
-    "name": "DataDescription::Key"
+    "name": "DataDescription::Key",
+    "parent": 0
   },
   {
     "id": 78,
-    "name": "DataDescription::KeyDefinition"
+    "name": "DataDescription::KeyDefinition",
+    "parent": 0
   },
   {
     "id": 79,
@@ -464,11 +481,13 @@
   },
   {
     "id": 107,
-    "name": "FormatDescription::PhysicalSegmentLayout"
+    "name": "FormatDescription::PhysicalSegmentLayout",
+    "parent": 0
   },
   {
     "id": 108,
-    "name": "FormatDescription::PhysicalSegmentLocation"
+    "name": "FormatDescription::PhysicalSegmentLocation",
+    "parent": 0
   },
   {
     "id": 109,
@@ -640,7 +659,8 @@
   },
   {
     "id": 145,
-    "name": "Representations::ValueDomain"
+    "name": "Representations::ValueDomain",
+    "parent": 0
   },
   {
     "id": 146,
