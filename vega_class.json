@@ -5,719 +5,427 @@
   },
   {
     "id": 1,
-    "name": "Process::Activity",
-    "parent": 0
-  },
-  {
-    "id": 2,
     "name": "Agents::Agent",
     "parent": 0
   },
   {
+    "id": 2,
+    "name": "Agents::Individual",
+    "parent": 1
+  },
+  {
     "id": 3,
-    "name": "Agents::AgentListing"
+    "name": "Agents::Machine",
+    "parent": 1
   },
   {
     "id": 4,
-    "name": "Agents::AgentPosition"
+    "name": "Agents::Organization",
+    "parent": 1
   },
   {
     "id": 5,
-    "name": "Agents::AgentRelationship"
+    "name": "Conceptual::Category",
+    "parent": 7
   },
   {
     "id": 6,
-    "name": "Agents::AgentStructure"
+    "name": "Conceptual::CategorySet",
+    "parent": 8
   },
   {
     "id": 7,
-    "name": "Process::AllenIntervalAlgebra",
-    "parent": 138
-  },
-  {
-    "id": 8,
-    "name": "Components::AttributeComponent",
-    "parent": 53
-  },
-  {
-    "id": 9,
-    "name": "Representations::AuthorizationSource"
-  },
-  {
-    "id": 10,
-    "name": "Conceptual::Category",
-    "parent": 33
-  },
-  {
-    "id": 11,
-    "name": "Conceptual::CategoryPosition"
-  },
-  {
-    "id": 12,
-    "name": "Conceptual::CategoryRelationStructure"
-  },
-  {
-    "id": 13,
-    "name": "Conceptual::CategoryRelationship"
-  },
-  {
-    "id": 14,
-    "name": "Conceptual::CategorySet",
-    "parent": 37
-  },
-  {
-    "id": 15,
-    "name": "Representations::CategoryStatistic"
-  },
-  {
-    "id": 16,
-    "name": "Representations::ClassificationFamily"
-  },
-  {
-    "id": 17,
-    "name": "Representations::ClassificationIndex"
-  },
-  {
-    "id": 18,
-    "name": "Representations::ClassificationIndexEntry"
-  },
-  {
-    "id": 19,
-    "name": "Representations::ClassificationIndexEntryPosition"
-  },
-  {
-    "id": 20,
-    "name": "Representations::ClassificationItem"
-  },
-  {
-    "id": 21,
-    "name": "Representations::ClassificationItemPosition"
-  },
-  {
-    "id": 22,
-    "name": "Representations::ClassificationItemRelationship"
-  },
-  {
-    "id": 23,
-    "name": "Representations::ClassificationItemStructure"
-  },
-  {
-    "id": 24,
-    "name": "Representations::ClassificationPosition"
-  },
-  {
-    "id": 25,
-    "name": "Representations::ClassificationSeries"
-  },
-  {
-    "id": 26,
-    "name": "Representations::ClassificationSeriesStructure"
-  },
-  {
-    "id": 27,
-    "name": "Representations::Code"
-  },
-  {
-    "id": 28,
-    "name": "Representations::CodeList",
-    "parent": 67
-  },
-  {
-    "id": 29,
-    "name": "Representations::CodeListStructure"
-  },
-  {
-    "id": 30,
-    "name": "Representations::CodePosition"
-  },
-  {
-    "id": 31,
-    "name": "Representations::CodeRelationship"
-  },
-  {
-    "id": 32,
-    "name": "Components::ComponentPosition"
-  },
-  {
-    "id": 33,
     "name": "Conceptual::Concept",
     "parent": 0
   },
   {
-    "id": 34,
-    "name": "Conceptual::ConceptMap"
-  },
-  {
-    "id": 35,
-    "name": "Conceptual::ConceptRelationship"
-  },
-  {
-    "id": 36,
-    "name": "Conceptual::ConceptStructure"
-  },
-  {
-    "id": 37,
+    "id": 8,
     "name": "Conceptual::ConceptSystem",
     "parent": 0
   },
   {
-    "id": 38,
-    "name": "Conceptual::ConceptSystemCorrespondence"
-  },
-  {
-    "id": 39,
+    "id": 9,
     "name": "Conceptual::ConceptualDomain",
     "parent": 0
   },
   {
-    "id": 40,
-    "name": "DataDescription::ConceptualValue",
-    "parent": 33
-  },
-  {
-    "id": 41,
+    "id": 10,
     "name": "Conceptual::ConceptualVariable",
-    "parent": 33
+    "parent": 7
   },
   {
-    "id": 42,
-    "name": "Process::ConditionalControlLogic",
-    "parent": 58
+    "id": 11,
+    "name": "Conceptual::InstanceVariable",
+    "parent": 13
   },
   {
-    "id": 43,
-    "name": "KeyValue::ContextualComponent",
-    "parent": 53
+    "id": 12,
+    "name": "Conceptual::Population",
+    "parent": 17
   },
   {
-    "id": 44,
-    "name": "Process::ControlLogic",
-    "parent": 0
+    "id": 13,
+    "name": "Conceptual::RepresentedVariable",
+    "parent": 10
   },
   {
-    "id": 45,
-    "name": "Representations::CorrespondenceTable"
+    "id": 14,
+    "name": "Conceptual::SentinelConceptualDomain",
+    "parent": 9
   },
   {
-    "id": 46,
-    "name": "Process::Curator",
-    "parent": 112
+    "id": 15,
+    "name": "Conceptual::SubstantiveConceptualDomain",
+    "parent": 9
   },
   {
-    "id": 47,
-    "name": "DataDescription::DataPoint"
+    "id": 16,
+    "name": "Conceptual::UnitType",
+    "parent": 7
   },
   {
-    "id": 48,
-    "name": "FormatDescription::DataPointPosition"
+    "id": 17,
+    "name": "Conceptual::Universe",
+    "parent": 16
   },
   {
-    "id": 49,
-    "name": "FormatDescription::DataPointRelationship"
+    "id": 18,
+    "name": "DataDescription::ConceptualValue",
+    "parent": 7
   },
   {
-    "id": 50,
+    "id": 19,
     "name": "DataDescription::DataSet",
     "parent": 0
   },
   {
-    "id": 51,
-    "name": "FormatDescription::DataStore"
-  },
-  {
-    "id": 52,
+    "id": 20,
     "name": "DataDescription::DataStructure",
-    "parent": 53
+    "parent": 28
   },
   {
-    "id": 53,
-    "name": "Components::DataStructureComponent",
-    "parent": 0
-  },
-  {
-    "id": 54,
+    "id": 21,
     "name": "DataDescription::Datum",
     "parent": 0
   },
   {
-    "id": 55,
-    "name": "Long::Descriptor",
-    "parent": 80
-  },
-  {
-    "id": 56,
-    "name": "Long::DescriptorValueDomain",
-    "parent": 136
-  },
-  {
-    "id": 57,
-    "name": "Long::DescriptorVariable",
-    "parent": 75
-  },
-  {
-    "id": 58,
-    "name": "Process::DeterministicImperative",
-    "parent": 44
-  },
-  {
-    "id": 59,
-    "name": "Components::DimensionComponent",
-    "parent": 53
-  },
-  {
-    "id": 60,
-    "name": "Dimensional::DimensionGroup"
-  },
-  {
-    "id": 61,
-    "name": "Dimensional::DimensionalDataSet",
-    "parent": 50
-  },
-  {
-    "id": 62,
-    "name": "Dimensional::DimensionalDataStructure",
-    "parent": 52
-  },
-  {
-    "id": 63,
-    "name": "Dimensional::DimensionalKey",
-    "parent": 77
-  },
-  {
-    "id": 64,
-    "name": "Dimensional::DimensionalKeyDefinition",
-    "parent": 78
-  },
-  {
-    "id": 65,
-    "name": "Dimensional::DimensionalKeyDefinitionMember",
-    "parent": 40
-  },
-  {
-    "id": 66,
-    "name": "Dimensional::DimensionalKeyMember",
-    "parent": 80
-  },
-  {
-    "id": 67,
-    "name": "Representations::EnumerationDomain",
-    "parent": 0
-  },
-  {
-    "id": 68,
-    "name": "Components::ForeignKey"
-  },
-  {
-    "id": 69,
-    "name": "Components::ForeignKeyComponent"
-  },
-  {
-    "id": 70,
-    "name": "Components::IdentifierComponent",
-    "parent": 53
-  },
-  {
-    "id": 71,
-    "name": "Agents::Individual",
-    "parent": 2
-  },
-  {
-    "id": 72,
-    "name": "Process::InformationFlowDefinition"
-  },
-  {
-    "id": 73,
-    "name": "KeyValue::InstanceKey",
-    "parent": 77
-  },
-  {
-    "id": 74,
+    "id": 22,
     "name": "DataDescription::InstanceValue",
     "parent": 0
   },
   {
-    "id": 75,
-    "name": "Conceptual::InstanceVariable",
-    "parent": 119
-  },
-  {
-    "id": 76,
-    "name": "FormatDescription::InstanceVariableMap"
-  },
-  {
-    "id": 77,
+    "id": 23,
     "name": "DataDescription::Key",
     "parent": 0
   },
   {
-    "id": 78,
+    "id": 24,
     "name": "DataDescription::KeyDefinition",
     "parent": 0
   },
   {
-    "id": 79,
+    "id": 25,
     "name": "DataDescription::KeyDefinitionMember",
-    "parent": 40
+    "parent": 18
   },
   {
-    "id": 80,
+    "id": 26,
     "name": "DataDescription::KeyMember",
-    "parent": 74
+    "parent": 22
   },
   {
-    "id": 81,
-    "name": "KeyValue::KeyValueDataStore",
-    "parent": 50
+    "id": 27,
+    "name": "Components::AttributeComponent",
+    "parent": 28
   },
   {
-    "id": 82,
-    "name": "KeyValue::KeyValueStructure",
-    "parent": 52
+    "id": 28,
+    "name": "Components::DataStructureComponent",
+    "parent": 0
   },
   {
-    "id": 83,
-    "name": "Representations::Level"
+    "id": 29,
+    "name": "Components::DimensionComponent",
+    "parent": 28
   },
   {
-    "id": 84,
-    "name": "Representations::LevelStructure"
+    "id": 30,
+    "name": "Components::IdentifierComponent",
+    "parent": 28
   },
   {
-    "id": 85,
-    "name": "FormatDescription::LogicalRecord"
-  },
-  {
-    "id": 86,
-    "name": "FormatDescription::LogicalRecordPosition"
-  },
-  {
-    "id": 87,
-    "name": "FormatDescription::LogicalRecordRelationStructure"
-  },
-  {
-    "id": 88,
-    "name": "FormatDescription::LogicalRecordRelationship"
-  },
-  {
-    "id": 89,
-    "name": "Long::LongDataSet",
-    "parent": 50
-  },
-  {
-    "id": 90,
-    "name": "Long::LongDataStructure",
-    "parent": 52
-  },
-  {
-    "id": 91,
-    "name": "Long::LongKey",
-    "parent": 77
-  },
-  {
-    "id": 92,
-    "name": "Long::LongMainKeyMember",
-    "parent": 80
-  },
-  {
-    "id": 93,
-    "name": "Agents::Machine",
-    "parent": 2
-  },
-  {
-    "id": 94,
-    "name": "KeyValue::MainKeyMember",
-    "parent": 80
-  },
-  {
-    "id": 95,
+    "id": 31,
     "name": "Components::MeasureComponent",
-    "parent": 53
+    "parent": 28
   },
   {
-    "id": 96,
-    "name": "Process::NonDeterministicDeclarative",
-    "parent": 44
+    "id": 32,
+    "name": "Components::VariableDescriptorComponent",
+    "parent": 28
   },
   {
-    "id": 97,
-    "name": "DataDescription::Notation"
+    "id": 33,
+    "name": "Components::VariableValueComponent",
+    "parent": 28
   },
   {
-    "id": 98,
-    "name": "Agents::Organization",
-    "parent": 2
+    "id": 34,
+    "name": "Dimensional::DimensionalDataSet",
+    "parent": 19
   },
   {
-    "id": 99,
-    "name": "Process::Parameter"
+    "id": 35,
+    "name": "Dimensional::DimensionalDataStructure",
+    "parent": 20
   },
   {
-    "id": 100,
-    "name": "FormatDescription::PhysicalDataSet"
+    "id": 36,
+    "name": "Dimensional::DimensionalKey",
+    "parent": 23
   },
   {
-    "id": 101,
-    "name": "FormatDescription::PhysicalDataSetStructure"
+    "id": 37,
+    "name": "Dimensional::DimensionalKeyDefinition",
+    "parent": 24
   },
   {
-    "id": 102,
-    "name": "FormatDescription::PhysicalLayoutRelationStructure"
+    "id": 38,
+    "name": "Dimensional::DimensionalKeyDefinitionMember",
+    "parent": 18
   },
   {
-    "id": 103,
-    "name": "FormatDescription::PhysicalRecordSegment"
+    "id": 39,
+    "name": "Dimensional::DimensionalKeyMember",
+    "parent": 26
   },
   {
-    "id": 104,
-    "name": "FormatDescription::PhysicalRecordSegmentPosition"
+    "id": 40,
+    "name": "Dimensional::QualifiedMeasure",
+    "parent": 31
   },
   {
-    "id": 105,
-    "name": "FormatDescription::PhysicalRecordSegmentRelationship"
+    "id": 41,
+    "name": "Dimensional::RevisableDatum",
+    "parent": 21
   },
   {
-    "id": 106,
-    "name": "FormatDescription::PhysicalRecordSegmentStructure"
+    "id": 42,
+    "name": "KeyValue::ContextualComponent",
+    "parent": 28
   },
   {
-    "id": 107,
+    "id": 43,
+    "name": "KeyValue::InstanceKey",
+    "parent": 23
+  },
+  {
+    "id": 44,
+    "name": "KeyValue::KeyValueDataStore",
+    "parent": 19
+  },
+  {
+    "id": 45,
+    "name": "KeyValue::KeyValueStructure",
+    "parent": 20
+  },
+  {
+    "id": 46,
+    "name": "KeyValue::MainKeyMember",
+    "parent": 26
+  },
+  {
+    "id": 47,
+    "name": "KeyValue::SyntheticIdComponent",
+    "parent": 28
+  },
+  {
+    "id": 48,
+    "name": "Long::Descriptor",
+    "parent": 26
+  },
+  {
+    "id": 49,
+    "name": "Long::DescriptorValueDomain",
+    "parent": 84
+  },
+  {
+    "id": 50,
+    "name": "Long::DescriptorVariable",
+    "parent": 11
+  },
+  {
+    "id": 51,
+    "name": "Long::LongDataSet",
+    "parent": 19
+  },
+  {
+    "id": 52,
+    "name": "Long::LongDataStructure",
+    "parent": 20
+  },
+  {
+    "id": 53,
+    "name": "Long::LongKey",
+    "parent": 23
+  },
+  {
+    "id": 54,
+    "name": "Long::LongMainKeyMember",
+    "parent": 26
+  },
+  {
+    "id": 55,
+    "name": "Long::ReferenceValue",
+    "parent": 22
+  },
+  {
+    "id": 56,
+    "name": "Long::ReferenceValueDomain",
+    "parent": 85
+  },
+  {
+    "id": 57,
+    "name": "Long::ReferenceVariable",
+    "parent": 11
+  },
+  {
+    "id": 58,
+    "name": "Wide::WideDataSet",
+    "parent": 19
+  },
+  {
+    "id": 59,
+    "name": "Wide::WideDataStructure",
+    "parent": 20
+  },
+  {
+    "id": 60,
+    "name": "Wide::WideKey",
+    "parent": 23
+  },
+  {
+    "id": 61,
+    "name": "Wide::WideKeyMember",
+    "parent": 26
+  },
+  {
+    "id": 62,
     "name": "FormatDescription::PhysicalSegmentLayout",
     "parent": 0
   },
   {
-    "id": 108,
+    "id": 63,
     "name": "FormatDescription::PhysicalSegmentLocation",
     "parent": 0
   },
   {
-    "id": 109,
-    "name": "Conceptual::Population",
-    "parent": 143
-  },
-  {
-    "id": 110,
-    "name": "Components::PrimaryKey"
-  },
-  {
-    "id": 111,
-    "name": "Components::PrimaryKeyComponent"
-  },
-  {
-    "id": 112,
-    "name": "Process::ProcessingAgent",
-    "parent": 2
-  },
-  {
-    "id": 113,
-    "name": "Process::ProductionEnvironment"
-  },
-  {
-    "id": 114,
-    "name": "Dimensional::QualifiedMeasure",
-    "parent": 95
-  },
-  {
-    "id": 115,
-    "name": "FormatDescription::RecordRelation"
-  },
-  {
-    "id": 116,
-    "name": "Long::ReferenceValue",
-    "parent": 74
-  },
-  {
-    "id": 117,
-    "name": "Long::ReferenceValueDomain",
-    "parent": 145
-  },
-  {
-    "id": 118,
-    "name": "Long::ReferenceVariable",
-    "parent": 75
-  },
-  {
-    "id": 119,
-    "name": "Conceptual::RepresentedVariable",
-    "parent": 41
-  },
-  {
-    "id": 120,
-    "name": "Dimensional::RevisableDatum",
-    "parent": 54
-  },
-  {
-    "id": 121,
-    "name": "Dimensional::Revision"
-  },
-  {
-    "id": 122,
-    "name": "Process::Rule"
-  },
-  {
-    "id": 123,
-    "name": "Process::RuleBasedScheduling",
-    "parent": 96
-  },
-  {
-    "id": 124,
-    "name": "Process::RuleSet"
-  },
-  {
-    "id": 125,
-    "name": "Dimensional::ScopedMeasure"
-  },
-  {
-    "id": 126,
+    "id": 64,
     "name": "FormatDescription::SegmentByText",
-    "parent": 108
+    "parent": 63
   },
   {
-    "id": 127,
-    "name": "Conceptual::SentinelConceptualDomain",
-    "parent": 39
-  },
-  {
-    "id": 128,
-    "name": "Representations::SentinelValueDomain",
-    "parent": 145
-  },
-  {
-    "id": 129,
-    "name": "Process::Sequence",
-    "parent": 58
-  },
-  {
-    "id": 130,
-    "name": "Process::SequencePosition"
-  },
-  {
-    "id": 131,
-    "name": "Process::Service",
-    "parent": 112
-  },
-  {
-    "id": 132,
-    "name": "Representations::StatisticalClassification",
-    "parent": 67
-  },
-  {
-    "id": 133,
-    "name": "Representations::StatisticalClassificationRelationship"
-  },
-  {
-    "id": 134,
-    "name": "Process::Step",
-    "parent": 1
-  },
-  {
-    "id": 135,
-    "name": "Conceptual::SubstantiveConceptualDomain",
-    "parent": 39
-  },
-  {
-    "id": 136,
-    "name": "Representations::SubstantiveValueDomain",
-    "parent": 145
-  },
-  {
-    "id": 137,
-    "name": "KeyValue::SyntheticIdComponent",
-    "parent": 53
-  },
-  {
-    "id": 138,
-    "name": "Process::TemporalConstraints",
-    "parent": 96
-  },
-  {
-    "id": 139,
-    "name": "Process::TemporalControlConstruct",
-    "parent": 138
-  },
-  {
-    "id": 140,
-    "name": "Conceptual::Unit"
-  },
-  {
-    "id": 141,
+    "id": 65,
     "name": "FormatDescription::UnitSegmentLayout",
-    "parent": 107
+    "parent": 62
   },
   {
-    "id": 142,
-    "name": "Conceptual::UnitType",
-    "parent": 33
-  },
-  {
-    "id": 143,
-    "name": "Conceptual::Universe",
-    "parent": 142
-  },
-  {
-    "id": 144,
-    "name": "Representations::ValueAndConceptDescription"
-  },
-  {
-    "id": 145,
-    "name": "Representations::ValueDomain",
+    "id": 66,
+    "name": "Process::Activity",
     "parent": 0
   },
   {
-    "id": 146,
-    "name": "FormatDescription::ValueMapping"
+    "id": 67,
+    "name": "Process::AllenIntervalAlgebra",
+    "parent": 78
   },
   {
-    "id": 147,
-    "name": "FormatDescription::ValueMappingPosition"
+    "id": 68,
+    "name": "Process::ConditionalControlLogic",
+    "parent": 71
   },
   {
-    "id": 148,
-    "name": "FormatDescription::ValueMappingRelationship"
+    "id": 69,
+    "name": "Process::ControlLogic",
+    "parent": 0
   },
   {
-    "id": 149,
-    "name": "Conceptual::VariableCollection"
+    "id": 70,
+    "name": "Process::Curator",
+    "parent": 73
   },
   {
-    "id": 150,
-    "name": "Components::VariableDescriptorComponent",
-    "parent": 53
+    "id": 71,
+    "name": "Process::DeterministicImperative",
+    "parent": 69
   },
   {
-    "id": 151,
-    "name": "Conceptual::VariablePosition"
+    "id": 72,
+    "name": "Process::NonDeterministicDeclarative",
+    "parent": 69
   },
   {
-    "id": 152,
-    "name": "Conceptual::VariableRelationship"
+    "id": 73,
+    "name": "Process::ProcessingAgent",
+    "parent": 1
   },
   {
-    "id": 153,
-    "name": "Conceptual::VariableStructure"
+    "id": 74,
+    "name": "Process::RuleBasedScheduling",
+    "parent": 72
   },
   {
-    "id": 154,
-    "name": "Components::VariableValueComponent",
-    "parent": 53
+    "id": 75,
+    "name": "Process::Sequence",
+    "parent": 71
   },
   {
-    "id": 155,
-    "name": "Wide::WideDataSet",
-    "parent": 50
+    "id": 76,
+    "name": "Process::Service",
+    "parent": 73
   },
   {
-    "id": 156,
-    "name": "Wide::WideDataStructure",
-    "parent": 52
+    "id": 77,
+    "name": "Process::Step",
+    "parent": 66
   },
   {
-    "id": 157,
-    "name": "Wide::WideKey",
-    "parent": 77
+    "id": 78,
+    "name": "Process::TemporalConstraints",
+    "parent": 72
   },
   {
-    "id": 158,
-    "name": "Wide::WideKeyMember",
-    "parent": 80
+    "id": 79,
+    "name": "Process::TemporalControlConstruct",
+    "parent": 78
+  },
+  {
+    "id": 80,
+    "name": "Representations::CodeList",
+    "parent": 81
+  },
+  {
+    "id": 81,
+    "name": "Representations::EnumerationDomain",
+    "parent": 0
+  },
+  {
+    "id": 82,
+    "name": "Representations::SentinelValueDomain",
+    "parent": 85
+  },
+  {
+    "id": 83,
+    "name": "Representations::StatisticalClassification",
+    "parent": 81
+  },
+  {
+    "id": 84,
+    "name": "Representations::SubstantiveValueDomain",
+    "parent": 85
+  },
+  {
+    "id": 85,
+    "name": "Representations::ValueDomain",
+    "parent": 0
   }
 ]
