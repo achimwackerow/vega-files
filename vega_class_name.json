@@ -1,0 +1,431 @@
+[
+  {
+    "id": "Root",
+    "name": "Root (no class)"
+  },
+  {
+    "id": "Activity",
+    "name": "Activity",
+    "parent": "Root"
+  },
+  {
+    "id": "Agent",
+    "name": "Agent",
+    "parent": "Root"
+  },
+  {
+    "id": "Concept",
+    "name": "Concept",
+    "parent": "Root"
+  },
+  {
+    "id": "ConceptSystem",
+    "name": "ConceptSystem",
+    "parent": "Root"
+  },
+  {
+    "id": "ConceptualDomain",
+    "name": "ConceptualDomain",
+    "parent": "Root"
+  },
+  {
+    "id": "ControlLogic",
+    "name": "ControlLogic",
+    "parent": "Root"
+  },
+  {
+    "id": "DataSet",
+    "name": "DataSet",
+    "parent": "Root"
+  },
+  {
+    "id": "DataStructureComponent",
+    "name": "DataStructureComponent",
+    "parent": "Root"
+  },
+  {
+    "id": "Datum",
+    "name": "Datum",
+    "parent": "Root"
+  },
+  {
+    "id": "EnumerationDomain",
+    "name": "EnumerationDomain",
+    "parent": "Root"
+  },
+  {
+    "id": "InstanceValue",
+    "name": "InstanceValue",
+    "parent": "Root"
+  },
+  {
+    "id": "Key",
+    "name": "Key",
+    "parent": "Root"
+  },
+  {
+    "id": "KeyDefinition",
+    "name": "KeyDefinition",
+    "parent": "Root"
+  },
+  {
+    "id": "PhysicalSegmentLayout",
+    "name": "PhysicalSegmentLayout",
+    "parent": "Root"
+  },
+  {
+    "id": "PhysicalSegmentLocation",
+    "name": "PhysicalSegmentLocation",
+    "parent": "Root"
+  },
+  {
+    "id": "ValueDomain",
+    "name": "ValueDomain",
+    "parent": "Root"
+  },
+  {
+    "id": "AttributeComponent",
+    "name": "AttributeComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "Category",
+    "name": "Category",
+    "parent": "Concept"
+  },
+  {
+    "id": "CategorySet",
+    "name": "CategorySet",
+    "parent": "ConceptSystem"
+  },
+  {
+    "id": "CodeList",
+    "name": "CodeList",
+    "parent": "EnumerationDomain"
+  },
+  {
+    "id": "ConceptualValue",
+    "name": "ConceptualValue",
+    "parent": "Concept"
+  },
+  {
+    "id": "ConceptualVariable",
+    "name": "ConceptualVariable",
+    "parent": "Concept"
+  },
+  {
+    "id": "ContextualComponent",
+    "name": "ContextualComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "DataStructure",
+    "name": "DataStructure",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "DeterministicImperative",
+    "name": "DeterministicImperative",
+    "parent": "ControlLogic"
+  },
+  {
+    "id": "DimensionComponent",
+    "name": "DimensionComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "DimensionalDataSet",
+    "name": "DimensionalDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "DimensionalKey",
+    "name": "DimensionalKey",
+    "parent": "Key"
+  },
+  {
+    "id": "DimensionalKeyDefinition",
+    "name": "DimensionalKeyDefinition",
+    "parent": "KeyDefinition"
+  },
+  {
+    "id": "IdentifierComponent",
+    "name": "IdentifierComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "Individual",
+    "name": "Individual",
+    "parent": "Agent"
+  },
+  {
+    "id": "InstanceKey",
+    "name": "InstanceKey",
+    "parent": "Key"
+  },
+  {
+    "id": "KeyMember",
+    "name": "KeyMember",
+    "parent": "InstanceValue"
+  },
+  {
+    "id": "KeyValueDataStore",
+    "name": "KeyValueDataStore",
+    "parent": "DataSet"
+  },
+  {
+    "id": "LongDataSet",
+    "name": "LongDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "LongKey",
+    "name": "LongKey",
+    "parent": "Key"
+  },
+  {
+    "id": "Machine",
+    "name": "Machine",
+    "parent": "Agent"
+  },
+  {
+    "id": "MeasureComponent",
+    "name": "MeasureComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "NonDeterministicDeclarative",
+    "name": "NonDeterministicDeclarative",
+    "parent": "ControlLogic"
+  },
+  {
+    "id": "Organization",
+    "name": "Organization",
+    "parent": "Agent"
+  },
+  {
+    "id": "ProcessingAgent",
+    "name": "ProcessingAgent",
+    "parent": "Agent"
+  },
+  {
+    "id": "ReferenceValue",
+    "name": "ReferenceValue",
+    "parent": "InstanceValue"
+  },
+  {
+    "id": "ReferenceValueDomain",
+    "name": "ReferenceValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "RevisableDatum",
+    "name": "RevisableDatum",
+    "parent": "Datum"
+  },
+  {
+    "id": "SegmentByText",
+    "name": "SegmentByText",
+    "parent": "PhysicalSegmentLocation"
+  },
+  {
+    "id": "SentinelConceptualDomain",
+    "name": "SentinelConceptualDomain",
+    "parent": "ConceptualDomain"
+  },
+  {
+    "id": "SentinelValueDomain",
+    "name": "SentinelValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "StatisticalClassification",
+    "name": "StatisticalClassification",
+    "parent": "EnumerationDomain"
+  },
+  {
+    "id": "Step",
+    "name": "Step",
+    "parent": "Activity"
+  },
+  {
+    "id": "SubstantiveConceptualDomain",
+    "name": "SubstantiveConceptualDomain",
+    "parent": "ConceptualDomain"
+  },
+  {
+    "id": "SubstantiveValueDomain",
+    "name": "SubstantiveValueDomain",
+    "parent": "ValueDomain"
+  },
+  {
+    "id": "SyntheticIdComponent",
+    "name": "SyntheticIdComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "UnitSegmentLayout",
+    "name": "UnitSegmentLayout",
+    "parent": "PhysicalSegmentLayout"
+  },
+  {
+    "id": "UnitType",
+    "name": "UnitType",
+    "parent": "Concept"
+  },
+  {
+    "id": "VariableDescriptorComponent",
+    "name": "VariableDescriptorComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "VariableValueComponent",
+    "name": "VariableValueComponent",
+    "parent": "DataStructureComponent"
+  },
+  {
+    "id": "WideDataSet",
+    "name": "WideDataSet",
+    "parent": "DataSet"
+  },
+  {
+    "id": "WideKey",
+    "name": "WideKey",
+    "parent": "Key"
+  },
+  {
+    "id": "ConditionalControlLogic",
+    "name": "ConditionalControlLogic",
+    "parent": "DeterministicImperative"
+  },
+  {
+    "id": "Curator",
+    "name": "Curator",
+    "parent": "ProcessingAgent"
+  },
+  {
+    "id": "Descriptor",
+    "name": "Descriptor",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "DescriptorValueDomain",
+    "name": "DescriptorValueDomain",
+    "parent": "SubstantiveValueDomain"
+  },
+  {
+    "id": "DimensionalDataStructure",
+    "name": "DimensionalDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "DimensionalKeyDefinitionMember",
+    "name": "DimensionalKeyDefinitionMember",
+    "parent": "ConceptualValue"
+  },
+  {
+    "id": "DimensionalKeyMember",
+    "name": "DimensionalKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "KeyDefinitionMember",
+    "name": "KeyDefinitionMember",
+    "parent": "ConceptualValue"
+  },
+  {
+    "id": "KeyValueStructure",
+    "name": "KeyValueStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "LongDataStructure",
+    "name": "LongDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "LongMainKeyMember",
+    "name": "LongMainKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "MainKeyMember",
+    "name": "MainKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "QualifiedMeasure",
+    "name": "QualifiedMeasure",
+    "parent": "MeasureComponent"
+  },
+  {
+    "id": "RepresentedVariable",
+    "name": "RepresentedVariable",
+    "parent": "ConceptualVariable"
+  },
+  {
+    "id": "RuleBasedScheduling",
+    "name": "RuleBasedScheduling",
+    "parent": "NonDeterministicDeclarative"
+  },
+  {
+    "id": "Sequence",
+    "name": "Sequence",
+    "parent": "DeterministicImperative"
+  },
+  {
+    "id": "Service",
+    "name": "Service",
+    "parent": "ProcessingAgent"
+  },
+  {
+    "id": "TemporalConstraints",
+    "name": "TemporalConstraints",
+    "parent": "NonDeterministicDeclarative"
+  },
+  {
+    "id": "Universe",
+    "name": "Universe",
+    "parent": "UnitType"
+  },
+  {
+    "id": "WideDataStructure",
+    "name": "WideDataStructure",
+    "parent": "DataStructure"
+  },
+  {
+    "id": "WideKeyMember",
+    "name": "WideKeyMember",
+    "parent": "KeyMember"
+  },
+  {
+    "id": "AllenIntervalAlgebra",
+    "name": "AllenIntervalAlgebra",
+    "parent": "TemporalConstraints"
+  },
+  {
+    "id": "InstanceVariable",
+    "name": "InstanceVariable",
+    "parent": "RepresentedVariable"
+  },
+  {
+    "id": "Population",
+    "name": "Population",
+    "parent": "Universe"
+  },
+  {
+    "id": "TemporalControlConstruct",
+    "name": "TemporalControlConstruct",
+    "parent": "TemporalConstraints"
+  },
+  {
+    "id": "DescriptorVariable",
+    "name": "DescriptorVariable",
+    "parent": "InstanceVariable"
+  },
+  {
+    "id": "ReferenceVariable",
+    "name": "ReferenceVariable",
+    "parent": "InstanceVariable"
+  }
+]
