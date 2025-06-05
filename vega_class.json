@@ -1,431 +1,431 @@
 [
   {
-    "id": 0,
-    "name": "ROOT"
+    "id": "Root",
+    "name": "Root (no class)"
   },
   {
-    "id": 1,
-    "name": "Agents::Agent",
-    "parent": 0
+    "id": "Agent",
+    "name": "Agent",
+    "parent": "Root"
   },
   {
-    "id": 2,
-    "name": "Agents::Individual",
-    "parent": 1
+    "id": "Individual",
+    "name": "Individual",
+    "parent": "Agent"
   },
   {
-    "id": 3,
-    "name": "Agents::Machine",
-    "parent": 1
+    "id": "Machine",
+    "name": "Machine",
+    "parent": "Agent"
   },
   {
-    "id": 4,
-    "name": "Agents::Organization",
-    "parent": 1
+    "id": "Organization",
+    "name": "Organization",
+    "parent": "Agent"
   },
   {
-    "id": 5,
-    "name": "Conceptual::Category",
-    "parent": 7
+    "id": "Category",
+    "name": "Category",
+    "parent": "Concept"
   },
   {
-    "id": 6,
-    "name": "Conceptual::CategorySet",
-    "parent": 8
+    "id": "CategorySet",
+    "name": "CategorySet",
+    "parent": "ConceptSystem"
   },
   {
-    "id": 7,
-    "name": "Conceptual::Concept",
-    "parent": 0
+    "id": "Concept",
+    "name": "Concept",
+    "parent": "Root"
   },
   {
-    "id": 8,
-    "name": "Conceptual::ConceptSystem",
-    "parent": 0
+    "id": "ConceptSystem",
+    "name": "ConceptSystem",
+    "parent": "Root"
   },
   {
-    "id": 9,
-    "name": "Conceptual::ConceptualDomain",
-    "parent": 0
+    "id": "ConceptualDomain",
+    "name": "ConceptualDomain",
+    "parent": "Root"
   },
   {
-    "id": 10,
-    "name": "Conceptual::ConceptualVariable",
-    "parent": 7
+    "id": "ConceptualVariable",
+    "name": "ConceptualVariable",
+    "parent": "Concept"
   },
   {
-    "id": 11,
-    "name": "Conceptual::InstanceVariable",
-    "parent": 13
+    "id": "InstanceVariable",
+    "name": "InstanceVariable",
+    "parent": "RepresentedVariable"
   },
   {
-    "id": 12,
-    "name": "Conceptual::Population",
-    "parent": 17
+    "id": "Population",
+    "name": "Population",
+    "parent": "Universe"
   },
   {
-    "id": 13,
-    "name": "Conceptual::RepresentedVariable",
-    "parent": 10
+    "id": "RepresentedVariable",
+    "name": "RepresentedVariable",
+    "parent": "ConceptualVariable"
   },
   {
-    "id": 14,
-    "name": "Conceptual::SentinelConceptualDomain",
-    "parent": 9
+    "id": "SentinelConceptualDomain",
+    "name": "SentinelConceptualDomain",
+    "parent": "ConceptualDomain"
   },
   {
-    "id": 15,
-    "name": "Conceptual::SubstantiveConceptualDomain",
-    "parent": 9
+    "id": "SubstantiveConceptualDomain",
+    "name": "SubstantiveConceptualDomain",
+    "parent": "ConceptualDomain"
   },
   {
-    "id": 16,
-    "name": "Conceptual::UnitType",
-    "parent": 7
+    "id": "UnitType",
+    "name": "UnitType",
+    "parent": "Concept"
   },
   {
-    "id": 17,
-    "name": "Conceptual::Universe",
-    "parent": 16
+    "id": "Universe",
+    "name": "Universe",
+    "parent": "UnitType"
   },
   {
-    "id": 18,
-    "name": "DataDescription::ConceptualValue",
-    "parent": 7
+    "id": "ConceptualValue",
+    "name": "ConceptualValue",
+    "parent": "Concept"
   },
   {
-    "id": 19,
-    "name": "DataDescription::DataSet",
-    "parent": 0
+    "id": "DataSet",
+    "name": "DataSet",
+    "parent": "Root"
   },
   {
-    "id": 20,
-    "name": "DataDescription::DataStructure",
-    "parent": 28
+    "id": "DataStructure",
+    "name": "DataStructure",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 21,
-    "name": "DataDescription::Datum",
-    "parent": 0
+    "id": "Datum",
+    "name": "Datum",
+    "parent": "Root"
   },
   {
-    "id": 22,
-    "name": "DataDescription::InstanceValue",
-    "parent": 0
+    "id": "InstanceValue",
+    "name": "InstanceValue",
+    "parent": "Root"
   },
   {
-    "id": 23,
-    "name": "DataDescription::Key",
-    "parent": 0
+    "id": "Key",
+    "name": "Key",
+    "parent": "Root"
   },
   {
-    "id": 24,
-    "name": "DataDescription::KeyDefinition",
-    "parent": 0
+    "id": "KeyDefinition",
+    "name": "KeyDefinition",
+    "parent": "Root"
   },
   {
-    "id": 25,
-    "name": "DataDescription::KeyDefinitionMember",
-    "parent": 18
+    "id": "KeyDefinitionMember",
+    "name": "KeyDefinitionMember",
+    "parent": "ConceptualValue"
   },
   {
-    "id": 26,
-    "name": "DataDescription::KeyMember",
-    "parent": 22
+    "id": "KeyMember",
+    "name": "KeyMember",
+    "parent": "InstanceValue"
   },
   {
-    "id": 27,
-    "name": "Components::AttributeComponent",
-    "parent": 28
+    "id": "AttributeComponent",
+    "name": "AttributeComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 28,
-    "name": "Components::DataStructureComponent",
-    "parent": 0
+    "id": "DataStructureComponent",
+    "name": "DataStructureComponent",
+    "parent": "Root"
   },
   {
-    "id": 29,
-    "name": "Components::DimensionComponent",
-    "parent": 28
+    "id": "DimensionComponent",
+    "name": "DimensionComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 30,
-    "name": "Components::IdentifierComponent",
-    "parent": 28
+    "id": "IdentifierComponent",
+    "name": "IdentifierComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 31,
-    "name": "Components::MeasureComponent",
-    "parent": 28
+    "id": "MeasureComponent",
+    "name": "MeasureComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 32,
-    "name": "Components::VariableDescriptorComponent",
-    "parent": 28
+    "id": "VariableDescriptorComponent",
+    "name": "VariableDescriptorComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 33,
-    "name": "Components::VariableValueComponent",
-    "parent": 28
+    "id": "VariableValueComponent",
+    "name": "VariableValueComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 34,
-    "name": "Dimensional::DimensionalDataSet",
-    "parent": 19
+    "id": "DimensionalDataSet",
+    "name": "DimensionalDataSet",
+    "parent": "DataSet"
   },
   {
-    "id": 35,
-    "name": "Dimensional::DimensionalDataStructure",
-    "parent": 20
+    "id": "DimensionalDataStructure",
+    "name": "DimensionalDataStructure",
+    "parent": "DataStructure"
   },
   {
-    "id": 36,
-    "name": "Dimensional::DimensionalKey",
-    "parent": 23
+    "id": "DimensionalKey",
+    "name": "DimensionalKey",
+    "parent": "Key"
   },
   {
-    "id": 37,
-    "name": "Dimensional::DimensionalKeyDefinition",
-    "parent": 24
+    "id": "DimensionalKeyDefinition",
+    "name": "DimensionalKeyDefinition",
+    "parent": "KeyDefinition"
   },
   {
-    "id": 38,
-    "name": "Dimensional::DimensionalKeyDefinitionMember",
-    "parent": 18
+    "id": "DimensionalKeyDefinitionMember",
+    "name": "DimensionalKeyDefinitionMember",
+    "parent": "ConceptualValue"
   },
   {
-    "id": 39,
-    "name": "Dimensional::DimensionalKeyMember",
-    "parent": 26
+    "id": "DimensionalKeyMember",
+    "name": "DimensionalKeyMember",
+    "parent": "KeyMember"
   },
   {
-    "id": 40,
-    "name": "Dimensional::QualifiedMeasure",
-    "parent": 31
+    "id": "QualifiedMeasure",
+    "name": "QualifiedMeasure",
+    "parent": "MeasureComponent"
   },
   {
-    "id": 41,
-    "name": "Dimensional::RevisableDatum",
-    "parent": 21
+    "id": "RevisableDatum",
+    "name": "RevisableDatum",
+    "parent": "Datum"
   },
   {
-    "id": 42,
-    "name": "KeyValue::ContextualComponent",
-    "parent": 28
+    "id": "ContextualComponent",
+    "name": "ContextualComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 43,
-    "name": "KeyValue::InstanceKey",
-    "parent": 23
+    "id": "InstanceKey",
+    "name": "InstanceKey",
+    "parent": "Key"
   },
   {
-    "id": 44,
-    "name": "KeyValue::KeyValueDataStore",
-    "parent": 19
+    "id": "KeyValueDataStore",
+    "name": "KeyValueDataStore",
+    "parent": "DataSet"
   },
   {
-    "id": 45,
-    "name": "KeyValue::KeyValueStructure",
-    "parent": 20
+    "id": "KeyValueStructure",
+    "name": "KeyValueStructure",
+    "parent": "DataStructure"
   },
   {
-    "id": 46,
-    "name": "KeyValue::MainKeyMember",
-    "parent": 26
+    "id": "MainKeyMember",
+    "name": "MainKeyMember",
+    "parent": "KeyMember"
   },
   {
-    "id": 47,
-    "name": "KeyValue::SyntheticIdComponent",
-    "parent": 28
+    "id": "SyntheticIdComponent",
+    "name": "SyntheticIdComponent",
+    "parent": "DataStructureComponent"
   },
   {
-    "id": 48,
-    "name": "Long::Descriptor",
-    "parent": 26
+    "id": "Descriptor",
+    "name": "Descriptor",
+    "parent": "KeyMember"
   },
   {
-    "id": 49,
-    "name": "Long::DescriptorValueDomain",
-    "parent": 84
+    "id": "DescriptorValueDomain",
+    "name": "DescriptorValueDomain",
+    "parent": "SubstantiveValueDomain"
   },
   {
-    "id": 50,
-    "name": "Long::DescriptorVariable",
-    "parent": 11
+    "id": "DescriptorVariable",
+    "name": "DescriptorVariable",
+    "parent": "InstanceVariable"
   },
   {
-    "id": 51,
-    "name": "Long::LongDataSet",
-    "parent": 19
+    "id": "LongDataSet",
+    "name": "LongDataSet",
+    "parent": "DataSet"
   },
   {
-    "id": 52,
-    "name": "Long::LongDataStructure",
-    "parent": 20
+    "id": "LongDataStructure",
+    "name": "LongDataStructure",
+    "parent": "DataStructure"
   },
   {
-    "id": 53,
-    "name": "Long::LongKey",
-    "parent": 23
+    "id": "LongKey",
+    "name": "LongKey",
+    "parent": "Key"
   },
   {
-    "id": 54,
-    "name": "Long::LongMainKeyMember",
-    "parent": 26
+    "id": "LongMainKeyMember",
+    "name": "LongMainKeyMember",
+    "parent": "KeyMember"
   },
   {
-    "id": 55,
-    "name": "Long::ReferenceValue",
-    "parent": 22
+    "id": "ReferenceValue",
+    "name": "ReferenceValue",
+    "parent": "InstanceValue"
   },
   {
-    "id": 56,
-    "name": "Long::ReferenceValueDomain",
-    "parent": 85
+    "id": "ReferenceValueDomain",
+    "name": "ReferenceValueDomain",
+    "parent": "ValueDomain"
   },
   {
-    "id": 57,
-    "name": "Long::ReferenceVariable",
-    "parent": 11
+    "id": "ReferenceVariable",
+    "name": "ReferenceVariable",
+    "parent": "InstanceVariable"
   },
   {
-    "id": 58,
-    "name": "Wide::WideDataSet",
-    "parent": 19
+    "id": "WideDataSet",
+    "name": "WideDataSet",
+    "parent": "DataSet"
   },
   {
-    "id": 59,
-    "name": "Wide::WideDataStructure",
-    "parent": 20
+    "id": "WideDataStructure",
+    "name": "WideDataStructure",
+    "parent": "DataStructure"
   },
   {
-    "id": 60,
-    "name": "Wide::WideKey",
-    "parent": 23
+    "id": "WideKey",
+    "name": "WideKey",
+    "parent": "Key"
   },
   {
-    "id": 61,
-    "name": "Wide::WideKeyMember",
-    "parent": 26
+    "id": "WideKeyMember",
+    "name": "WideKeyMember",
+    "parent": "KeyMember"
   },
   {
-    "id": 62,
-    "name": "FormatDescription::PhysicalSegmentLayout",
-    "parent": 0
+    "id": "PhysicalSegmentLayout",
+    "name": "PhysicalSegmentLayout",
+    "parent": "Root"
   },
   {
-    "id": 63,
-    "name": "FormatDescription::PhysicalSegmentLocation",
-    "parent": 0
+    "id": "PhysicalSegmentLocation",
+    "name": "PhysicalSegmentLocation",
+    "parent": "Root"
   },
   {
-    "id": 64,
-    "name": "FormatDescription::SegmentByText",
-    "parent": 63
+    "id": "SegmentByText",
+    "name": "SegmentByText",
+    "parent": "PhysicalSegmentLocation"
   },
   {
-    "id": 65,
-    "name": "FormatDescription::UnitSegmentLayout",
-    "parent": 62
+    "id": "UnitSegmentLayout",
+    "name": "UnitSegmentLayout",
+    "parent": "PhysicalSegmentLayout"
   },
   {
-    "id": 66,
-    "name": "Process::Activity",
-    "parent": 0
+    "id": "Activity",
+    "name": "Activity",
+    "parent": "Root"
   },
   {
-    "id": 67,
-    "name": "Process::AllenIntervalAlgebra",
-    "parent": 78
+    "id": "AllenIntervalAlgebra",
+    "name": "AllenIntervalAlgebra",
+    "parent": "TemporalConstraints"
   },
   {
-    "id": 68,
-    "name": "Process::ConditionalControlLogic",
-    "parent": 71
+    "id": "ConditionalControlLogic",
+    "name": "ConditionalControlLogic",
+    "parent": "DeterministicImperative"
   },
   {
-    "id": 69,
-    "name": "Process::ControlLogic",
-    "parent": 0
+    "id": "ControlLogic",
+    "name": "ControlLogic",
+    "parent": "Root"
   },
   {
-    "id": 70,
-    "name": "Process::Curator",
-    "parent": 73
+    "id": "Curator",
+    "name": "Curator",
+    "parent": "ProcessingAgent"
   },
   {
-    "id": 71,
-    "name": "Process::DeterministicImperative",
-    "parent": 69
+    "id": "DeterministicImperative",
+    "name": "DeterministicImperative",
+    "parent": "ControlLogic"
   },
   {
-    "id": 72,
-    "name": "Process::NonDeterministicDeclarative",
-    "parent": 69
+    "id": "NonDeterministicDeclarative",
+    "name": "NonDeterministicDeclarative",
+    "parent": "ControlLogic"
   },
   {
-    "id": 73,
-    "name": "Process::ProcessingAgent",
-    "parent": 1
+    "id": "ProcessingAgent",
+    "name": "ProcessingAgent",
+    "parent": "Agent"
   },
   {
-    "id": 74,
-    "name": "Process::RuleBasedScheduling",
-    "parent": 72
+    "id": "RuleBasedScheduling",
+    "name": "RuleBasedScheduling",
+    "parent": "NonDeterministicDeclarative"
   },
   {
-    "id": 75,
-    "name": "Process::Sequence",
-    "parent": 71
+    "id": "Sequence",
+    "name": "Sequence",
+    "parent": "DeterministicImperative"
   },
   {
-    "id": 76,
-    "name": "Process::Service",
-    "parent": 73
+    "id": "Service",
+    "name": "Service",
+    "parent": "ProcessingAgent"
   },
   {
-    "id": 77,
-    "name": "Process::Step",
-    "parent": 66
+    "id": "Step",
+    "name": "Step",
+    "parent": "Activity"
   },
   {
-    "id": 78,
-    "name": "Process::TemporalConstraints",
-    "parent": 72
+    "id": "TemporalConstraints",
+    "name": "TemporalConstraints",
+    "parent": "NonDeterministicDeclarative"
   },
   {
-    "id": 79,
-    "name": "Process::TemporalControlConstruct",
-    "parent": 78
+    "id": "TemporalControlConstruct",
+    "name": "TemporalControlConstruct",
+    "parent": "TemporalConstraints"
   },
   {
-    "id": 80,
-    "name": "Representations::CodeList",
-    "parent": 81
+    "id": "CodeList",
+    "name": "CodeList",
+    "parent": "EnumerationDomain"
   },
   {
-    "id": 81,
-    "name": "Representations::EnumerationDomain",
-    "parent": 0
+    "id": "EnumerationDomain",
+    "name": "EnumerationDomain",
+    "parent": "Root"
   },
   {
-    "id": 82,
-    "name": "Representations::SentinelValueDomain",
-    "parent": 85
+    "id": "SentinelValueDomain",
+    "name": "SentinelValueDomain",
+    "parent": "ValueDomain"
   },
   {
-    "id": 83,
-    "name": "Representations::StatisticalClassification",
-    "parent": 81
+    "id": "StatisticalClassification",
+    "name": "StatisticalClassification",
+    "parent": "EnumerationDomain"
   },
   {
-    "id": 84,
-    "name": "Representations::SubstantiveValueDomain",
-    "parent": 85
+    "id": "SubstantiveValueDomain",
+    "name": "SubstantiveValueDomain",
+    "parent": "ValueDomain"
   },
   {
-    "id": 85,
-    "name": "Representations::ValueDomain",
-    "parent": 0
+    "id": "ValueDomain",
+    "name": "ValueDomain",
+    "parent": "Root"
   }
 ]
