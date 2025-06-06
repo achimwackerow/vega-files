@@ -8,509 +8,594 @@
     "name": "Agents::Agent",
     "definition": "Actor that performs a role in relation to a process or product.",
     "parent": "Root"
+
   },
   {
     "id": "DataStructureComponent",
     "name": "Components::DataStructureComponent",
     "definition": "Role given to a represented variable in the context of a data structure.",
     "parent": "Root"
+
   },
   {
     "id": "Concept",
     "name": "Conceptual::Concept",
     "definition": "Unit of thought differentiated by characteristics (from the Generic Statistical Information Model version 1.2: https://statswiki.unece.org/display/clickablegsim/Concept).",
     "parent": "Root"
+
   },
   {
     "id": "ConceptSystem",
     "name": "Conceptual::ConceptSystem",
     "definition": "Set of concepts structured by the relations among them [GSIM 1.1].",
     "parent": "Root"
+
   },
   {
     "id": "ConceptualDomain",
     "name": "Conceptual::ConceptualDomain",
     "definition": "Set of concepts, where each concept is intended to be used as the meaning (signified) for a datum.",
     "parent": "Root"
+
   },
   {
     "id": "DataSet",
     "name": "DataDescription::DataSet",
     "definition": "Organized collection of data based on keys.",
     "parent": "Root"
+
   },
   {
     "id": "Datum",
     "name": "DataDescription::Datum",
     "definition": "Correspondence of a data instance to the concept it represents.",
     "parent": "Root"
+
   },
   {
     "id": "InstanceValue",
     "name": "DataDescription::InstanceValue",
     "definition": "Single data instance corresponding to a concept (with a notion of equality defined) being observed, captured, or derived.",
     "parent": "Root"
+
   },
   {
     "id": "Key",
     "name": "DataDescription::Key",
     "definition": "Collection of data instances that uniquely identify a collection of data points in a dataset.",
     "parent": "Root"
+
   },
   {
     "id": "KeyDefinition",
     "name": "DataDescription::KeyDefinition",
     "definition": "Collection of concepts that uniquely defines a collection of data points in a dataset.",
     "parent": "Root"
+
   },
   {
     "id": "PhysicalSegmentLayout",
     "name": "FormatDescription::PhysicalSegmentLayout",
     "definition": "Used as an extension point in the description of the different layout styles of data structure descriptions.",
     "parent": "Root"
+
   },
   {
     "id": "PhysicalSegmentLocation",
     "name": "FormatDescription::PhysicalSegmentLocation",
     "definition": "Location of a data point in a physical segment.",
     "parent": "Root"
+
   },
   {
     "id": "Activity",
     "name": "Process::Activity",
     "definition": "An activity is a task described at a conceptual level. It is not parameterized and as such is less reusable. For more logical/physical, fine-grained, reusable description there is a sub-type called step.",
     "parent": "Root"
+
   },
   {
     "id": "ControlLogic",
     "name": "Process::ControlLogic",
     "definition": "Control logic is a program in which the order of statements is explicit. Control logic is either deterministic (imperative) or non-deterministic (declarative). Deterministic control logic consists of control constructs. Declarative control logic is constraint- and/or rule-based. Control logic may co ...",
     "parent": "Root"
+
   },
   {
     "id": "EnumerationDomain",
     "name": "Representations::EnumerationDomain",
     "definition": "A base class acting as an extension point to allow all codifications (codelist, statistical classification, etc.) to be understood as enumerated value domains.",
     "parent": "Root"
+
   },
   {
     "id": "ValueDomain",
     "name": "Representations::ValueDomain",
     "definition": "Set of permissible values for a variable (adapted from ISO/IEC 11179).",
     "parent": "Root"
+
   },
   {
     "id": "Individual",
     "name": "Agents::Individual",
     "definition": "A person. (See for example the W3C Friend of a Friend Ontology - http://xmlns.com/foaf/spec/#term_Person).",
     "parent": "Agent"
+
   },
   {
     "id": "Machine",
     "name": "Agents::Machine",
     "definition": "Mechanism or computer program used to perform an act.",
     "parent": "Agent"
+
   },
   {
     "id": "Organization",
     "name": "Agents::Organization",
     "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
     "parent": "Agent"
+
   },
   {
     "id": "AttributeComponent",
     "name": "Components::AttributeComponent",
     "definition": "Role given to a represented variable in the context of a data structure to qualify observations or provide other types of supplementary information.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "DimensionComponent",
     "name": "Components::DimensionComponent",
     "definition": "Role given to a represented variable in the context of a dimensional data structure to identify the universes associated with data points. The variable acts as a field in the compound identifier (the key structure) to disambiguate the cells in the multi-dimensional \"cube\".",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "IdentifierComponent",
     "name": "Components::IdentifierComponent",
     "definition": "Role given to a represented variable in the context of a long or wide data structure to identify the units associated to data points, and in dimensional and key value data structures to provide identifying fields for the instance values.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "MeasureComponent",
     "name": "Components::MeasureComponent",
     "definition": "Role given to a represented variable in the context of a data structure to hold the observed/derived values.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "VariableDescriptorComponent",
     "name": "Components::VariableDescriptorComponent",
     "definition": "Role given to a represented variable in the context of a data structure to provide codes for variable identification.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "VariableValueComponent",
     "name": "Components::VariableValueComponent",
     "definition": "Role given to a represented variable in the context of a data structure to record values of multiple variables.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "Category",
     "name": "Conceptual::Category",
     "definition": "Concept whose role is to define and measure a characteristic.",
     "parent": "Concept"
+
   },
   {
     "id": "CategorySet",
     "name": "Conceptual::CategorySet",
     "definition": "Concept system where the underlying concepts are categories.",
     "parent": "ConceptSystem"
+
   },
   {
     "id": "ConceptualVariable",
     "name": "Conceptual::ConceptualVariable",
     "definition": "A variable at the highest level of abstraction.",
     "parent": "Concept"
+
   },
   {
     "id": "SentinelConceptualDomain",
     "name": "Conceptual::SentinelConceptualDomain",
     "definition": "Conceptual domain of sentinel concepts.",
     "parent": "ConceptualDomain"
+
   },
   {
     "id": "SubstantiveConceptualDomain",
     "name": "Conceptual::SubstantiveConceptualDomain",
     "definition": "Conceptual domain of substantive concepts.",
     "parent": "ConceptualDomain"
+
   },
   {
     "id": "UnitType",
     "name": "Conceptual::UnitType",
     "definition": "Unit type is a type or class of objects of interest (units).",
     "parent": "Concept"
+
   },
   {
     "id": "ConceptualValue",
     "name": "DataDescription::ConceptualValue",
     "definition": "Concept (with a notion of equality defined) being observed, captured, or derived which is associated to a single data instance.",
     "parent": "Concept"
+
   },
   {
     "id": "DataStructure",
     "name": "DataDescription::DataStructure",
     "definition": "Data organization based on reusable data structure components.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "KeyMember",
     "name": "DataDescription::KeyMember",
     "definition": "Single data instance that is part of a key.",
     "parent": "InstanceValue"
+
   },
   {
     "id": "DimensionalDataSet",
     "name": "Dimensional::DimensionalDataSet",
     "definition": "Organized collection of multidimensional data. It is structured by a dimensional data structure.",
     "parent": "DataSet"
+
   },
   {
     "id": "DimensionalKey",
     "name": "Dimensional::DimensionalKey",
     "definition": "Collection of data instances that uniquely identify a collection of data points in a dimensional dataset.",
     "parent": "Key"
+
   },
   {
     "id": "DimensionalKeyDefinition",
     "name": "Dimensional::DimensionalKeyDefinition",
     "definition": "Collection of concepts that uniquely defines a collection of data points in a dimensional dataset.",
     "parent": "KeyDefinition"
+
   },
   {
     "id": "RevisableDatum",
     "name": "Dimensional::RevisableDatum",
     "definition": "A datum that can be qualified by a revision.",
     "parent": "Datum"
+
   },
   {
     "id": "SegmentByText",
     "name": "FormatDescription::SegmentByText",
     "definition": "Location of a segment of text through character or line counts.",
     "parent": "PhysicalSegmentLocation"
+
   },
   {
     "id": "UnitSegmentLayout",
     "name": "FormatDescription::UnitSegmentLayout",
     "definition": "Description of unit-record (\"wide\") data sets, where each row in the data set provides the same group of values for variables all relating to a single unit.",
     "parent": "PhysicalSegmentLayout"
+
   },
   {
     "id": "ContextualComponent",
     "name": "KeyValue::ContextualComponent",
     "definition": "Encapsulates contextual information of the key-value datastore to provide a scope to the instance key. The instance key is unique within the scope.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "InstanceKey",
     "name": "KeyValue::InstanceKey",
     "definition": "Single-valued key representation produced from the merge of the representations of all key members and a descriptor.",
     "parent": "Key"
+
   },
   {
     "id": "KeyValueDataStore",
     "name": "KeyValue::KeyValueDataStore",
     "definition": "Organized collection of key-value data. It is structured by a key value structure.",
     "parent": "DataSet"
+
   },
   {
     "id": "SyntheticIdComponent",
     "name": "KeyValue::SyntheticIdComponent",
     "definition": "Persistent and unique identifier (PIDs) to provide standarized, long-lasting identification.",
     "parent": "DataStructureComponent"
+
   },
   {
     "id": "LongDataSet",
     "name": "Long::LongDataSet",
     "definition": "Organized collection of long data. It is structured by a long data structure.",
     "parent": "DataSet"
+
   },
   {
     "id": "LongKey",
     "name": "Long::LongKey",
     "definition": "Collection of data instances that uniquely identify a collection of data points in a long dataset.",
     "parent": "Key"
+
   },
   {
     "id": "ReferenceValue",
     "name": "Long::ReferenceValue",
     "definition": "Recorded value in a variable value component. Value referenced by a descriptor.",
     "parent": "InstanceValue"
+
   },
   {
     "id": "ReferenceValueDomain",
     "name": "Long::ReferenceValueDomain",
     "definition": "Set of permissible values for a variable playing the role of a variable value component.",
     "parent": "ValueDomain"
+
   },
   {
     "id": "DeterministicImperative",
     "name": "Process::DeterministicImperative",
     "definition": "Deterministic imperative is a subtype of control logic. Deterministic control logic consists of control constructs.",
     "parent": "ControlLogic"
+
   },
   {
     "id": "NonDeterministicDeclarative",
     "name": "Process::NonDeterministicDeclarative",
     "definition": "Non-deterministic control logic is a subtype of control logic. Non-deterministic (or declarative) control logic is constraint- and/or rule-based.",
     "parent": "ControlLogic"
+
   },
   {
     "id": "ProcessingAgent",
     "name": "Process::ProcessingAgent",
     "definition": "A processing agent orchestrates the production of information objects in a production environment. There are processing agents which perform data capture, data editing/processing, and data analysis (etc.), each in the appropriate production environments. The processing agent performs an activity bas ...",
     "parent": "Agent"
+
   },
   {
     "id": "Step",
     "name": "Process::Step",
     "definition": "Step is a reusable, parameterized activity associated to information flows. One or more steps perform an sctivity.",
     "parent": "Activity"
+
   },
   {
     "id": "CodeList",
     "name": "Representations::CodeList",
     "definition": "List of codes and associated categories.",
     "parent": "EnumerationDomain"
+
   },
   {
     "id": "SentinelValueDomain",
     "name": "Representations::SentinelValueDomain",
     "definition": "Value domain for a sentinel conceptual domain.",
     "parent": "ValueDomain"
+
   },
   {
     "id": "StatisticalClassification",
     "name": "Representations::StatisticalClassification",
     "definition": "Set of categories represented by classification items where the subset of immediate children categories for any given parent category are mutually exclusive and jointly exhaustive with respect to that parent.",
     "parent": "EnumerationDomain"
+
   },
   {
     "id": "SubstantiveValueDomain",
     "name": "Representations::SubstantiveValueDomain",
     "definition": "Value domain for a substantive conceptual domain. Typically a description and/or enumeration of allowed values of interest.",
     "parent": "ValueDomain"
+
   },
   {
     "id": "WideDataSet",
     "name": "Wide::WideDataSet",
     "definition": "Organized collection of wide data. It is structured by a wide data structure.",
     "parent": "DataSet"
+
   },
   {
     "id": "WideKey",
     "name": "Wide::WideKey",
     "definition": "Collection of data instances that uniquely identify a collection of data points in a wide dataset.",
     "parent": "Key"
+
   },
   {
     "id": "RepresentedVariable",
     "name": "Conceptual::RepresentedVariable",
     "definition": "Conceptual variable with a substantive value domain specified.",
     "parent": "ConceptualVariable"
+
   },
   {
     "id": "Universe",
     "name": "Conceptual::Universe",
     "definition": "Specialized unit type, with the specialization based upon characteristics other than time and geography.",
     "parent": "UnitType"
+
   },
   {
     "id": "KeyDefinitionMember",
     "name": "DataDescription::KeyDefinitionMember",
     "definition": "Single concept that is part of the structure of a key definition.",
     "parent": "ConceptualValue"
+
   },
   {
     "id": "DimensionalDataStructure",
     "name": "Dimensional::DimensionalDataStructure",
     "definition": "Structure of a dimensional data set (organized collection of multidimensional data). It is described by dimension, measure and attribute components.",
     "parent": "DataStructure"
+
   },
   {
     "id": "DimensionalKeyDefinitionMember",
     "name": "Dimensional::DimensionalKeyDefinitionMember",
     "definition": "Single concept that is part of a dimensional key definition.",
     "parent": "ConceptualValue"
+
   },
   {
     "id": "DimensionalKeyMember",
     "name": "Dimensional::DimensionalKeyMember",
     "definition": "Single data instance that is part of a dimensional key.",
     "parent": "KeyMember"
+
   },
   {
     "id": "QualifiedMeasure",
     "name": "Dimensional::QualifiedMeasure",
     "definition": "A measure having a specific production method.",
     "parent": "MeasureComponent"
+
   },
   {
     "id": "KeyValueStructure",
     "name": "KeyValue::KeyValueStructure",
     "definition": "Structure of a key-value datastore (organized collection of key-value data). It is described by identifier, contextual, synthetic id, dimension, variable descriptor and variable value components.",
     "parent": "DataStructure"
+
   },
   {
     "id": "MainKeyMember",
     "name": "KeyValue::MainKeyMember",
     "definition": "Identifies the unit of interest, either a statistical unit or a population, via identifier or dimension components, respectively, plus an optional contextual component. If neither identifier nor dimension components are present, then a synthetic id component is used.",
     "parent": "KeyMember"
+
   },
   {
     "id": "Descriptor",
     "name": "Long::Descriptor",
     "definition": "Use of a code for variable identification in the context of a data structure and a variable descriptor component.",
     "parent": "KeyMember"
+
   },
   {
     "id": "DescriptorValueDomain",
     "name": "Long::DescriptorValueDomain",
     "definition": "Set of permissible values for a variable playing the role of a variable descriptor component.",
     "parent": "SubstantiveValueDomain"
+
   },
   {
     "id": "LongDataStructure",
     "name": "Long::LongDataStructure",
     "definition": "Structure of a long dataset (organized collection of long data). It is described by identifier, measure, attribute, variable descriptor and variable value components.",
     "parent": "DataStructure"
+
   },
   {
     "id": "LongMainKeyMember",
     "name": "Long::LongMainKeyMember",
     "definition": "Single data instance that is part of a long key.",
     "parent": "KeyMember"
+
   },
   {
     "id": "ConditionalControlLogic",
     "name": "Process::ConditionalControlLogic",
     "definition": "A set of decision points which determine the flow between the steps used to perform an activity.",
     "parent": "DeterministicImperative"
+
   },
   {
     "id": "Curator",
     "name": "Process::Curator",
     "definition": "Curator is a software agent that uses techniques such as natural language processing to map facts in the research data store to the condition part of a rule.",
     "parent": "ProcessingAgent"
+
   },
   {
     "id": "RuleBasedScheduling",
     "name": "Process::RuleBasedScheduling",
     "definition": "Rule based scheduling performs a fact check on rules from the rule set, testing their condition part against the facts in the research data store. Fact checking may be assisted by a curator who can semantically compare the condition part of each candidate rule with the facts. The fact checker return ...",
     "parent": "NonDeterministicDeclarative"
+
   },
   {
     "id": "Sequence",
     "name": "Process::Sequence",
     "definition": "A sequence controls the order of activities or steps by defining a simple sequence.",
     "parent": "DeterministicImperative"
+
   },
   {
     "id": "Service",
     "name": "Process::Service",
     "definition": "Service is a type of processing agent. Services are atomic. They execute acts which have input and output parameters.",
     "parent": "ProcessingAgent"
+
   },
   {
     "id": "TemporalConstraints",
     "name": "Process::TemporalConstraints",
     "definition": "Temporal constraints provide a mechanism for expressing concurrency control and synchronization",
     "parent": "NonDeterministicDeclarative"
+
   },
   {
     "id": "WideDataStructure",
     "name": "Wide::WideDataStructure",
     "definition": "Structure of a wide dataset (organized collection of wide data). It is described by identifier, measure and attribute components.",
     "parent": "DataStructure"
+
   },
   {
     "id": "WideKeyMember",
     "name": "Wide::WideKeyMember",
     "definition": "Single data instance that is part of a wide key.",
     "parent": "KeyMember"
+
   },
   {
     "id": "InstanceVariable",
     "name": "Conceptual::InstanceVariable",
     "definition": "Use of a represented variable within a data set.",
     "parent": "RepresentedVariable"
+
   },
   {
     "id": "Population",
     "name": "Conceptual::Population",
     "definition": "Universe with time and geography specified.",
     "parent": "Universe"
+
   },
   {
     "id": "AllenIntervalAlgebra",
     "name": "Process::AllenIntervalAlgebra",
     "definition": "Control logic where the execution flow is determined by the satisfaction of temporal constraints specified with Allen's Interval Algebra over time intervals. Allen's interval algebra consists of thirteen temporal interval relations and the operations defined on them. Together these relations are dis ...",
     "parent": "TemporalConstraints"
+
   },
   {
     "id": "TemporalControlConstruct",
     "name": "Process::TemporalControlConstruct",
     "definition": "Declarative control flow operator where the continuation of the execution flow depends on the finalization of one or more preceding activities/steps. - XORJoin: Given three activities A, B and C, if XORJoin(A, B) -> C, then C is executed after either A or B finishes executing. XORJoin is sometimes r ...",
     "parent": "TemporalConstraints"
+
   },
   {
     "id": "DescriptorVariable",
     "name": "Long::DescriptorVariable",
     "definition": "Variable that provides codes for variable identification in the context of a data structure. Variable playing the role of a variable descriptor component.",
     "parent": "InstanceVariable"
+
   },
   {
     "id": "ReferenceVariable",
     "name": "Long::ReferenceVariable",
     "definition": "Variable that records values of multiple variables in the context of a data structure. Variable playing the role of a variable value component.",
     "parent": "InstanceVariable"
+
   }
 ]

@@ -96,7 +96,7 @@
           "y": {"field": "y"},
           "fill": {"scale": "color", "field": "depth"},
           "tooltip": {
-            "signal": "datum['name']"
+            "signal": "datum['definition']"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
@@ -120,7 +120,7 @@
           "align": {"signal": "datum.children ? 'right' : 'left'"},
           "opacity": {"signal": "labels ? 1 : 0"},
           "tooltip": {
-            "signal": "datum['name']"
+            "signal": "datum['definition']"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
