@@ -12,9 +12,6 @@
     "target": "Step"
   },
   {
-    "source": "Agent"
-  },
-  {
     "source": "AgentListing",
     "target": "Agent"
   },
@@ -43,22 +40,6 @@
     "target": "AgentRelationship"
   },
   {
-    "source": "AllenIntervalAlgebra",
-    "target": "Activity"
-  },
-  {
-    "source": "AllenIntervalAlgebra",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "AllenIntervalAlgebra",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "AllenIntervalAlgebra",
-    "target": "ProcessingAgent"
-  },
-  {
     "source": "AttributeComponent",
     "target": "DataStructureComponent"
   },
@@ -69,10 +50,6 @@
   {
     "source": "AuthorizationSource",
     "target": "Agent"
-  },
-  {
-    "source": "Category",
-    "target": "Concept"
   },
   {
     "source": "CategoryPosition",
@@ -137,9 +114,6 @@
   {
     "source": "ClassificationIndex",
     "target": "Concept"
-  },
-  {
-    "source": "ClassificationIndexEntry"
   },
   {
     "source": "ClassificationIndexEntryPosition",
@@ -318,26 +292,6 @@
     "target": "UnitType"
   },
   {
-    "source": "ConditionalControlLogic",
-    "target": "Activity"
-  },
-  {
-    "source": "ConditionalControlLogic",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "ConditionalControlLogic",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "ConditionalControlLogic",
-    "target": "ProcessingAgent"
-  },
-  {
-    "source": "ContextualComponent",
-    "target": "RepresentedVariable"
-  },
-  {
     "source": "ControlLogic",
     "target": "Activity"
   },
@@ -368,14 +322,6 @@
   {
     "source": "CorrespondenceTable",
     "target": "StatisticalClassification"
-  },
-  {
-    "source": "Curator",
-    "target": "Activity"
-  },
-  {
-    "source": "Curator",
-    "target": "ProductionEnvironment"
   },
   {
     "source": "DataPoint",
@@ -490,18 +436,6 @@
     "target": "ValueDomain"
   },
   {
-    "source": "DescriptorValueDomain",
-    "target": "EnumerationDomain"
-  },
-  {
-    "source": "DescriptorValueDomain",
-    "target": "SubstantiveConceptualDomain"
-  },
-  {
-    "source": "DescriptorValueDomain",
-    "target": "ValueAndConceptDescription"
-  },
-  {
     "source": "DescriptorVariable",
     "target": "Concept"
   },
@@ -536,22 +470,6 @@
   {
     "source": "DescriptorVariable",
     "target": "ValueMapping"
-  },
-  {
-    "source": "DeterministicImperative",
-    "target": "Activity"
-  },
-  {
-    "source": "DeterministicImperative",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "DeterministicImperative",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "DeterministicImperative",
-    "target": "ProcessingAgent"
   },
   {
     "source": "DimensionComponent",
@@ -604,38 +522,6 @@
   {
     "source": "DimensionalDataStructure",
     "target": "RepresentedVariable"
-  },
-  {
-    "source": "DimensionalKey",
-    "target": "DataPoint"
-  },
-  {
-    "source": "DimensionalKey",
-    "target": "KeyDefinition"
-  },
-  {
-    "source": "DimensionalKey",
-    "target": "KeyMember"
-  },
-  {
-    "source": "DimensionalKey",
-    "target": "Unit"
-  },
-  {
-    "source": "DimensionalKey",
-    "target": "Universe"
-  },
-  {
-    "source": "DimensionalKeyDefinition",
-    "target": "KeyDefinitionMember"
-  },
-  {
-    "source": "DimensionalKeyDefinition",
-    "target": "Unit"
-  },
-  {
-    "source": "DimensionalKeyDefinition",
-    "target": "Universe"
   },
   {
     "source": "DimensionalKeyDefinitionMember",
@@ -692,13 +578,6 @@
   {
     "source": "ForeignKeyComponent",
     "target": "PrimaryKeyComponent"
-  },
-  {
-    "source": "IdentifierComponent",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "Individual"
   },
   {
     "source": "InformationFlowDefinition",
@@ -813,14 +692,6 @@
     "target": "Universe"
   },
   {
-    "source": "KeyDefinitionMember",
-    "target": "Concept"
-  },
-  {
-    "source": "KeyDefinitionMember",
-    "target": "ConceptualDomain"
-  },
-  {
     "source": "KeyMember",
     "target": "ConceptualValue"
   },
@@ -835,38 +706,6 @@
   {
     "source": "KeyMember",
     "target": "ValueDomain"
-  },
-  {
-    "source": "KeyValueDataStore",
-    "target": "DataPoint"
-  },
-  {
-    "source": "KeyValueDataStore",
-    "target": "DataStructure"
-  },
-  {
-    "source": "KeyValueDataStore",
-    "target": "Key"
-  },
-  {
-    "source": "KeyValueStructure",
-    "target": "ComponentPosition"
-  },
-  {
-    "source": "KeyValueStructure",
-    "target": "DataStructureComponent"
-  },
-  {
-    "source": "KeyValueStructure",
-    "target": "ForeignKey"
-  },
-  {
-    "source": "KeyValueStructure",
-    "target": "PrimaryKey"
-  },
-  {
-    "source": "KeyValueStructure",
-    "target": "RepresentedVariable"
   },
   {
     "source": "Level",
@@ -909,77 +748,6 @@
     "target": "LogicalRecord"
   },
   {
-    "source": "LongDataSet",
-    "target": "DataPoint"
-  },
-  {
-    "source": "LongDataSet",
-    "target": "DataStructure"
-  },
-  {
-    "source": "LongDataSet",
-    "target": "Key"
-  },
-  {
-    "source": "LongDataStructure",
-    "target": "ComponentPosition"
-  },
-  {
-    "source": "LongDataStructure",
-    "target": "DataStructureComponent"
-  },
-  {
-    "source": "LongDataStructure",
-    "target": "ForeignKey"
-  },
-  {
-    "source": "LongDataStructure",
-    "target": "PrimaryKey"
-  },
-  {
-    "source": "LongDataStructure",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "LongKey",
-    "target": "DataPoint"
-  },
-  {
-    "source": "LongKey",
-    "target": "KeyDefinition"
-  },
-  {
-    "source": "LongKey",
-    "target": "KeyMember"
-  },
-  {
-    "source": "LongKey",
-    "target": "Unit"
-  },
-  {
-    "source": "LongKey",
-    "target": "Universe"
-  },
-  {
-    "source": "LongMainKeyMember",
-    "target": "ConceptualValue"
-  },
-  {
-    "source": "LongMainKeyMember",
-    "target": "DataPoint"
-  },
-  {
-    "source": "LongMainKeyMember",
-    "target": "DataStructureComponent"
-  },
-  {
-    "source": "LongMainKeyMember",
-    "target": "ValueDomain"
-  },
-  {
-    "source": "Machine"
-  },
-  {
     "source": "MainKeyMember",
     "target": "ConceptualValue"
   },
@@ -1000,34 +768,8 @@
     "target": "ValueDomain"
   },
   {
-    "source": "MeasureComponent",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "NonDeterministicDeclarative",
-    "target": "Activity"
-  },
-  {
-    "source": "NonDeterministicDeclarative",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "NonDeterministicDeclarative",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "NonDeterministicDeclarative",
-    "target": "ProcessingAgent"
-  },
-  {
     "source": "Notation",
     "target": "Category"
-  },
-  {
-    "source": "Organization"
-  },
-  {
-    "source": "Parameter"
   },
   {
     "source": "PhysicalDataSet",
@@ -1130,9 +872,6 @@
     "target": "ValueMappingPosition"
   },
   {
-    "source": "PhysicalSegmentLocation"
-  },
-  {
     "source": "Population",
     "target": "Concept"
   },
@@ -1155,9 +894,6 @@
   {
     "source": "ProcessingAgent",
     "target": "ProductionEnvironment"
-  },
-  {
-    "source": "ProductionEnvironment"
   },
   {
     "source": "QualifiedMeasure",
@@ -1194,9 +930,6 @@
   {
     "source": "ReferenceValue",
     "target": "VariableValueComponent"
-  },
-  {
-    "source": "ReferenceValueDomain"
   },
   {
     "source": "ReferenceVariable",
@@ -1279,9 +1012,6 @@
     "target": "Revision"
   },
   {
-    "source": "Revision"
-  },
-  {
     "source": "Rule",
     "target": "ConditionalControlLogic"
   },
@@ -1326,17 +1056,6 @@
     "target": "RevisableDatum"
   },
   {
-    "source": "SegmentByText"
-  },
-  {
-    "source": "SentinelConceptualDomain",
-    "target": "ConceptSystem"
-  },
-  {
-    "source": "SentinelConceptualDomain",
-    "target": "ValueAndConceptDescription"
-  },
-  {
     "source": "SentinelValueDomain",
     "target": "EnumerationDomain"
   },
@@ -1371,14 +1090,6 @@
   {
     "source": "SequencePosition",
     "target": "Activity"
-  },
-  {
-    "source": "Service",
-    "target": "Activity"
-  },
-  {
-    "source": "Service",
-    "target": "ProductionEnvironment"
   },
   {
     "source": "StatisticalClassification",
@@ -1433,14 +1144,6 @@
     "target": "Step"
   },
   {
-    "source": "SubstantiveConceptualDomain",
-    "target": "ConceptSystem"
-  },
-  {
-    "source": "SubstantiveConceptualDomain",
-    "target": "ValueAndConceptDescription"
-  },
-  {
     "source": "SubstantiveValueDomain",
     "target": "EnumerationDomain"
   },
@@ -1453,74 +1156,8 @@
     "target": "ValueAndConceptDescription"
   },
   {
-    "source": "SyntheticIdComponent",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "TemporalConstraints",
-    "target": "Activity"
-  },
-  {
-    "source": "TemporalConstraints",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "TemporalConstraints",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "TemporalConstraints",
-    "target": "ProcessingAgent"
-  },
-  {
-    "source": "TemporalControlConstruct",
-    "target": "Activity"
-  },
-  {
-    "source": "TemporalControlConstruct",
-    "target": "ControlLogic"
-  },
-  {
-    "source": "TemporalControlConstruct",
-    "target": "InformationFlowDefinition"
-  },
-  {
-    "source": "TemporalControlConstruct",
-    "target": "ProcessingAgent"
-  },
-  {
     "source": "Unit",
     "target": "UnitType"
-  },
-  {
-    "source": "UnitSegmentLayout",
-    "target": "Concept"
-  },
-  {
-    "source": "UnitSegmentLayout",
-    "target": "LogicalRecord"
-  },
-  {
-    "source": "UnitSegmentLayout",
-    "target": "ValueMapping"
-  },
-  {
-    "source": "UnitSegmentLayout",
-    "target": "ValueMappingPosition"
-  },
-  {
-    "source": "UnitType",
-    "target": "Concept"
-  },
-  {
-    "source": "Universe",
-    "target": "Concept"
-  },
-  {
-    "source": "ValueAndConceptDescription"
-  },
-  {
-    "source": "ValueDomain"
   },
   {
     "source": "ValueMapping",
@@ -1577,77 +1214,5 @@
   {
     "source": "VariableStructure",
     "target": "VariableRelationship"
-  },
-  {
-    "source": "VariableValueComponent",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "WideDataSet",
-    "target": "DataPoint"
-  },
-  {
-    "source": "WideDataSet",
-    "target": "DataStructure"
-  },
-  {
-    "source": "WideDataSet",
-    "target": "Key"
-  },
-  {
-    "source": "WideDataStructure",
-    "target": "ComponentPosition"
-  },
-  {
-    "source": "WideDataStructure",
-    "target": "DataStructureComponent"
-  },
-  {
-    "source": "WideDataStructure",
-    "target": "ForeignKey"
-  },
-  {
-    "source": "WideDataStructure",
-    "target": "PrimaryKey"
-  },
-  {
-    "source": "WideDataStructure",
-    "target": "RepresentedVariable"
-  },
-  {
-    "source": "WideKey",
-    "target": "DataPoint"
-  },
-  {
-    "source": "WideKey",
-    "target": "KeyDefinition"
-  },
-  {
-    "source": "WideKey",
-    "target": "KeyMember"
-  },
-  {
-    "source": "WideKey",
-    "target": "Unit"
-  },
-  {
-    "source": "WideKey",
-    "target": "Universe"
-  },
-  {
-    "source": "WideKeyMember",
-    "target": "ConceptualValue"
-  },
-  {
-    "source": "WideKeyMember",
-    "target": "DataPoint"
-  },
-  {
-    "source": "WideKeyMember",
-    "target": "DataStructureComponent"
-  },
-  {
-    "source": "WideKeyMember",
-    "target": "ValueDomain"
   }
 ]
