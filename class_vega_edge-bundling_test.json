@@ -24,7 +24,7 @@
     "id": "Organization",
     "name": "Agents::Organization",
     "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
-    "parent": "Dummy"
+    "parent": "Agent"
   },
   {
     "id": "StatisticalClassification",
