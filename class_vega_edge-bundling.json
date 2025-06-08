@@ -28,9 +28,33 @@
     "parent": "Root"
   },
   {
+    "id": "AgentStructure",
+    "name": "Agents::AgentStructure",
+    "definition": "Defines the relationships between agents in a collection for a specified period and purpose.",
+    "parent": "Root"
+  },
+  {
+    "id": "Individual",
+    "name": "Agents::Individual",
+    "definition": "A person. (See for example the W3C Friend of a Friend Ontology - http://xmlns.com/foaf/spec/#term_Person).",
+    "parent": "Root"
+  },
+  {
+    "id": "Machine",
+    "name": "Agents::Machine",
+    "definition": "Mechanism or computer program used to perform an act.",
+    "parent": "Root"
+  },
+  {
     "id": "Organization",
     "name": "Agents::Organization",
     "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
+    "parent": "Root"
+  },
+  {
+    "id": "AttributeComponent",
+    "name": "Components::AttributeComponent",
+    "definition": "Role given to a represented variable in the context of a data structure to qualify observations or provide other types of supplementary information.",
     "parent": "Root"
   },
   {
@@ -64,6 +88,12 @@
     "parent": "Root"
   },
   {
+    "id": "IdentifierComponent",
+    "name": "Components::IdentifierComponent",
+    "definition": "Role given to a represented variable in the context of a long or wide data structure to identify the units associated to data points, and in dimensional and key value data structures to provide identifying fields for the instance values.",
+    "parent": "Root"
+  },
+  {
     "id": "MeasureComponent",
     "name": "Components::MeasureComponent",
     "definition": "Role given to a represented variable in the context of a data structure to hold the observed/derived values.",
@@ -82,6 +112,12 @@
     "parent": "Root"
   },
   {
+    "id": "VariableDescriptorComponent",
+    "name": "Components::VariableDescriptorComponent",
+    "definition": "Role given to a represented variable in the context of a data structure to provide codes for variable identification.",
+    "parent": "Root"
+  },
+  {
     "id": "VariableValueComponent",
     "name": "Components::VariableValueComponent",
     "definition": "Role given to a represented variable in the context of a data structure to record values of multiple variables.",
@@ -97,6 +133,12 @@
     "id": "CategoryPosition",
     "name": "Conceptual::CategoryPosition",
     "definition": "Assigns a sequence number to a category within a list.",
+    "parent": "Root"
+  },
+  {
+    "id": "CategoryRelationStructure",
+    "name": "Conceptual::CategoryRelationStructure",
+    "definition": "Description of the relationships between and among categories within a collection.",
     "parent": "Root"
   },
   {
@@ -130,9 +172,21 @@
     "parent": "Root"
   },
   {
+    "id": "ConceptStructure",
+    "name": "Conceptual::ConceptStructure",
+    "definition": "Relations of concepts within a collection.",
+    "parent": "Root"
+  },
+  {
     "id": "ConceptSystem",
     "name": "Conceptual::ConceptSystem",
     "definition": "Set of concepts structured by the relations among them [GSIM 1.1].",
+    "parent": "Root"
+  },
+  {
+    "id": "ConceptSystemCorrespondence",
+    "name": "Conceptual::ConceptSystemCorrespondence",
+    "definition": "Relationship between 2 or more concept systems described through mapping similarity relationships between their member concepts.",
     "parent": "Root"
   },
   {
@@ -214,6 +268,12 @@
     "parent": "Root"
   },
   {
+    "id": "VariableStructure",
+    "name": "Conceptual::VariableStructure",
+    "definition": "Relation structure for use with any set of variables in the variable cascade (conceptual, represented, instance).",
+    "parent": "Root"
+  },
+  {
     "id": "ConceptualValue",
     "name": "DataDescription::ConceptualValue",
     "definition": "Concept (with a notion of equality defined) being observed, captured, or derived which is associated to a single data instance.",
@@ -235,6 +295,12 @@
     "id": "DataStructure",
     "name": "DataDescription::DataStructure",
     "definition": "Data organization based on reusable data structure components.",
+    "parent": "Root"
+  },
+  {
+    "id": "Datum",
+    "name": "DataDescription::Datum",
+    "definition": "Correspondence of a data instance to the concept it represents.",
     "parent": "Root"
   },
   {
@@ -280,9 +346,33 @@
     "parent": "Root"
   },
   {
+    "id": "DimensionalDataSet",
+    "name": "Dimensional::DimensionalDataSet",
+    "definition": "Organized collection of multidimensional data. It is structured by a dimensional data structure.",
+    "parent": "Root"
+  },
+  {
+    "id": "DimensionalDataStructure",
+    "name": "Dimensional::DimensionalDataStructure",
+    "definition": "Structure of a dimensional data set (organized collection of multidimensional data). It is described by dimension, measure and attribute components.",
+    "parent": "Root"
+  },
+  {
+    "id": "DimensionalKey",
+    "name": "Dimensional::DimensionalKey",
+    "definition": "Collection of data instances that uniquely identify a collection of data points in a dimensional dataset.",
+    "parent": "Root"
+  },
+  {
     "id": "DimensionalKeyDefinition",
     "name": "Dimensional::DimensionalKeyDefinition",
     "definition": "Collection of concepts that uniquely defines a collection of data points in a dimensional dataset.",
+    "parent": "Root"
+  },
+  {
+    "id": "DimensionalKeyDefinitionMember",
+    "name": "Dimensional::DimensionalKeyDefinitionMember",
+    "definition": "Single concept that is part of a dimensional key definition.",
     "parent": "Root"
   },
   {
@@ -352,6 +442,12 @@
     "parent": "Root"
   },
   {
+    "id": "LogicalRecordRelationStructure",
+    "name": "FormatDescription::LogicalRecordRelationStructure",
+    "definition": "Structuring of relationships between logical records in a data store.",
+    "parent": "Root"
+  },
+  {
     "id": "LogicalRecordRelationship",
     "name": "FormatDescription::LogicalRecordRelationship",
     "definition": "Relationships between logical records.",
@@ -361,6 +457,18 @@
     "id": "PhysicalDataSet",
     "name": "FormatDescription::PhysicalDataSet",
     "definition": "Information needed for understanding the physical structure of data coming from a file or other source.",
+    "parent": "Root"
+  },
+  {
+    "id": "PhysicalDataSetStructure",
+    "name": "FormatDescription::PhysicalDataSetStructure",
+    "definition": "Ordering for physical record segments, which map to a logical record.",
+    "parent": "Root"
+  },
+  {
+    "id": "PhysicalLayoutRelationStructure",
+    "name": "FormatDescription::PhysicalLayoutRelationStructure",
+    "definition": "Realization of relation structure that is used to describe the sequence of value mappings in a physical layout.",
     "parent": "Root"
   },
   {
@@ -382,6 +490,12 @@
     "parent": "Root"
   },
   {
+    "id": "PhysicalRecordSegmentStructure",
+    "name": "FormatDescription::PhysicalRecordSegmentStructure",
+    "definition": "Means for describing the complex relational structure of data points in a physical record representing the logical record.",
+    "parent": "Root"
+  },
+  {
     "id": "PhysicalSegmentLayout",
     "name": "FormatDescription::PhysicalSegmentLayout",
     "definition": "Used as an extension point in the description of the different layout styles of data structure descriptions.",
@@ -397,6 +511,18 @@
     "id": "RecordRelation",
     "name": "FormatDescription::RecordRelation",
     "definition": "Relationships among record types within and between logical records.",
+    "parent": "Root"
+  },
+  {
+    "id": "SegmentByText",
+    "name": "FormatDescription::SegmentByText",
+    "definition": "Location of a segment of text through character or line counts.",
+    "parent": "Root"
+  },
+  {
+    "id": "UnitSegmentLayout",
+    "name": "FormatDescription::UnitSegmentLayout",
+    "definition": "Description of unit-record (\"wide\") data sets, where each row in the data set provides the same group of values for variables all relating to a single unit.",
     "parent": "Root"
   },
   {
@@ -418,6 +544,48 @@
     "parent": "Root"
   },
   {
+    "id": "ContextualComponent",
+    "name": "KeyValue::ContextualComponent",
+    "definition": "Encapsulates contextual information of the key-value datastore to provide a scope to the instance key. The instance key is unique within the scope.",
+    "parent": "Root"
+  },
+  {
+    "id": "InstanceKey",
+    "name": "KeyValue::InstanceKey",
+    "definition": "Single-valued key representation produced from the merge of the representations of all key members and a descriptor.",
+    "parent": "Root"
+  },
+  {
+    "id": "KeyValueDataStore",
+    "name": "KeyValue::KeyValueDataStore",
+    "definition": "Organized collection of key-value data. It is structured by a key value structure.",
+    "parent": "Root"
+  },
+  {
+    "id": "KeyValueStructure",
+    "name": "KeyValue::KeyValueStructure",
+    "definition": "Structure of a key-value datastore (organized collection of key-value data). It is described by identifier, contextual, synthetic id, dimension, variable descriptor and variable value components.",
+    "parent": "Root"
+  },
+  {
+    "id": "MainKeyMember",
+    "name": "KeyValue::MainKeyMember",
+    "definition": "Identifies the unit of interest, either a statistical unit or a population, via identifier or dimension components, respectively, plus an optional contextual component. If neither identifier nor dimension components are present, then a synthetic id component is used.",
+    "parent": "Root"
+  },
+  {
+    "id": "SyntheticIdComponent",
+    "name": "KeyValue::SyntheticIdComponent",
+    "definition": "Persistent and unique identifier (PIDs) to provide standarized, long-lasting identification.",
+    "parent": "Root"
+  },
+  {
+    "id": "Descriptor",
+    "name": "Long::Descriptor",
+    "definition": "Use of a code for variable identification in the context of a data structure and a variable descriptor component.",
+    "parent": "Root"
+  },
+  {
     "id": "DescriptorValueDomain",
     "name": "Long::DescriptorValueDomain",
     "definition": "Set of permissible values for a variable playing the role of a variable descriptor component.",
@@ -427,6 +595,30 @@
     "id": "DescriptorVariable",
     "name": "Long::DescriptorVariable",
     "definition": "Variable that provides codes for variable identification in the context of a data structure. Variable playing the role of a variable descriptor component.",
+    "parent": "Root"
+  },
+  {
+    "id": "LongDataSet",
+    "name": "Long::LongDataSet",
+    "definition": "Organized collection of long data. It is structured by a long data structure.",
+    "parent": "Root"
+  },
+  {
+    "id": "LongDataStructure",
+    "name": "Long::LongDataStructure",
+    "definition": "Structure of a long dataset (organized collection of long data). It is described by identifier, measure, attribute, variable descriptor and variable value components.",
+    "parent": "Root"
+  },
+  {
+    "id": "LongKey",
+    "name": "Long::LongKey",
+    "definition": "Collection of data instances that uniquely identify a collection of data points in a long dataset.",
+    "parent": "Root"
+  },
+  {
+    "id": "LongMainKeyMember",
+    "name": "Long::LongMainKeyMember",
+    "definition": "Single data instance that is part of a long key.",
     "parent": "Root"
   },
   {
@@ -454,6 +646,12 @@
     "parent": "Root"
   },
   {
+    "id": "AllenIntervalAlgebra",
+    "name": "Process::AllenIntervalAlgebra",
+    "definition": "Control logic where the execution flow is determined by the satisfaction of temporal constraints specified with Allen's Interval Algebra over time intervals. Allen's interval algebra consists of thirteen temporal interval relations and the operations defined on them. Together these relations are dis ...",
+    "parent": "Root"
+  },
+  {
     "id": "ConditionalControlLogic",
     "name": "Process::ConditionalControlLogic",
     "definition": "A set of decision points which determine the flow between the steps used to perform an activity.",
@@ -472,9 +670,21 @@
     "parent": "Root"
   },
   {
+    "id": "DeterministicImperative",
+    "name": "Process::DeterministicImperative",
+    "definition": "Deterministic imperative is a subtype of control logic. Deterministic control logic consists of control constructs.",
+    "parent": "Root"
+  },
+  {
     "id": "InformationFlowDefinition",
     "name": "Process::InformationFlowDefinition",
     "definition": "The relationships between parameters across steps is described by the information flow definition. Each relationship creates a pathway for an information object to follow.",
+    "parent": "Root"
+  },
+  {
+    "id": "NonDeterministicDeclarative",
+    "name": "Process::NonDeterministicDeclarative",
+    "definition": "Non-deterministic control logic is a subtype of control logic. Non-deterministic (or declarative) control logic is constraint- and/or rule-based.",
     "parent": "Root"
   },
   {
@@ -502,9 +712,21 @@
     "parent": "Root"
   },
   {
+    "id": "RuleBasedScheduling",
+    "name": "Process::RuleBasedScheduling",
+    "definition": "Rule based scheduling performs a fact check on rules from the rule set, testing their condition part against the facts in the research data store. Fact checking may be assisted by a curator who can semantically compare the condition part of each candidate rule with the facts. The fact checker return ...",
+    "parent": "Root"
+  },
+  {
     "id": "RuleSet",
     "name": "Process::RuleSet",
     "definition": "A rule set is a collection of rules. A rule set is a component of rule based scheduling.",
+    "parent": "Root"
+  },
+  {
+    "id": "Sequence",
+    "name": "Process::Sequence",
+    "definition": "A sequence controls the order of activities or steps by defining a simple sequence.",
     "parent": "Root"
   },
   {
@@ -514,15 +736,45 @@
     "parent": "Root"
   },
   {
+    "id": "Service",
+    "name": "Process::Service",
+    "definition": "Service is a type of processing agent. Services are atomic. They execute acts which have input and output parameters.",
+    "parent": "Root"
+  },
+  {
     "id": "Step",
     "name": "Process::Step",
     "definition": "Step is a reusable, parameterized activity associated to information flows. One or more steps perform an sctivity.",
     "parent": "Root"
   },
   {
+    "id": "TemporalConstraints",
+    "name": "Process::TemporalConstraints",
+    "definition": "Temporal constraints provide a mechanism for expressing concurrency control and synchronization",
+    "parent": "Root"
+  },
+  {
+    "id": "TemporalControlConstruct",
+    "name": "Process::TemporalControlConstruct",
+    "definition": "Declarative control flow operator where the continuation of the execution flow depends on the finalization of one or more preceding activities/steps. - XORJoin: Given three activities A, B and C, if XORJoin(A, B) -> C, then C is executed after either A or B finishes executing. XORJoin is sometimes r ...",
+    "parent": "Root"
+  },
+  {
     "id": "AuthorizationSource",
     "name": "Representations::AuthorizationSource",
     "definition": "Identifies the authorizing agency and allows for the full text of the authorization (law, regulation, or other form of authorization).",
+    "parent": "Root"
+  },
+  {
+    "id": "CategoryStatistic",
+    "name": "Representations::CategoryStatistic",
+    "definition": "Statistics related to a specific category of an instance variable within a data set.",
+    "parent": "Root"
+  },
+  {
+    "id": "ClassificationFamily",
+    "name": "Representations::ClassificationFamily",
+    "definition": "Collection of classification series related by being based on a common concept",
     "parent": "Root"
   },
   {
@@ -562,6 +814,12 @@
     "parent": "Root"
   },
   {
+    "id": "ClassificationItemStructure",
+    "name": "Representations::ClassificationItemStructure",
+    "definition": "Complex relation structure for use with statistical classification.",
+    "parent": "Root"
+  },
+  {
     "id": "ClassificationPosition",
     "name": "Representations::ClassificationPosition",
     "definition": "The index of a classification within a classification family expressed as an integer, progressing upward from 0 or 1.",
@@ -571,6 +829,12 @@
     "id": "ClassificationSeries",
     "name": "Representations::ClassificationSeries",
     "definition": "Ensemble of one or more statistical classifications, based on the same concept, and related to each other as versions or updates.",
+    "parent": "Root"
+  },
+  {
+    "id": "ClassificationSeriesStructure",
+    "name": "Representations::ClassificationSeriesStructure",
+    "definition": "Structure for describing the complex relationships between statistical classifications in a classification series.",
     "parent": "Root"
   },
   {
@@ -586,6 +850,12 @@
     "parent": "Root"
   },
   {
+    "id": "CodeListStructure",
+    "name": "Representations::CodeListStructure",
+    "definition": "Relation structure of codes within a codelist.",
+    "parent": "Root"
+  },
+  {
     "id": "CodePosition",
     "name": "Representations::CodePosition",
     "definition": "An index within an order intended for presentation (even though the content within levels of the hierarchy may be conceptually unordered). Expressed as an integer counting upward from 01 or 1.",
@@ -595,6 +865,12 @@
     "id": "CodeRelationship",
     "name": "Representations::CodeRelationship",
     "definition": "Source target relationship between codes in a code relation structure.",
+    "parent": "Root"
+  },
+  {
+    "id": "CorrespondenceTable",
+    "name": "Representations::CorrespondenceTable",
+    "definition": "Set of relationships between the members within or between statistical classifications.",
     "parent": "Root"
   },
   {
@@ -649,6 +925,30 @@
     "id": "ValueDomain",
     "name": "Representations::ValueDomain",
     "definition": "Set of permissible values for a variable (adapted from ISO/IEC 11179).",
+    "parent": "Root"
+  },
+  {
+    "id": "WideDataSet",
+    "name": "Wide::WideDataSet",
+    "definition": "Organized collection of wide data. It is structured by a wide data structure.",
+    "parent": "Root"
+  },
+  {
+    "id": "WideDataStructure",
+    "name": "Wide::WideDataStructure",
+    "definition": "Structure of a wide dataset (organized collection of wide data). It is described by identifier, measure and attribute components.",
+    "parent": "Root"
+  },
+  {
+    "id": "WideKey",
+    "name": "Wide::WideKey",
+    "definition": "Collection of data instances that uniquely identify a collection of data points in a wide dataset.",
+    "parent": "Root"
+  },
+  {
+    "id": "WideKeyMember",
+    "name": "Wide::WideKeyMember",
+    "definition": "Single data instance that is part of a wide key.",
     "parent": "Root"
   }
 ]
