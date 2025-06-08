@@ -3,7 +3,7 @@
   "description": "A network diagram of UML model associations, with edges grouped via hierarchical edge bundling. Based on Vega 'Edge Bundling', see: https://vega.github.io/vega/examples/edge-bundling/",
   "padding": 5,
   "width": 1000,
-  "height":1000,
+  "height": 1000,
   "signals": [
     {
       "name": "tension",
@@ -56,7 +56,7 @@
     },
     {
       "name": "textOffset",
-      "value": 2,
+      "value": 6,
       "bind": {
         "input": "range",
         "min": 0,
@@ -66,7 +66,7 @@
     },
     {
       "name": "layout",
-      "value": "cluster",
+      "value": "cluster"
     },
     {
       "name": "colorIn",
@@ -89,11 +89,11 @@
       "value": null,
       "on": [
         {
-          "events": "text:pointerover",
+          "events": "text:click",
           "update": "datum.id"
         },
         {
-          "events": "pointerover[!event.item]",
+          "events": "iew:click",
           "update": "null"
         }
       ]
@@ -251,10 +251,40 @@
           ],
           "tooltip": {
             "signal": "datum['definition']"
-          },
-          "href": {
-            "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
           }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "size": {
+            "value": 30
+          },
+          "stroke": {
+            "value": "grey"
+          },
+          "fill": {
+            "value": "grey"
+          }
+        },
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "dx": {
+            "signal": "textOffset * (datum.leftside ? -1 : 1)"
+          }
+        },
+        "href": {
+          "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
         }
       }
     },

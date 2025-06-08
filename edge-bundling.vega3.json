@@ -1,13 +1,13 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "A network diagram of UML model associations, with edges grouped via hierarchical edge bundling. Based on Vega 'Edge Bundling', see: https://vega.github.io/vega/examples/edge-bundling/",
+  "description": "An one-page synopsis of a UML model. A network diagram of UML model classes, where the edges (associations) are grouped by hierarchical edge bundling. Based on Vega 'Edge Bundling', see: https://vega.github.io/vega/examples/edge-bundling/",
   "padding": 5,
   "width": 1000,
-  "height":1000,
+  "height": 1000,
   "signals": [
     {
       "name": "tension",
-      "value": 0.95,
+      "value": 0.9,
       "bind": {
         "input": "range",
         "min": 0,
@@ -17,7 +17,7 @@
     },
     {
       "name": "radius",
-      "value": 280,
+      "value": 250,
       "bind": {
         "input": "range",
         "min": 20,
@@ -56,17 +56,11 @@
     },
     {
       "name": "textOffset",
-      "value": 2,
-      "bind": {
-        "input": "range",
-        "min": 0,
-        "max": 10,
-        "step": 1
-      }
+      "value": 6
     },
     {
       "name": "layout",
-      "value": "cluster",
+      "value": "cluster"
     },
     {
       "name": "colorIn",
@@ -89,11 +83,11 @@
       "value": null,
       "on": [
         {
-          "events": "text:pointerover",
+          "events": "text:click",
           "update": "datum.id"
         },
         {
-          "events": "pointerover[!event.item]",
+          "events": "mousedown",
           "update": "null"
         }
       ]
@@ -251,6 +245,66 @@
           ],
           "tooltip": {
             "signal": "datum['definition']"
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "size": {
+            "value": 40
+          },
+          "stroke": {
+            "value": "grey"
+          },
+          "fill": {
+            "value": "grey"
+          }
+        },
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "dx": {
+            "signal": "textOffset * (datum.leftside ? -1 : 1)"
+          }
+        }
+      }
+    },
+    {
+      "type": "symbol",
+      "from": {
+        "data": "leaves"
+      },
+      "encode": {
+        "enter": {
+          "size": {
+            "value": 200
+          },
+          "opacity": {
+            "value": 0
+          }
+        },
+        "update": {
+          "x": {
+            "field": "x"
+          },
+          "y": {
+            "field": "y"
+          },
+          "dx": {
+            "signal": "textOffset * (datum.leftside ? -1 : 1)"
+          },
+          "tooltip": {
+            "signal": "'Click for details on the class \"' + datum['name']+ '\"'"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
@@ -340,12 +394,13 @@
     }
   ],
   "title": {
-    "text": "Associations of all Classes of the Model",
+    "text": "Bird's Eye View of the Model with the Associations of all Classes",
     "fontSize": 20,
     "subtitle": [
-      "Sorted by package name and class name from top to bottom.",
-      "Move the mouse pointer over a class to see the associations and the definition.",
-      "Click on a class to open the details page (Ctrl+click for new tab, Shift+click for new window)"
+      "Sorted by package name and class name.",
+      "Move the mouse pointer over a class to see its definition.",
+      "Click on a class to see its associations (click on the empty area to get the original view).",
+      "Click on the grey bullet (•) near a class to open the details page (Ctrl+click for new tab, Shift+click for new window)"
     ],
     "subtitleFontSize": 11,
     "subtitlePadding": 10
