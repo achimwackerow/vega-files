@@ -4,23 +4,11 @@
     "target": "Organization"
   },
   {
-    "source": "Activity",
-    "target": "ControlLogic"
-  },
-  {
     "source": "AgentListing",
     "target": "Agent"
   },
   {
     "source": "AgentListing",
-    "target": "Organization"
-  },
-  {
-    "source": "StatisticalClassification",
-    "target": "StatisticalClassification"
-  },
-  {
-    "source": "Organization",
     "target": "Organization"
   },
   {
