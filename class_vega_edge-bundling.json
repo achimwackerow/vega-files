@@ -5,7 +5,8 @@
   },
   {
     "id": "Dummy",
-    "name": "Dummy for classes without superclass and subclass"
+    "name": "Dummy superclass for classes without superclass and subclass",
+    "parent": "Root"
   },
   {
     "id": "Agent",
