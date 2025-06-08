@@ -1,7 +1,8 @@
 [
   {
     "id": "Root",
-    "name": "Diagram root (no class)"
+    "name": "Diagram root (no class)",
+    "parent": null
   },
   {
     "id": "Dummy",
