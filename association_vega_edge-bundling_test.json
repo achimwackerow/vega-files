@@ -8,7 +8,7 @@
     "target": "Agent"
   },
   {
-    "source": "ClassificationSeries",
-    "target": "StatisticalClassification"
+    "source": "StatisticalClassification",
+    "target": "ClassificationSeries"
   }
 ]
