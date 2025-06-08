@@ -8,10 +8,6 @@
     "target": "Agent"
   },
   {
-    "source": "AgentListing",
-    "target": "Organization"
-  },
-  {
     "source": "ClassificationSeries",
     "target": "StatisticalClassification"
   }
