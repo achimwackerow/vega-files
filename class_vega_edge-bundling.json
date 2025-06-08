@@ -4,11 +4,6 @@
     "name": "Diagram root (no class)"
   },
   {
-    "id": "Dummy",
-    "name": "Dummy root for classes without superclass and subclass",
-    "parent": "Root"
-  },
-  {
     "id": "Agent",
     "name": "Agents::Agent",
     "definition": "Actor that performs a role in relation to a process or product.",
@@ -18,31 +13,31 @@
     "id": "AgentListing",
     "name": "Agents::AgentListing",
     "definition": "Listing of agents of any type who may be organized to describe relationships between agents.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "AgentPosition",
     "name": "Agents::AgentPosition",
     "definition": "Assigns a sequence number to an agent in an agent listing.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "AgentRelationship",
     "name": "Agents::AgentRelationship",
     "definition": "Defines the relation of an agent within a structure.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
-    "id": "AgentStructure",
-    "name": "Agents::AgentStructure",
-    "definition": "Defines the relationships between agents in a collection for a specified period and purpose.",
-    "parent": "Dummy"
+    "id": "Organization",
+    "name": "Agents::Organization",
+    "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
+    "parent": "Root"
   },
   {
     "id": "ComponentPosition",
     "name": "Components::ComponentPosition",
     "definition": "Indexes the components in a data structure using integers with a position indicated by incrementing upward from 0 or 1.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DataStructureComponent",
@@ -51,46 +46,70 @@
     "parent": "Root"
   },
   {
+    "id": "DimensionComponent",
+    "name": "Components::DimensionComponent",
+    "definition": "Role given to a represented variable in the context of a dimensional data structure to identify the universes associated with data points. The variable acts as a field in the compound identifier (the key structure) to disambiguate the cells in the multi-dimensional \"cube\".",
+    "parent": "Root"
+  },
+  {
     "id": "ForeignKey",
     "name": "Components::ForeignKey",
     "definition": "Role of a set of data structure components for content referencing purposes",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ForeignKeyComponent",
     "name": "Components::ForeignKeyComponent",
     "definition": "Role of a data structure component for content referencing purposes",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "MeasureComponent",
+    "name": "Components::MeasureComponent",
+    "definition": "Role given to a represented variable in the context of a data structure to hold the observed/derived values.",
+    "parent": "Root"
   },
   {
     "id": "PrimaryKey",
     "name": "Components::PrimaryKey",
     "definition": "Role of a set of data structure components for content linkage purposes",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PrimaryKeyComponent",
     "name": "Components::PrimaryKeyComponent",
     "definition": "Role of a data structure component for content identification purposes",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "VariableValueComponent",
+    "name": "Components::VariableValueComponent",
+    "definition": "Role given to a represented variable in the context of a data structure to record values of multiple variables.",
+    "parent": "Root"
+  },
+  {
+    "id": "Category",
+    "name": "Conceptual::Category",
+    "definition": "Concept whose role is to define and measure a characteristic.",
+    "parent": "Root"
   },
   {
     "id": "CategoryPosition",
     "name": "Conceptual::CategoryPosition",
     "definition": "Assigns a sequence number to a category within a list.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "CategoryRelationStructure",
-    "name": "Conceptual::CategoryRelationStructure",
-    "definition": "Description of the relationships between and among categories within a collection.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "CategoryRelationship",
     "name": "Conceptual::CategoryRelationship",
     "definition": "Source-to-target relationship between categories in a structure.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "CategorySet",
+    "name": "Conceptual::CategorySet",
+    "definition": "Concept system where the underlying concepts are categories.",
+    "parent": "Root"
   },
   {
     "id": "Concept",
@@ -102,19 +121,13 @@
     "id": "ConceptMap",
     "name": "Conceptual::ConceptMap",
     "definition": "Correspondence between concepts in a correspondence table.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ConceptRelationship",
     "name": "Conceptual::ConceptRelationship",
     "definition": "Relationship between a pair of concepts in a collection of concepts. Use controlled vocabulary provided in semantics to identify the type of relationship (relation, e.g. ParentChild, WholePart, etc.)",
-    "parent": "Dummy"
-  },
-  {
-    "id": "ConceptStructure",
-    "name": "Conceptual::ConceptStructure",
-    "definition": "Relations of concepts within a collection.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ConceptSystem",
@@ -123,52 +136,94 @@
     "parent": "Root"
   },
   {
-    "id": "ConceptSystemCorrespondence",
-    "name": "Conceptual::ConceptSystemCorrespondence",
-    "definition": "Relationship between 2 or more concept systems described through mapping similarity relationships between their member concepts.",
-    "parent": "Dummy"
-  },
-  {
     "id": "ConceptualDomain",
     "name": "Conceptual::ConceptualDomain",
     "definition": "Set of concepts, where each concept is intended to be used as the meaning (signified) for a datum.",
     "parent": "Root"
   },
   {
+    "id": "ConceptualVariable",
+    "name": "Conceptual::ConceptualVariable",
+    "definition": "A variable at the highest level of abstraction.",
+    "parent": "Root"
+  },
+  {
+    "id": "InstanceVariable",
+    "name": "Conceptual::InstanceVariable",
+    "definition": "Use of a represented variable within a data set.",
+    "parent": "Root"
+  },
+  {
+    "id": "Population",
+    "name": "Conceptual::Population",
+    "definition": "Universe with time and geography specified.",
+    "parent": "Root"
+  },
+  {
+    "id": "RepresentedVariable",
+    "name": "Conceptual::RepresentedVariable",
+    "definition": "Conceptual variable with a substantive value domain specified.",
+    "parent": "Root"
+  },
+  {
+    "id": "SentinelConceptualDomain",
+    "name": "Conceptual::SentinelConceptualDomain",
+    "definition": "Conceptual domain of sentinel concepts.",
+    "parent": "Root"
+  },
+  {
+    "id": "SubstantiveConceptualDomain",
+    "name": "Conceptual::SubstantiveConceptualDomain",
+    "definition": "Conceptual domain of substantive concepts.",
+    "parent": "Root"
+  },
+  {
     "id": "Unit",
     "name": "Conceptual::Unit",
     "definition": "Individual object of interest for some statistical activity, such as data collection.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "UnitType",
+    "name": "Conceptual::UnitType",
+    "definition": "Unit type is a type or class of objects of interest (units).",
+    "parent": "Root"
+  },
+  {
+    "id": "Universe",
+    "name": "Conceptual::Universe",
+    "definition": "Specialized unit type, with the specialization based upon characteristics other than time and geography.",
+    "parent": "Root"
   },
   {
     "id": "VariableCollection",
     "name": "Conceptual::VariableCollection",
     "definition": "Group of any type of variable within the variable cascade (conceptual, represented, instance).",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "VariablePosition",
     "name": "Conceptual::VariablePosition",
     "definition": "Assigns a sequence number to a variable within a list.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "VariableRelationship",
     "name": "Conceptual::VariableRelationship",
     "definition": "Relationship between any variables in the variable cascade (conceptual, represented, instance), based on an ordered relation.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
-    "id": "VariableStructure",
-    "name": "Conceptual::VariableStructure",
-    "definition": "Relation structure for use with any set of variables in the variable cascade (conceptual, represented, instance).",
-    "parent": "Dummy"
+    "id": "ConceptualValue",
+    "name": "DataDescription::ConceptualValue",
+    "definition": "Concept (with a notion of equality defined) being observed, captured, or derived which is associated to a single data instance.",
+    "parent": "Root"
   },
   {
     "id": "DataPoint",
     "name": "DataDescription::DataPoint",
     "definition": "Container for an instance value.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DataSet",
@@ -177,9 +232,9 @@
     "parent": "Root"
   },
   {
-    "id": "Datum",
-    "name": "DataDescription::Datum",
-    "definition": "Correspondence of a data instance to the concept it represents.",
+    "id": "DataStructure",
+    "name": "DataDescription::DataStructure",
+    "definition": "Data organization based on reusable data structure components.",
     "parent": "Root"
   },
   {
@@ -201,118 +256,130 @@
     "parent": "Root"
   },
   {
+    "id": "KeyDefinitionMember",
+    "name": "DataDescription::KeyDefinitionMember",
+    "definition": "Single concept that is part of the structure of a key definition.",
+    "parent": "Root"
+  },
+  {
+    "id": "KeyMember",
+    "name": "DataDescription::KeyMember",
+    "definition": "Single data instance that is part of a key.",
+    "parent": "Root"
+  },
+  {
     "id": "Notation",
     "name": "DataDescription::Notation",
     "definition": "Representation of a category in the context of a code or a classification item, as opposed of the corresponding instance value which would appear when used in a dataset.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DimensionGroup",
     "name": "Dimensional::DimensionGroup",
     "definition": "Collection of dimensions that can be reused across multiple dimensional structures.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "DimensionalKeyDefinition",
+    "name": "Dimensional::DimensionalKeyDefinition",
+    "definition": "Collection of concepts that uniquely defines a collection of data points in a dimensional dataset.",
+    "parent": "Root"
+  },
+  {
+    "id": "DimensionalKeyMember",
+    "name": "Dimensional::DimensionalKeyMember",
+    "definition": "Single data instance that is part of a dimensional key.",
+    "parent": "Root"
+  },
+  {
+    "id": "QualifiedMeasure",
+    "name": "Dimensional::QualifiedMeasure",
+    "definition": "A measure having a specific production method.",
+    "parent": "Root"
+  },
+  {
+    "id": "RevisableDatum",
+    "name": "Dimensional::RevisableDatum",
+    "definition": "A datum that can be qualified by a revision.",
+    "parent": "Root"
   },
   {
     "id": "Revision",
     "name": "Dimensional::Revision",
     "definition": "Algorithm applied to produce a revised datum.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ScopedMeasure",
     "name": "Dimensional::ScopedMeasure",
     "definition": "A qualified measure whose domain is a universe as an aggregate, i.e. a measure with a specific production method applied to a specific cell in a cube.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DataPointPosition",
     "name": "FormatDescription::DataPointPosition",
     "definition": "Indexed location of the associated member within the associated list.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DataPointRelationship",
     "name": "FormatDescription::DataPointRelationship",
     "definition": "Relations used by the data point relation structure of a logical record to describe specific source-target data points and their relationship.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "DataStore",
     "name": "FormatDescription::DataStore",
     "definition": "Collection of logical records.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "InstanceVariableMap",
     "name": "FormatDescription::InstanceVariableMap",
     "definition": "Key value relationship for two or more logical records where the key is one or more equivalent instance variables and the value is a defined relationship or a relationship to a set value.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "LogicalRecord",
     "name": "FormatDescription::LogicalRecord",
     "definition": "Collection of instance variables.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "LogicalRecordPosition",
     "name": "FormatDescription::LogicalRecordPosition",
     "definition": "Assigns a position of the logical record within the data store.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "LogicalRecordRelationStructure",
-    "name": "FormatDescription::LogicalRecordRelationStructure",
-    "definition": "Structuring of relationships between logical records in a data store.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "LogicalRecordRelationship",
     "name": "FormatDescription::LogicalRecordRelationship",
     "definition": "Relationships between logical records.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PhysicalDataSet",
     "name": "FormatDescription::PhysicalDataSet",
     "definition": "Information needed for understanding the physical structure of data coming from a file or other source.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "PhysicalDataSetStructure",
-    "name": "FormatDescription::PhysicalDataSetStructure",
-    "definition": "Ordering for physical record segments, which map to a logical record.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "PhysicalLayoutRelationStructure",
-    "name": "FormatDescription::PhysicalLayoutRelationStructure",
-    "definition": "Realization of relation structure that is used to describe the sequence of value mappings in a physical layout.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PhysicalRecordSegment",
     "name": "FormatDescription::PhysicalRecordSegment",
     "definition": "Description of each physical storage segment required to completely cover a physical record representing the logical record.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PhysicalRecordSegmentPosition",
     "name": "FormatDescription::PhysicalRecordSegmentPosition",
     "definition": "Assigns a position of the physical record segment within the whole physical record. For example in what order does this 80 character segment fall within an 800 character record.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PhysicalRecordSegmentRelationship",
     "name": "FormatDescription::PhysicalRecordSegmentRelationship",
     "definition": "Structured relationship between physical record segments.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "PhysicalRecordSegmentStructure",
-    "name": "FormatDescription::PhysicalRecordSegmentStructure",
-    "definition": "Means for describing the complex relational structure of data points in a physical record representing the logical record.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "PhysicalSegmentLayout",
@@ -330,30 +397,66 @@
     "id": "RecordRelation",
     "name": "FormatDescription::RecordRelation",
     "definition": "Relationships among record types within and between logical records.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ValueMapping",
     "name": "FormatDescription::ValueMapping",
     "definition": "Physical characteristics for the value of an instance variable stored in a data point as part of a physical segment layout.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ValueMappingPosition",
     "name": "FormatDescription::ValueMappingPosition",
     "definition": "Denotes the position of a value mapping in a sequence.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ValueMappingRelationship",
     "name": "FormatDescription::ValueMappingRelationship",
     "definition": "Relationships among data points in a physical layout.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "DescriptorValueDomain",
+    "name": "Long::DescriptorValueDomain",
+    "definition": "Set of permissible values for a variable playing the role of a variable descriptor component.",
+    "parent": "Root"
+  },
+  {
+    "id": "DescriptorVariable",
+    "name": "Long::DescriptorVariable",
+    "definition": "Variable that provides codes for variable identification in the context of a data structure. Variable playing the role of a variable descriptor component.",
+    "parent": "Root"
+  },
+  {
+    "id": "ReferenceValue",
+    "name": "Long::ReferenceValue",
+    "definition": "Recorded value in a variable value component. Value referenced by a descriptor.",
+    "parent": "Root"
+  },
+  {
+    "id": "ReferenceValueDomain",
+    "name": "Long::ReferenceValueDomain",
+    "definition": "Set of permissible values for a variable playing the role of a variable value component.",
+    "parent": "Root"
+  },
+  {
+    "id": "ReferenceVariable",
+    "name": "Long::ReferenceVariable",
+    "definition": "Variable that records values of multiple variables in the context of a data structure. Variable playing the role of a variable value component.",
+    "parent": "Root"
   },
   {
     "id": "Activity",
     "name": "Process::Activity",
     "definition": "An activity is a task described at a conceptual level. It is not parameterized and as such is less reusable. For more logical/physical, fine-grained, reusable description there is a sub-type called step.",
+    "parent": "Root"
+  },
+  {
+    "id": "ConditionalControlLogic",
+    "name": "Process::ConditionalControlLogic",
+    "definition": "A set of decision points which determine the flow between the steps used to perform an activity.",
     "parent": "Root"
   },
   {
@@ -363,148 +466,136 @@
     "parent": "Root"
   },
   {
+    "id": "Curator",
+    "name": "Process::Curator",
+    "definition": "Curator is a software agent that uses techniques such as natural language processing to map facts in the research data store to the condition part of a rule.",
+    "parent": "Root"
+  },
+  {
     "id": "InformationFlowDefinition",
     "name": "Process::InformationFlowDefinition",
     "definition": "The relationships between parameters across steps is described by the information flow definition. Each relationship creates a pathway for an information object to follow.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "Parameter",
     "name": "Process::Parameter",
     "definition": "An input or output to control logic and the step/sub-step it invokes. Parameters may take the form of any information object, including data sets and structured metadata as well as configuration information for the step/sub-step.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "ProcessingAgent",
+    "name": "Process::ProcessingAgent",
+    "definition": "A processing agent orchestrates the production of information objects in a production environment. There are processing agents which perform data capture, data editing/processing, and data analysis (etc.), each in the appropriate production environments. The processing agent performs an activity bas ...",
+    "parent": "Root"
   },
   {
     "id": "ProductionEnvironment",
     "name": "Process::ProductionEnvironment",
     "definition": "Production environments consume and produce information objects by way of processing pipelines orchestrated by the processing agent.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "Rule",
     "name": "Process::Rule",
     "definition": "A rule has a condition part and an action part. A rule takes the form of: If [Condition<U+007D> Then [Action]. A rule belongs to a rule set which is a component of rule based scheduling performed by the processing agent",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "RuleSet",
     "name": "Process::RuleSet",
     "definition": "A rule set is a collection of rules. A rule set is a component of rule based scheduling.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "SequencePosition",
     "name": "Process::SequencePosition",
     "definition": "Assigns a sequence number to an activity within a sequence.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "Step",
+    "name": "Process::Step",
+    "definition": "Step is a reusable, parameterized activity associated to information flows. One or more steps perform an sctivity.",
+    "parent": "Root"
   },
   {
     "id": "AuthorizationSource",
     "name": "Representations::AuthorizationSource",
     "definition": "Identifies the authorizing agency and allows for the full text of the authorization (law, regulation, or other form of authorization).",
-    "parent": "Dummy"
-  },
-  {
-    "id": "CategoryStatistic",
-    "name": "Representations::CategoryStatistic",
-    "definition": "Statistics related to a specific category of an instance variable within a data set.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "ClassificationFamily",
-    "name": "Representations::ClassificationFamily",
-    "definition": "Collection of classification series related by being based on a common concept",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationIndex",
     "name": "Representations::ClassificationIndex",
     "definition": "Ordered list of classification index entries.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationIndexEntry",
     "name": "Representations::ClassificationIndexEntry",
     "definition": "Word or a short phrase corresponding to a classification item in a statistical classification, together with the code of the corresponding classification item.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationIndexEntryPosition",
     "name": "Representations::ClassificationIndexEntryPosition",
     "definition": "Member indicator for use with member type classification index entry.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationItem",
     "name": "Representations::ClassificationItem",
     "definition": "A space for a category within a statistical classification.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationItemPosition",
     "name": "Representations::ClassificationItemPosition",
     "definition": "Provides a classification item with an index conveying the order of the classification item within a sequence, expressed as an integer, progressing upward from 0 or 1.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationItemRelationship",
     "name": "Representations::ClassificationItemRelationship",
     "definition": "Source-target relationship between classification items in a classification item relation structure.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "ClassificationItemStructure",
-    "name": "Representations::ClassificationItemStructure",
-    "definition": "Complex relation structure for use with statistical classification.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationPosition",
     "name": "Representations::ClassificationPosition",
     "definition": "The index of a classification within a classification family expressed as an integer, progressing upward from 0 or 1.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ClassificationSeries",
     "name": "Representations::ClassificationSeries",
     "definition": "Ensemble of one or more statistical classifications, based on the same concept, and related to each other as versions or updates.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "ClassificationSeriesStructure",
-    "name": "Representations::ClassificationSeriesStructure",
-    "definition": "Structure for describing the complex relationships between statistical classifications in a classification series.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "Code",
     "name": "Representations::Code",
     "definition": "The characters used as a symbol to designate a category within a codelist or classification. (Formally, a sign for which the signifier is non-linguistic alphanumeric string.)",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
-    "id": "CodeListStructure",
-    "name": "Representations::CodeListStructure",
-    "definition": "Relation structure of codes within a codelist.",
-    "parent": "Dummy"
+    "id": "CodeList",
+    "name": "Representations::CodeList",
+    "definition": "List of codes and associated categories.",
+    "parent": "Root"
   },
   {
     "id": "CodePosition",
     "name": "Representations::CodePosition",
     "definition": "An index within an order intended for presentation (even though the content within levels of the hierarchy may be conceptually unordered). Expressed as an integer counting upward from 01 or 1.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "CodeRelationship",
     "name": "Representations::CodeRelationship",
     "definition": "Source target relationship between codes in a code relation structure.",
-    "parent": "Dummy"
-  },
-  {
-    "id": "CorrespondenceTable",
-    "name": "Representations::CorrespondenceTable",
-    "definition": "Set of relationships between the members within or between statistical classifications.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "EnumerationDomain",
@@ -516,444 +607,48 @@
     "id": "Level",
     "name": "Representations::Level",
     "definition": "Set of all classification items the same number of relationships from the root (or top) classification item.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "LevelStructure",
     "name": "Representations::LevelStructure",
     "definition": "Nesting structure of a hierarchical collection.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "SentinelValueDomain",
+    "name": "Representations::SentinelValueDomain",
+    "definition": "Value domain for a sentinel conceptual domain.",
+    "parent": "Root"
+  },
+  {
+    "id": "StatisticalClassification",
+    "name": "Representations::StatisticalClassification",
+    "definition": "Set of categories represented by classification items where the subset of immediate children categories for any given parent category are mutually exclusive and jointly exhaustive with respect to that parent.",
+    "parent": "Root"
   },
   {
     "id": "StatisticalClassificationRelationship",
     "name": "Representations::StatisticalClassificationRelationship",
     "definition": "Specifies the statistical classifications for the source and target of a complex relationship and defines the relationship.",
-    "parent": "Dummy"
+    "parent": "Root"
+  },
+  {
+    "id": "SubstantiveValueDomain",
+    "name": "Representations::SubstantiveValueDomain",
+    "definition": "Value domain for a substantive conceptual domain. Typically a description and/or enumeration of allowed values of interest.",
+    "parent": "Root"
   },
   {
     "id": "ValueAndConceptDescription",
     "name": "Representations::ValueAndConceptDescription",
     "definition": "Formal description of a set of values.",
-    "parent": "Dummy"
+    "parent": "Root"
   },
   {
     "id": "ValueDomain",
     "name": "Representations::ValueDomain",
     "definition": "Set of permissible values for a variable (adapted from ISO/IEC 11179).",
     "parent": "Root"
-  },
-  {
-    "id": "Individual",
-    "name": "Agents::Individual",
-    "definition": "A person. (See for example the W3C Friend of a Friend Ontology - http://xmlns.com/foaf/spec/#term_Person).",
-    "parent": "Agent"
-  },
-  {
-    "id": "Machine",
-    "name": "Agents::Machine",
-    "definition": "Mechanism or computer program used to perform an act.",
-    "parent": "Agent"
-  },
-  {
-    "id": "Organization",
-    "name": "Agents::Organization",
-    "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
-    "parent": "Agent"
-  },
-  {
-    "id": "AttributeComponent",
-    "name": "Components::AttributeComponent",
-    "definition": "Role given to a represented variable in the context of a data structure to qualify observations or provide other types of supplementary information.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "DimensionComponent",
-    "name": "Components::DimensionComponent",
-    "definition": "Role given to a represented variable in the context of a dimensional data structure to identify the universes associated with data points. The variable acts as a field in the compound identifier (the key structure) to disambiguate the cells in the multi-dimensional \"cube\".",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "IdentifierComponent",
-    "name": "Components::IdentifierComponent",
-    "definition": "Role given to a represented variable in the context of a long or wide data structure to identify the units associated to data points, and in dimensional and key value data structures to provide identifying fields for the instance values.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "MeasureComponent",
-    "name": "Components::MeasureComponent",
-    "definition": "Role given to a represented variable in the context of a data structure to hold the observed/derived values.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "VariableDescriptorComponent",
-    "name": "Components::VariableDescriptorComponent",
-    "definition": "Role given to a represented variable in the context of a data structure to provide codes for variable identification.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "VariableValueComponent",
-    "name": "Components::VariableValueComponent",
-    "definition": "Role given to a represented variable in the context of a data structure to record values of multiple variables.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "Category",
-    "name": "Conceptual::Category",
-    "definition": "Concept whose role is to define and measure a characteristic.",
-    "parent": "Concept"
-  },
-  {
-    "id": "CategorySet",
-    "name": "Conceptual::CategorySet",
-    "definition": "Concept system where the underlying concepts are categories.",
-    "parent": "ConceptSystem"
-  },
-  {
-    "id": "ConceptualVariable",
-    "name": "Conceptual::ConceptualVariable",
-    "definition": "A variable at the highest level of abstraction.",
-    "parent": "Concept"
-  },
-  {
-    "id": "SentinelConceptualDomain",
-    "name": "Conceptual::SentinelConceptualDomain",
-    "definition": "Conceptual domain of sentinel concepts.",
-    "parent": "ConceptualDomain"
-  },
-  {
-    "id": "SubstantiveConceptualDomain",
-    "name": "Conceptual::SubstantiveConceptualDomain",
-    "definition": "Conceptual domain of substantive concepts.",
-    "parent": "ConceptualDomain"
-  },
-  {
-    "id": "UnitType",
-    "name": "Conceptual::UnitType",
-    "definition": "Unit type is a type or class of objects of interest (units).",
-    "parent": "Concept"
-  },
-  {
-    "id": "ConceptualValue",
-    "name": "DataDescription::ConceptualValue",
-    "definition": "Concept (with a notion of equality defined) being observed, captured, or derived which is associated to a single data instance.",
-    "parent": "Concept"
-  },
-  {
-    "id": "DataStructure",
-    "name": "DataDescription::DataStructure",
-    "definition": "Data organization based on reusable data structure components.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "KeyMember",
-    "name": "DataDescription::KeyMember",
-    "definition": "Single data instance that is part of a key.",
-    "parent": "InstanceValue"
-  },
-  {
-    "id": "DimensionalDataSet",
-    "name": "Dimensional::DimensionalDataSet",
-    "definition": "Organized collection of multidimensional data. It is structured by a dimensional data structure.",
-    "parent": "DataSet"
-  },
-  {
-    "id": "DimensionalKey",
-    "name": "Dimensional::DimensionalKey",
-    "definition": "Collection of data instances that uniquely identify a collection of data points in a dimensional dataset.",
-    "parent": "Key"
-  },
-  {
-    "id": "DimensionalKeyDefinition",
-    "name": "Dimensional::DimensionalKeyDefinition",
-    "definition": "Collection of concepts that uniquely defines a collection of data points in a dimensional dataset.",
-    "parent": "KeyDefinition"
-  },
-  {
-    "id": "RevisableDatum",
-    "name": "Dimensional::RevisableDatum",
-    "definition": "A datum that can be qualified by a revision.",
-    "parent": "Datum"
-  },
-  {
-    "id": "SegmentByText",
-    "name": "FormatDescription::SegmentByText",
-    "definition": "Location of a segment of text through character or line counts.",
-    "parent": "PhysicalSegmentLocation"
-  },
-  {
-    "id": "UnitSegmentLayout",
-    "name": "FormatDescription::UnitSegmentLayout",
-    "definition": "Description of unit-record (\"wide\") data sets, where each row in the data set provides the same group of values for variables all relating to a single unit.",
-    "parent": "PhysicalSegmentLayout"
-  },
-  {
-    "id": "ContextualComponent",
-    "name": "KeyValue::ContextualComponent",
-    "definition": "Encapsulates contextual information of the key-value datastore to provide a scope to the instance key. The instance key is unique within the scope.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "InstanceKey",
-    "name": "KeyValue::InstanceKey",
-    "definition": "Single-valued key representation produced from the merge of the representations of all key members and a descriptor.",
-    "parent": "Key"
-  },
-  {
-    "id": "KeyValueDataStore",
-    "name": "KeyValue::KeyValueDataStore",
-    "definition": "Organized collection of key-value data. It is structured by a key value structure.",
-    "parent": "DataSet"
-  },
-  {
-    "id": "SyntheticIdComponent",
-    "name": "KeyValue::SyntheticIdComponent",
-    "definition": "Persistent and unique identifier (PIDs) to provide standarized, long-lasting identification.",
-    "parent": "DataStructureComponent"
-  },
-  {
-    "id": "LongDataSet",
-    "name": "Long::LongDataSet",
-    "definition": "Organized collection of long data. It is structured by a long data structure.",
-    "parent": "DataSet"
-  },
-  {
-    "id": "LongKey",
-    "name": "Long::LongKey",
-    "definition": "Collection of data instances that uniquely identify a collection of data points in a long dataset.",
-    "parent": "Key"
-  },
-  {
-    "id": "ReferenceValue",
-    "name": "Long::ReferenceValue",
-    "definition": "Recorded value in a variable value component. Value referenced by a descriptor.",
-    "parent": "InstanceValue"
-  },
-  {
-    "id": "ReferenceValueDomain",
-    "name": "Long::ReferenceValueDomain",
-    "definition": "Set of permissible values for a variable playing the role of a variable value component.",
-    "parent": "ValueDomain"
-  },
-  {
-    "id": "DeterministicImperative",
-    "name": "Process::DeterministicImperative",
-    "definition": "Deterministic imperative is a subtype of control logic. Deterministic control logic consists of control constructs.",
-    "parent": "ControlLogic"
-  },
-  {
-    "id": "NonDeterministicDeclarative",
-    "name": "Process::NonDeterministicDeclarative",
-    "definition": "Non-deterministic control logic is a subtype of control logic. Non-deterministic (or declarative) control logic is constraint- and/or rule-based.",
-    "parent": "ControlLogic"
-  },
-  {
-    "id": "ProcessingAgent",
-    "name": "Process::ProcessingAgent",
-    "definition": "A processing agent orchestrates the production of information objects in a production environment. There are processing agents which perform data capture, data editing/processing, and data analysis (etc.), each in the appropriate production environments. The processing agent performs an activity bas ...",
-    "parent": "Agent"
-  },
-  {
-    "id": "Step",
-    "name": "Process::Step",
-    "definition": "Step is a reusable, parameterized activity associated to information flows. One or more steps perform an sctivity.",
-    "parent": "Activity"
-  },
-  {
-    "id": "CodeList",
-    "name": "Representations::CodeList",
-    "definition": "List of codes and associated categories.",
-    "parent": "EnumerationDomain"
-  },
-  {
-    "id": "SentinelValueDomain",
-    "name": "Representations::SentinelValueDomain",
-    "definition": "Value domain for a sentinel conceptual domain.",
-    "parent": "ValueDomain"
-  },
-  {
-    "id": "StatisticalClassification",
-    "name": "Representations::StatisticalClassification",
-    "definition": "Set of categories represented by classification items where the subset of immediate children categories for any given parent category are mutually exclusive and jointly exhaustive with respect to that parent.",
-    "parent": "EnumerationDomain"
-  },
-  {
-    "id": "SubstantiveValueDomain",
-    "name": "Representations::SubstantiveValueDomain",
-    "definition": "Value domain for a substantive conceptual domain. Typically a description and/or enumeration of allowed values of interest.",
-    "parent": "ValueDomain"
-  },
-  {
-    "id": "WideDataSet",
-    "name": "Wide::WideDataSet",
-    "definition": "Organized collection of wide data. It is structured by a wide data structure.",
-    "parent": "DataSet"
-  },
-  {
-    "id": "WideKey",
-    "name": "Wide::WideKey",
-    "definition": "Collection of data instances that uniquely identify a collection of data points in a wide dataset.",
-    "parent": "Key"
-  },
-  {
-    "id": "RepresentedVariable",
-    "name": "Conceptual::RepresentedVariable",
-    "definition": "Conceptual variable with a substantive value domain specified.",
-    "parent": "ConceptualVariable"
-  },
-  {
-    "id": "Universe",
-    "name": "Conceptual::Universe",
-    "definition": "Specialized unit type, with the specialization based upon characteristics other than time and geography.",
-    "parent": "UnitType"
-  },
-  {
-    "id": "KeyDefinitionMember",
-    "name": "DataDescription::KeyDefinitionMember",
-    "definition": "Single concept that is part of the structure of a key definition.",
-    "parent": "ConceptualValue"
-  },
-  {
-    "id": "DimensionalDataStructure",
-    "name": "Dimensional::DimensionalDataStructure",
-    "definition": "Structure of a dimensional data set (organized collection of multidimensional data). It is described by dimension, measure and attribute components.",
-    "parent": "DataStructure"
-  },
-  {
-    "id": "DimensionalKeyDefinitionMember",
-    "name": "Dimensional::DimensionalKeyDefinitionMember",
-    "definition": "Single concept that is part of a dimensional key definition.",
-    "parent": "ConceptualValue"
-  },
-  {
-    "id": "DimensionalKeyMember",
-    "name": "Dimensional::DimensionalKeyMember",
-    "definition": "Single data instance that is part of a dimensional key.",
-    "parent": "KeyMember"
-  },
-  {
-    "id": "QualifiedMeasure",
-    "name": "Dimensional::QualifiedMeasure",
-    "definition": "A measure having a specific production method.",
-    "parent": "MeasureComponent"
-  },
-  {
-    "id": "KeyValueStructure",
-    "name": "KeyValue::KeyValueStructure",
-    "definition": "Structure of a key-value datastore (organized collection of key-value data). It is described by identifier, contextual, synthetic id, dimension, variable descriptor and variable value components.",
-    "parent": "DataStructure"
-  },
-  {
-    "id": "MainKeyMember",
-    "name": "KeyValue::MainKeyMember",
-    "definition": "Identifies the unit of interest, either a statistical unit or a population, via identifier or dimension components, respectively, plus an optional contextual component. If neither identifier nor dimension components are present, then a synthetic id component is used.",
-    "parent": "KeyMember"
-  },
-  {
-    "id": "Descriptor",
-    "name": "Long::Descriptor",
-    "definition": "Use of a code for variable identification in the context of a data structure and a variable descriptor component.",
-    "parent": "KeyMember"
-  },
-  {
-    "id": "DescriptorValueDomain",
-    "name": "Long::DescriptorValueDomain",
-    "definition": "Set of permissible values for a variable playing the role of a variable descriptor component.",
-    "parent": "SubstantiveValueDomain"
-  },
-  {
-    "id": "LongDataStructure",
-    "name": "Long::LongDataStructure",
-    "definition": "Structure of a long dataset (organized collection of long data). It is described by identifier, measure, attribute, variable descriptor and variable value components.",
-    "parent": "DataStructure"
-  },
-  {
-    "id": "LongMainKeyMember",
-    "name": "Long::LongMainKeyMember",
-    "definition": "Single data instance that is part of a long key.",
-    "parent": "KeyMember"
-  },
-  {
-    "id": "ConditionalControlLogic",
-    "name": "Process::ConditionalControlLogic",
-    "definition": "A set of decision points which determine the flow between the steps used to perform an activity.",
-    "parent": "DeterministicImperative"
-  },
-  {
-    "id": "Curator",
-    "name": "Process::Curator",
-    "definition": "Curator is a software agent that uses techniques such as natural language processing to map facts in the research data store to the condition part of a rule.",
-    "parent": "ProcessingAgent"
-  },
-  {
-    "id": "RuleBasedScheduling",
-    "name": "Process::RuleBasedScheduling",
-    "definition": "Rule based scheduling performs a fact check on rules from the rule set, testing their condition part against the facts in the research data store. Fact checking may be assisted by a curator who can semantically compare the condition part of each candidate rule with the facts. The fact checker return ...",
-    "parent": "NonDeterministicDeclarative"
-  },
-  {
-    "id": "Sequence",
-    "name": "Process::Sequence",
-    "definition": "A sequence controls the order of activities or steps by defining a simple sequence.",
-    "parent": "DeterministicImperative"
-  },
-  {
-    "id": "Service",
-    "name": "Process::Service",
-    "definition": "Service is a type of processing agent. Services are atomic. They execute acts which have input and output parameters.",
-    "parent": "ProcessingAgent"
-  },
-  {
-    "id": "TemporalConstraints",
-    "name": "Process::TemporalConstraints",
-    "definition": "Temporal constraints provide a mechanism for expressing concurrency control and synchronization",
-    "parent": "NonDeterministicDeclarative"
-  },
-  {
-    "id": "WideDataStructure",
-    "name": "Wide::WideDataStructure",
-    "definition": "Structure of a wide dataset (organized collection of wide data). It is described by identifier, measure and attribute components.",
-    "parent": "DataStructure"
-  },
-  {
-    "id": "WideKeyMember",
-    "name": "Wide::WideKeyMember",
-    "definition": "Single data instance that is part of a wide key.",
-    "parent": "KeyMember"
-  },
-  {
-    "id": "InstanceVariable",
-    "name": "Conceptual::InstanceVariable",
-    "definition": "Use of a represented variable within a data set.",
-    "parent": "RepresentedVariable"
-  },
-  {
-    "id": "Population",
-    "name": "Conceptual::Population",
-    "definition": "Universe with time and geography specified.",
-    "parent": "Universe"
-  },
-  {
-    "id": "AllenIntervalAlgebra",
-    "name": "Process::AllenIntervalAlgebra",
-    "definition": "Control logic where the execution flow is determined by the satisfaction of temporal constraints specified with Allen's Interval Algebra over time intervals. Allen's interval algebra consists of thirteen temporal interval relations and the operations defined on them. Together these relations are dis ...",
-    "parent": "TemporalConstraints"
-  },
-  {
-    "id": "TemporalControlConstruct",
-    "name": "Process::TemporalControlConstruct",
-    "definition": "Declarative control flow operator where the continuation of the execution flow depends on the finalization of one or more preceding activities/steps. - XORJoin: Given three activities A, B and C, if XORJoin(A, B) -> C, then C is executed after either A or B finishes executing. XORJoin is sometimes r ...",
-    "parent": "TemporalConstraints"
-  },
-  {
-    "id": "DescriptorVariable",
-    "name": "Long::DescriptorVariable",
-    "definition": "Variable that provides codes for variable identification in the context of a data structure. Variable playing the role of a variable descriptor component.",
-    "parent": "InstanceVariable"
-  },
-  {
-    "id": "ReferenceVariable",
-    "name": "Long::ReferenceVariable",
-    "definition": "Variable that records values of multiple variables in the context of a data structure. Variable playing the role of a variable value component.",
-    "parent": "InstanceVariable"
   }
 ]
