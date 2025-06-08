@@ -5,7 +5,7 @@
   },
   {
     "source": "AgentListing",
-    "target": "Organization"
+    "target": "Agent"
   },
   {
     "source": "ClassificationSeries",
