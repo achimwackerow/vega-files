@@ -1,5 +1,9 @@
 [
   {
+    "source": "Agent",
+    "target": null
+  },
+  {
     "source": "Activity",
     "target": "Activity"
   },
@@ -302,6 +306,10 @@
   {
     "source": "ControlLogic",
     "target": "InformationFlowDefinition"
+  },
+  {
+    "source": "ControlLogic",
+    "target": "ProcessingAgent"
   },
   {
     "source": "CorrespondenceTable",
@@ -884,6 +892,14 @@
     "target": "DataStructureComponent"
   },
   {
+    "source": "ProcessingAgent",
+    "target": "Activity"
+  },
+  {
+    "source": "ProcessingAgent",
+    "target": "ProductionEnvironment"
+  },
+  {
     "source": "QualifiedMeasure",
     "target": "MeasureComponent"
   },
@@ -1021,6 +1037,10 @@
   },
   {
     "source": "RuleBasedScheduling",
+    "target": "ProcessingAgent"
+  },
+  {
+    "source": "RuleBasedScheduling",
     "target": "RuleSet"
   },
   {
@@ -1062,6 +1082,10 @@
   {
     "source": "Sequence",
     "target": "InformationFlowDefinition"
+  },
+  {
+    "source": "Sequence",
+    "target": "ProcessingAgent"
   },
   {
     "source": "Sequence",
