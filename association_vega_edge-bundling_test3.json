@@ -1,7 +1,7 @@
 [
   {
     "source": "Agent",
-    "target": "Root"
+    "target": "Dummy"
   },
   {
     "source": "Activity",
