@@ -145,7 +145,7 @@
             "field": "depth"
           },
           "tooltip": {
-            "signal": "{'Name':datum.name, 'Definition':datum.definition}"
+            "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
@@ -187,7 +187,7 @@
             "signal": "labels ? 1 : 0"
           },
           "tooltip": {
-            "signal": "{'Name':datum.name, 'Definition':datum.definition}"
+            "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"

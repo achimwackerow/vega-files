@@ -244,7 +244,7 @@
             }
           ],
           "tooltip": {
-            "signal": "{'Name':datum.name, 'Definition':datum.definition}"
+            "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to highlight its associations.'}"
           }
         }
       }
@@ -399,7 +399,7 @@
     "subtitle": [
       "Sorted by package name and class name.",
       "Move the mouse pointer over a class to see its definition.",
-      "Click on a class to see its associations (click on the empty area to get the original view).",
+      "Click on a class to highlight its associations (click on the empty area to get the original view).",
       "Click on the grey bullet (•) near a class to open the details page (Ctrl+click for new tab, Shift+click for new window)"
     ],
     "subtitleFontSize": 11,

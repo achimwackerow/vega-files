@@ -4,21 +4,33 @@
     "name": "Diagram root (no class)"
   },
   {
+    "id": "Agent",
+    "name": "Agents::Agent",
+    "definition": "Actor that performs a role in relation to a process or product.",
+    "parent": "Root"
+  },
+  {
     "id": "AgentListing",
     "name": "Agents::AgentListing",
     "definition": "Listing of agents of any type who may be organized to describe relationships between agents.",
     "parent": "Root"
   },
-    {
+  {
     "id": "Organization",
     "name": "Agents::Organization",
     "definition": "Collection of people organized within a framework of authority that can perform an act or be associated with another agent.",
-    "parent": "Root"
+    "parent": "Agent"
   },
   {
     "id": "StatisticalClassification",
     "name": "Representations::StatisticalClassification",
     "definition": "Set of categories represented by classification items where the subset of immediate children categories for any given parent category are mutually exclusive and jointly exhaustive with respect to that parent.",
+    "parent": "EnumerationDomain"
+  },
+  {
+    "id": "EnumerationDomain",
+    "name": "Representations::EnumerationDomain",
+    "definition": "A base class acting as an extension point to allow all codifications (codelist, statistical classification, etc.) to be understood as enumerated value domains.",
     "parent": "Root"
   },
   {
