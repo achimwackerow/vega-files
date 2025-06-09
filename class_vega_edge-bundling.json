@@ -83,7 +83,8 @@
     "id": "XMLSchemaDataTypes",
     "name": "DDICDIModels::DDICDILibrary::DataTypes::XMLSchemaDataTypes",
     "parent": "DataTypes"
-  }  {
+  },
+  {
     "id": "Agent",
     "name": "Agents::Agent",
     "parent": "Agents"
