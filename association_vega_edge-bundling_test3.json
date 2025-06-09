@@ -1,9 +1,5 @@
 [
   {
-    "source": "Agent",
-    "target": "Activity" 
-  },
-  {
     "source": "Activity",
     "target": "Activity"
   },
