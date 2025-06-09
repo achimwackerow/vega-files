@@ -649,7 +649,7 @@
     "id": "Curator",
     "name": "Process::Curator",
     "definition": "Curator is a software agent that uses techniques such as natural language processing to map facts in the research data store to the condition part of a rule.",
-    "parent": "ProcessingAgent"
+    "parent": "Root"
   },
   {
     "id": "DeterministicImperative",
@@ -715,7 +715,7 @@
     "id": "Service",
     "name": "Process::Service",
     "definition": "Service is a type of processing agent. Services are atomic. They execute acts which have input and output parameters.",
-    "parent": "ProcessingAgent"
+    "parent": "Root"
   },
   {
     "id": "Step",
