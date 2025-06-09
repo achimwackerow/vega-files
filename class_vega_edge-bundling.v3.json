@@ -5,19 +5,14 @@
     "parent": null
   },
   {
-    "id": "Agents",
-    "name": "DDICDIModels::DDICDILibrary::Classes::Agents",
-    "parent": "Classes"
-  },
-  {
     "id": "Classes",
     "name": "DDICDIModels::DDICDILibrary::Classes",
     "parent": "DDICDILibrary"
   },
   {
-    "id": "Components",
-    "name": "DDICDIModels::DDICDILibrary::Classes::DataDescription::Components",
-    "parent": "DataDescription"
+    "id": "Agents",
+    "name": "DDICDIModels::DDICDILibrary::Classes::Agents",
+    "parent": "Classes"
   },
   {
     "id": "Conceptual",
@@ -30,24 +25,14 @@
     "parent": "Classes"
   },
   {
-    "id": "DataTypes",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes",
-    "parent": "DDICDILibrary"
+    "id": "Components",
+    "name": "DDICDIModels::DDICDILibrary::Classes::DataDescription::Components",
+    "parent": "DataDescription"
   },
   {
     "id": "Dimensional",
     "name": "DDICDIModels::DDICDILibrary::Classes::DataDescription::Dimensional",
     "parent": "DataDescription"
-  },
-  {
-    "id": "Enumerations",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes::Enumerations",
-    "parent": "DataTypes"
-  },
-  {
-    "id": "FormatDescription",
-    "name": "DDICDIModels::DDICDILibrary::Classes::FormatDescription",
-    "parent": "Classes"
   },
   {
     "id": "KeyValue",
@@ -60,6 +45,16 @@
     "parent": "DataDescription"
   },
   {
+    "id": "Wide",
+    "name": "DDICDIModels::DDICDILibrary::Classes::DataDescription::Wide",
+    "parent": "DataDescription"
+  },
+  {
+    "id": "FormatDescription",
+    "name": "DDICDIModels::DDICDILibrary::Classes::FormatDescription",
+    "parent": "Classes"
+  },
+  {
     "id": "Process",
     "name": "DDICDIModels::DDICDILibrary::Classes::Process",
     "parent": "Classes"
@@ -70,14 +65,19 @@
     "parent": "Classes"
   },
   {
-    "id": "StructuredDataTypes",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes::StructuredDataTypes",
+    "id": "DataTypes",
+    "name": "DDICDIModels::DDICDILibrary::DataTypes",
+    "parent": "DDICDILibrary"
+  },
+  {
+    "id": "Enumerations",
+    "name": "DDICDIModels::DDICDILibrary::DataTypes::Enumerations",
     "parent": "DataTypes"
   },
   {
-    "id": "Wide",
-    "name": "DDICDIModels::DDICDILibrary::Classes::DataDescription::Wide",
-    "parent": "DataDescription"
+    "id": "StructuredDataTypes",
+    "name": "DDICDIModels::DDICDILibrary::DataTypes::StructuredDataTypes",
+    "parent": "DataTypes"
   },
   {
     "id": "XMLSchemaDataTypes",
@@ -123,66 +123,6 @@
     "id": "Organization",
     "name": "Agents::Organization",
     "parent": "Agents"
-  },
-  {
-    "id": "AttributeComponent",
-    "name": "Components::AttributeComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "ComponentPosition",
-    "name": "Components::ComponentPosition",
-    "parent": "Components"
-  },
-  {
-    "id": "DataStructureComponent",
-    "name": "Components::DataStructureComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "DimensionComponent",
-    "name": "Components::DimensionComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "ForeignKey",
-    "name": "Components::ForeignKey",
-    "parent": "Components"
-  },
-  {
-    "id": "ForeignKeyComponent",
-    "name": "Components::ForeignKeyComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "IdentifierComponent",
-    "name": "Components::IdentifierComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "MeasureComponent",
-    "name": "Components::MeasureComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "PrimaryKey",
-    "name": "Components::PrimaryKey",
-    "parent": "Components"
-  },
-  {
-    "id": "PrimaryKeyComponent",
-    "name": "Components::PrimaryKeyComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "VariableDescriptorComponent",
-    "name": "Components::VariableDescriptorComponent",
-    "parent": "Components"
-  },
-  {
-    "id": "VariableValueComponent",
-    "name": "Components::VariableValueComponent",
-    "parent": "Components"
   },
   {
     "id": "Category",
@@ -365,6 +305,66 @@
     "parent": "DataDescription"
   },
   {
+    "id": "AttributeComponent",
+    "name": "Components::AttributeComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "ComponentPosition",
+    "name": "Components::ComponentPosition",
+    "parent": "Components"
+  },
+  {
+    "id": "DataStructureComponent",
+    "name": "Components::DataStructureComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "DimensionComponent",
+    "name": "Components::DimensionComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "ForeignKey",
+    "name": "Components::ForeignKey",
+    "parent": "Components"
+  },
+  {
+    "id": "ForeignKeyComponent",
+    "name": "Components::ForeignKeyComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "IdentifierComponent",
+    "name": "Components::IdentifierComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "MeasureComponent",
+    "name": "Components::MeasureComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "PrimaryKey",
+    "name": "Components::PrimaryKey",
+    "parent": "Components"
+  },
+  {
+    "id": "PrimaryKeyComponent",
+    "name": "Components::PrimaryKeyComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "VariableDescriptorComponent",
+    "name": "Components::VariableDescriptorComponent",
+    "parent": "Components"
+  },
+  {
+    "id": "VariableValueComponent",
+    "name": "Components::VariableValueComponent",
+    "parent": "Components"
+  },
+  {
     "id": "DimensionGroup",
     "name": "Dimensional::DimensionGroup",
     "parent": "Dimensional"
@@ -418,6 +418,106 @@
     "id": "ScopedMeasure",
     "name": "Dimensional::ScopedMeasure",
     "parent": "Dimensional"
+  },
+  {
+    "id": "ContextualComponent",
+    "name": "KeyValue::ContextualComponent",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "InstanceKey",
+    "name": "KeyValue::InstanceKey",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "KeyValueDataStore",
+    "name": "KeyValue::KeyValueDataStore",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "KeyValueStructure",
+    "name": "KeyValue::KeyValueStructure",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "MainKeyMember",
+    "name": "KeyValue::MainKeyMember",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "SyntheticIdComponent",
+    "name": "KeyValue::SyntheticIdComponent",
+    "parent": "KeyValue"
+  },
+  {
+    "id": "Descriptor",
+    "name": "Long::Descriptor",
+    "parent": "Long"
+  },
+  {
+    "id": "DescriptorValueDomain",
+    "name": "Long::DescriptorValueDomain",
+    "parent": "Long"
+  },
+  {
+    "id": "DescriptorVariable",
+    "name": "Long::DescriptorVariable",
+    "parent": "Long"
+  },
+  {
+    "id": "LongDataSet",
+    "name": "Long::LongDataSet",
+    "parent": "Long"
+  },
+  {
+    "id": "LongDataStructure",
+    "name": "Long::LongDataStructure",
+    "parent": "Long"
+  },
+  {
+    "id": "LongKey",
+    "name": "Long::LongKey",
+    "parent": "Long"
+  },
+  {
+    "id": "LongMainKeyMember",
+    "name": "Long::LongMainKeyMember",
+    "parent": "Long"
+  },
+  {
+    "id": "ReferenceValue",
+    "name": "Long::ReferenceValue",
+    "parent": "Long"
+  },
+  {
+    "id": "ReferenceValueDomain",
+    "name": "Long::ReferenceValueDomain",
+    "parent": "Long"
+  },
+  {
+    "id": "ReferenceVariable",
+    "name": "Long::ReferenceVariable",
+    "parent": "Long"
+  },
+  {
+    "id": "WideDataSet",
+    "name": "Wide::WideDataSet",
+    "parent": "Wide"
+  },
+  {
+    "id": "WideDataStructure",
+    "name": "Wide::WideDataStructure",
+    "parent": "Wide"
+  },
+  {
+    "id": "WideKey",
+    "name": "Wide::WideKey",
+    "parent": "Wide"
+  },
+  {
+    "id": "WideKeyMember",
+    "name": "Wide::WideKeyMember",
+    "parent": "Wide"
   },
   {
     "id": "DataPointPosition",
@@ -533,86 +633,6 @@
     "id": "ValueMappingRelationship",
     "name": "FormatDescription::ValueMappingRelationship",
     "parent": "FormatDescription"
-  },
-  {
-    "id": "ContextualComponent",
-    "name": "KeyValue::ContextualComponent",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "InstanceKey",
-    "name": "KeyValue::InstanceKey",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "KeyValueDataStore",
-    "name": "KeyValue::KeyValueDataStore",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "KeyValueStructure",
-    "name": "KeyValue::KeyValueStructure",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "MainKeyMember",
-    "name": "KeyValue::MainKeyMember",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "SyntheticIdComponent",
-    "name": "KeyValue::SyntheticIdComponent",
-    "parent": "KeyValue"
-  },
-  {
-    "id": "Descriptor",
-    "name": "Long::Descriptor",
-    "parent": "Long"
-  },
-  {
-    "id": "DescriptorValueDomain",
-    "name": "Long::DescriptorValueDomain",
-    "parent": "Long"
-  },
-  {
-    "id": "DescriptorVariable",
-    "name": "Long::DescriptorVariable",
-    "parent": "Long"
-  },
-  {
-    "id": "LongDataSet",
-    "name": "Long::LongDataSet",
-    "parent": "Long"
-  },
-  {
-    "id": "LongDataStructure",
-    "name": "Long::LongDataStructure",
-    "parent": "Long"
-  },
-  {
-    "id": "LongKey",
-    "name": "Long::LongKey",
-    "parent": "Long"
-  },
-  {
-    "id": "LongMainKeyMember",
-    "name": "Long::LongMainKeyMember",
-    "parent": "Long"
-  },
-  {
-    "id": "ReferenceValue",
-    "name": "Long::ReferenceValue",
-    "parent": "Long"
-  },
-  {
-    "id": "ReferenceValueDomain",
-    "name": "Long::ReferenceValueDomain",
-    "parent": "Long"
-  },
-  {
-    "id": "ReferenceVariable",
-    "name": "Long::ReferenceVariable",
-    "parent": "Long"
   },
   {
     "id": "Activity",
@@ -853,25 +873,5 @@
     "id": "ValueDomain",
     "name": "Representations::ValueDomain",
     "parent": "Representations"
-  },
-  {
-    "id": "WideDataSet",
-    "name": "Wide::WideDataSet",
-    "parent": "Wide"
-  },
-  {
-    "id": "WideDataStructure",
-    "name": "Wide::WideDataStructure",
-    "parent": "Wide"
-  },
-  {
-    "id": "WideKey",
-    "name": "Wide::WideKey",
-    "parent": "Wide"
-  },
-  {
-    "id": "WideKeyMember",
-    "name": "Wide::WideKeyMember",
-    "parent": "Wide"
   }
 ]
