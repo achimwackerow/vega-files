@@ -1,7 +1,7 @@
 [
   {
     "source": "Agent",
-    "target": "Dummy"
+    "target": "Activity"
   },
   {
     "source": "Activity",
