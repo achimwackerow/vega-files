@@ -7,7 +7,7 @@
   "signals": [
     {
       "name": "tension",
-      "value": 0.9,
+      "value": 0.6,
       "bind": {
         "input": "range",
         "min": 0,

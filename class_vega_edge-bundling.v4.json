@@ -65,26 +65,6 @@
     "parent": "Classes"
   },
   {
-    "id": "DataTypes",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes",
-    "parent": "DDICDILibrary"
-  },
-  {
-    "id": "Enumerations",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes::Enumerations",
-    "parent": "DataTypes"
-  },
-  {
-    "id": "StructuredDataTypes",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes::StructuredDataTypes",
-    "parent": "DataTypes"
-  },
-  {
-    "id": "XMLSchemaDataTypes",
-    "name": "DDICDIModels::DDICDILibrary::DataTypes::XMLSchemaDataTypes",
-    "parent": "DataTypes"
-  },
-  {
     "id": "Agent",
     "name": "Agents::Agent",
     "parent": "Agents"
