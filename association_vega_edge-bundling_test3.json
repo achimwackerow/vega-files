@@ -1,0 +1,1198 @@
+[
+  {
+    "source": "Activity",
+    "target": "Activity"
+  },
+  {
+    "source": "Activity",
+    "target": "ControlLogic"
+  },
+  {
+    "source": "Activity",
+    "target": "Step"
+  },
+  {
+    "source": "AgentListing",
+    "target": "Agent"
+  },
+  {
+    "source": "AgentListing",
+    "target": "AgentPosition"
+  },
+  {
+    "source": "AgentListing",
+    "target": "Concept"
+  },
+  {
+    "source": "AgentPosition",
+    "target": "Agent"
+  },
+  {
+    "source": "AgentRelationship",
+    "target": "Agent"
+  },
+  {
+    "source": "AgentStructure",
+    "target": "AgentListing"
+  },
+  {
+    "source": "AgentStructure",
+    "target": "AgentRelationship"
+  },
+  {
+    "source": "AttributeComponent",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "AttributeComponent",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "AuthorizationSource",
+    "target": "Agent"
+  },
+  {
+    "source": "CategoryPosition",
+    "target": "Category"
+  },
+  {
+    "source": "CategoryRelationStructure",
+    "target": "CategoryRelationship"
+  },
+  {
+    "source": "CategoryRelationStructure",
+    "target": "CategorySet"
+  },
+  {
+    "source": "CategoryRelationship",
+    "target": "Category"
+  },
+  {
+    "source": "CategorySet",
+    "target": "Category"
+  },
+  {
+    "source": "CategorySet",
+    "target": "CategoryPosition"
+  },
+  {
+    "source": "CategorySet",
+    "target": "Concept"
+  },
+  {
+    "source": "CategoryStatistic",
+    "target": "Category"
+  },
+  {
+    "source": "CategoryStatistic",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "ClassificationFamily",
+    "target": "ClassificationIndex"
+  },
+  {
+    "source": "ClassificationFamily",
+    "target": "ClassificationSeries"
+  },
+  {
+    "source": "ClassificationFamily",
+    "target": "Concept"
+  },
+  {
+    "source": "ClassificationIndex",
+    "target": "Agent"
+  },
+  {
+    "source": "ClassificationIndex",
+    "target": "ClassificationIndexEntry"
+  },
+  {
+    "source": "ClassificationIndex",
+    "target": "ClassificationIndexEntryPosition"
+  },
+  {
+    "source": "ClassificationIndex",
+    "target": "Concept"
+  },
+  {
+    "source": "ClassificationIndexEntryPosition",
+    "target": "ClassificationIndexEntry"
+  },
+  {
+    "source": "ClassificationItem",
+    "target": "AuthorizationSource"
+  },
+  {
+    "source": "ClassificationItem",
+    "target": "Category"
+  },
+  {
+    "source": "ClassificationItem",
+    "target": "ClassificationItem"
+  },
+  {
+    "source": "ClassificationItem",
+    "target": "Notation"
+  },
+  {
+    "source": "ClassificationItemPosition",
+    "target": "ClassificationItem"
+  },
+  {
+    "source": "ClassificationItemRelationship",
+    "target": "ClassificationItem"
+  },
+  {
+    "source": "ClassificationItemStructure",
+    "target": "ClassificationItemRelationship"
+  },
+  {
+    "source": "ClassificationItemStructure",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "ClassificationPosition",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "ClassificationSeries",
+    "target": "Agent"
+  },
+  {
+    "source": "ClassificationSeries",
+    "target": "ClassificationPosition"
+  },
+  {
+    "source": "ClassificationSeries",
+    "target": "Concept"
+  },
+  {
+    "source": "ClassificationSeries",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "ClassificationSeriesStructure",
+    "target": "ClassificationSeries"
+  },
+  {
+    "source": "ClassificationSeriesStructure",
+    "target": "StatisticalClassificationRelationship"
+  },
+  {
+    "source": "Code",
+    "target": "Category"
+  },
+  {
+    "source": "Code",
+    "target": "Notation"
+  },
+  {
+    "source": "CodeList",
+    "target": "CategorySet"
+  },
+  {
+    "source": "CodeList",
+    "target": "Code"
+  },
+  {
+    "source": "CodeList",
+    "target": "CodePosition"
+  },
+  {
+    "source": "CodeList",
+    "target": "Concept"
+  },
+  {
+    "source": "CodeList",
+    "target": "LevelStructure"
+  },
+  {
+    "source": "CodeListStructure",
+    "target": "CodeList"
+  },
+  {
+    "source": "CodeListStructure",
+    "target": "CodeRelationship"
+  },
+  {
+    "source": "CodePosition",
+    "target": "Code"
+  },
+  {
+    "source": "CodeRelationship",
+    "target": "Code"
+  },
+  {
+    "source": "ComponentPosition",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "Concept",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptMap",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptRelationship",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptStructure",
+    "target": "ConceptRelationship"
+  },
+  {
+    "source": "ConceptStructure",
+    "target": "ConceptSystem"
+  },
+  {
+    "source": "ConceptSystem",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptSystemCorrespondence",
+    "target": "ConceptMap"
+  },
+  {
+    "source": "ConceptSystemCorrespondence",
+    "target": "ConceptSystem"
+  },
+  {
+    "source": "ConceptualDomain",
+    "target": "ConceptSystem"
+  },
+  {
+    "source": "ConceptualDomain",
+    "target": "ValueAndConceptDescription"
+  },
+  {
+    "source": "ConceptualValue",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptualValue",
+    "target": "ConceptualDomain"
+  },
+  {
+    "source": "ConceptualVariable",
+    "target": "Concept"
+  },
+  {
+    "source": "ConceptualVariable",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "ConceptualVariable",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "ConceptualVariable",
+    "target": "UnitType"
+  },
+  {
+    "source": "ControlLogic",
+    "target": "Activity"
+  },
+  {
+    "source": "ControlLogic",
+    "target": "ControlLogic"
+  },
+  {
+    "source": "ControlLogic",
+    "target": "InformationFlowDefinition"
+  },
+  {
+    "source": "CorrespondenceTable",
+    "target": "Agent"
+  },
+  {
+    "source": "CorrespondenceTable",
+    "target": "ConceptMap"
+  },
+  {
+    "source": "CorrespondenceTable",
+    "target": "Level"
+  },
+  {
+    "source": "CorrespondenceTable",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "DataPoint",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "DataPoint",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "DataPointPosition",
+    "target": "DataPoint"
+  },
+  {
+    "source": "DataPointRelationship",
+    "target": "DataPoint"
+  },
+  {
+    "source": "DataSet",
+    "target": "DataPoint"
+  },
+  {
+    "source": "DataSet",
+    "target": "DataStructure"
+  },
+  {
+    "source": "DataSet",
+    "target": "Key"
+  },
+  {
+    "source": "DataStore",
+    "target": "Concept"
+  },
+  {
+    "source": "DataStore",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "DataStore",
+    "target": "LogicalRecordPosition"
+  },
+  {
+    "source": "DataStore",
+    "target": "RecordRelation"
+  },
+  {
+    "source": "DataStructure",
+    "target": "ComponentPosition"
+  },
+  {
+    "source": "DataStructure",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "DataStructure",
+    "target": "ForeignKey"
+  },
+  {
+    "source": "DataStructure",
+    "target": "PrimaryKey"
+  },
+  {
+    "source": "DataStructure",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "DataStructureComponent",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "Datum",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "Datum",
+    "target": "InstanceValue"
+  },
+  {
+    "source": "Datum",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "Datum",
+    "target": "Notation"
+  },
+  {
+    "source": "Descriptor",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "Descriptor",
+    "target": "DataPoint"
+  },
+  {
+    "source": "Descriptor",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "Descriptor",
+    "target": "DescriptorValueDomain"
+  },
+  {
+    "source": "Descriptor",
+    "target": "ReferenceValue"
+  },
+  {
+    "source": "Descriptor",
+    "target": "ReferenceVariable"
+  },
+  {
+    "source": "Descriptor",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "Concept"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "DescriptorValueDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "PhysicalSegmentLayout"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "SentinelValueDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "SubstantiveValueDomain"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "UnitType"
+  },
+  {
+    "source": "DescriptorVariable",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "DimensionComponent",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "DimensionComponent",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "DimensionGroup",
+    "target": "DimensionComponent"
+  },
+  {
+    "source": "DimensionalDataSet",
+    "target": "DataPoint"
+  },
+  {
+    "source": "DimensionalDataSet",
+    "target": "DataStructure"
+  },
+  {
+    "source": "DimensionalDataSet",
+    "target": "Key"
+  },
+  {
+    "source": "DimensionalDataSet",
+    "target": "ScopedMeasure"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "ComponentPosition"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "DimensionGroup"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "ForeignKey"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "PrimaryKey"
+  },
+  {
+    "source": "DimensionalDataStructure",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "DimensionalKeyDefinitionMember",
+    "target": "Concept"
+  },
+  {
+    "source": "DimensionalKeyDefinitionMember",
+    "target": "ConceptualDomain"
+  },
+  {
+    "source": "DimensionalKeyDefinitionMember",
+    "target": "DimensionalKeyMember"
+  },
+  {
+    "source": "DimensionalKeyMember",
+    "target": "CodeList"
+  },
+  {
+    "source": "DimensionalKeyMember",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "DimensionalKeyMember",
+    "target": "DataPoint"
+  },
+  {
+    "source": "DimensionalKeyMember",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "DimensionalKeyMember",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "EnumerationDomain",
+    "target": "CategorySet"
+  },
+  {
+    "source": "EnumerationDomain",
+    "target": "Concept"
+  },
+  {
+    "source": "EnumerationDomain",
+    "target": "LevelStructure"
+  },
+  {
+    "source": "ForeignKey",
+    "target": "ForeignKeyComponent"
+  },
+  {
+    "source": "ForeignKeyComponent",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "ForeignKeyComponent",
+    "target": "PrimaryKeyComponent"
+  },
+  {
+    "source": "InformationFlowDefinition",
+    "target": "Parameter"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "DataPoint"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "InstanceValue"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "KeyDefinition"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "KeyMember"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "ReferenceValue"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "Unit"
+  },
+  {
+    "source": "InstanceKey",
+    "target": "Universe"
+  },
+  {
+    "source": "InstanceValue",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "InstanceValue",
+    "target": "DataPoint"
+  },
+  {
+    "source": "InstanceValue",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "Concept"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "PhysicalSegmentLayout"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "SentinelValueDomain"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "SubstantiveValueDomain"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "UnitType"
+  },
+  {
+    "source": "InstanceVariable",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "InstanceVariableMap",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "Key",
+    "target": "DataPoint"
+  },
+  {
+    "source": "Key",
+    "target": "KeyDefinition"
+  },
+  {
+    "source": "Key",
+    "target": "KeyMember"
+  },
+  {
+    "source": "Key",
+    "target": "Unit"
+  },
+  {
+    "source": "Key",
+    "target": "Universe"
+  },
+  {
+    "source": "KeyDefinition",
+    "target": "KeyDefinitionMember"
+  },
+  {
+    "source": "KeyDefinition",
+    "target": "Unit"
+  },
+  {
+    "source": "KeyDefinition",
+    "target": "Universe"
+  },
+  {
+    "source": "KeyMember",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "KeyMember",
+    "target": "DataPoint"
+  },
+  {
+    "source": "KeyMember",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "KeyMember",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "Level",
+    "target": "ClassificationItem"
+  },
+  {
+    "source": "Level",
+    "target": "Concept"
+  },
+  {
+    "source": "LevelStructure",
+    "target": "Level"
+  },
+  {
+    "source": "LogicalRecord",
+    "target": "Concept"
+  },
+  {
+    "source": "LogicalRecord",
+    "target": "DataSet"
+  },
+  {
+    "source": "LogicalRecord",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "LogicalRecordPosition",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "LogicalRecordRelationStructure",
+    "target": "DataStore"
+  },
+  {
+    "source": "LogicalRecordRelationStructure",
+    "target": "LogicalRecordRelationship"
+  },
+  {
+    "source": "LogicalRecordRelationship",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "MainKeyMember",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "MainKeyMember",
+    "target": "DataPoint"
+  },
+  {
+    "source": "MainKeyMember",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "MainKeyMember",
+    "target": "SubstantiveValueDomain"
+  },
+  {
+    "source": "MainKeyMember",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "Notation",
+    "target": "Category"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "Concept"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "DataSet"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "DataStore"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "PhysicalRecordSegment"
+  },
+  {
+    "source": "PhysicalDataSet",
+    "target": "PhysicalRecordSegmentPosition"
+  },
+  {
+    "source": "PhysicalDataSetStructure",
+    "target": "DataStructure"
+  },
+  {
+    "source": "PhysicalDataSetStructure",
+    "target": "PhysicalDataSet"
+  },
+  {
+    "source": "PhysicalDataSetStructure",
+    "target": "PhysicalRecordSegmentRelationship"
+  },
+  {
+    "source": "PhysicalLayoutRelationStructure",
+    "target": "PhysicalSegmentLayout"
+  },
+  {
+    "source": "PhysicalLayoutRelationStructure",
+    "target": "ValueMappingRelationship"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "Concept"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "DataPoint"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "DataPointPosition"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "PhysicalSegmentLayout"
+  },
+  {
+    "source": "PhysicalRecordSegment",
+    "target": "Population"
+  },
+  {
+    "source": "PhysicalRecordSegmentPosition",
+    "target": "PhysicalRecordSegment"
+  },
+  {
+    "source": "PhysicalRecordSegmentRelationship",
+    "target": "PhysicalRecordSegment"
+  },
+  {
+    "source": "PhysicalRecordSegmentStructure",
+    "target": "DataPointRelationship"
+  },
+  {
+    "source": "PhysicalRecordSegmentStructure",
+    "target": "PhysicalRecordSegment"
+  },
+  {
+    "source": "PhysicalSegmentLayout",
+    "target": "Concept"
+  },
+  {
+    "source": "PhysicalSegmentLayout",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "PhysicalSegmentLayout",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "PhysicalSegmentLayout",
+    "target": "ValueMappingPosition"
+  },
+  {
+    "source": "Population",
+    "target": "Concept"
+  },
+  {
+    "source": "Population",
+    "target": "Unit"
+  },
+  {
+    "source": "PrimaryKey",
+    "target": "PrimaryKeyComponent"
+  },
+  {
+    "source": "PrimaryKeyComponent",
+    "target": "DataStructureComponent"
+  },
+  {
+    "source": "QualifiedMeasure",
+    "target": "MeasureComponent"
+  },
+  {
+    "source": "QualifiedMeasure",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "RecordRelation",
+    "target": "InstanceVariableMap"
+  },
+  {
+    "source": "RecordRelation",
+    "target": "LogicalRecord"
+  },
+  {
+    "source": "ReferenceValue",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "ReferenceValue",
+    "target": "DataPoint"
+  },
+  {
+    "source": "ReferenceValue",
+    "target": "ReferenceValueDomain"
+  },
+  {
+    "source": "ReferenceValue",
+    "target": "ValueDomain"
+  },
+  {
+    "source": "ReferenceValue",
+    "target": "VariableValueComponent"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "Concept"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "PhysicalSegmentLayout"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "ReferenceValueDomain"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "SentinelValueDomain"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "SubstantiveValueDomain"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "UnitType"
+  },
+  {
+    "source": "ReferenceVariable",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "Concept"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "SentinelValueDomain"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "SubstantiveValueDomain"
+  },
+  {
+    "source": "RepresentedVariable",
+    "target": "UnitType"
+  },
+  {
+    "source": "RevisableDatum",
+    "target": "ConceptualValue"
+  },
+  {
+    "source": "RevisableDatum",
+    "target": "InstanceValue"
+  },
+  {
+    "source": "RevisableDatum",
+    "target": "InstanceVariable"
+  },
+  {
+    "source": "RevisableDatum",
+    "target": "Notation"
+  },
+  {
+    "source": "RevisableDatum",
+    "target": "Revision"
+  },
+  {
+    "source": "Rule",
+    "target": "ConditionalControlLogic"
+  },
+  {
+    "source": "RuleBasedScheduling",
+    "target": "Activity"
+  },
+  {
+    "source": "RuleBasedScheduling",
+    "target": "ControlLogic"
+  },
+  {
+    "source": "RuleBasedScheduling",
+    "target": "Curator"
+  },
+  {
+    "source": "RuleBasedScheduling",
+    "target": "InformationFlowDefinition"
+  },
+  {
+    "source": "RuleBasedScheduling",
+    "target": "RuleSet"
+  },
+  {
+    "source": "RuleSet",
+    "target": "Rule"
+  },
+  {
+    "source": "ScopedMeasure",
+    "target": "DimensionalKeyDefinition"
+  },
+  {
+    "source": "ScopedMeasure",
+    "target": "QualifiedMeasure"
+  },
+  {
+    "source": "ScopedMeasure",
+    "target": "RevisableDatum"
+  },
+  {
+    "source": "SentinelValueDomain",
+    "target": "EnumerationDomain"
+  },
+  {
+    "source": "SentinelValueDomain",
+    "target": "SentinelConceptualDomain"
+  },
+  {
+    "source": "SentinelValueDomain",
+    "target": "ValueAndConceptDescription"
+  },
+  {
+    "source": "Sequence",
+    "target": "Activity"
+  },
+  {
+    "source": "Sequence",
+    "target": "ControlLogic"
+  },
+  {
+    "source": "Sequence",
+    "target": "InformationFlowDefinition"
+  },
+  {
+    "source": "Sequence",
+    "target": "SequencePosition"
+  },
+  {
+    "source": "SequencePosition",
+    "target": "Activity"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "CategorySet"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "ClassificationIndex"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "ClassificationItem"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "ClassificationItemPosition"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "Concept"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "LevelStructure"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "Organization"
+  },
+  {
+    "source": "StatisticalClassification",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "StatisticalClassificationRelationship",
+    "target": "StatisticalClassification"
+  },
+  {
+    "source": "Step",
+    "target": "Activity"
+  },
+  {
+    "source": "Step",
+    "target": "ControlLogic"
+  },
+  {
+    "source": "Step",
+    "target": "Parameter"
+  },
+  {
+    "source": "Step",
+    "target": "Step"
+  },
+  {
+    "source": "SubstantiveValueDomain",
+    "target": "EnumerationDomain"
+  },
+  {
+    "source": "SubstantiveValueDomain",
+    "target": "SubstantiveConceptualDomain"
+  },
+  {
+    "source": "SubstantiveValueDomain",
+    "target": "ValueAndConceptDescription"
+  },
+  {
+    "source": "Unit",
+    "target": "UnitType"
+  },
+  {
+    "source": "ValueMapping",
+    "target": "DataPoint"
+  },
+  {
+    "source": "ValueMapping",
+    "target": "PhysicalSegmentLocation"
+  },
+  {
+    "source": "ValueMappingPosition",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "ValueMappingRelationship",
+    "target": "ValueMapping"
+  },
+  {
+    "source": "VariableCollection",
+    "target": "Concept"
+  },
+  {
+    "source": "VariableCollection",
+    "target": "ConceptualVariable"
+  },
+  {
+    "source": "VariableCollection",
+    "target": "VariablePosition"
+  },
+  {
+    "source": "VariableDescriptorComponent",
+    "target": "DescriptorVariable"
+  },
+  {
+    "source": "VariableDescriptorComponent",
+    "target": "RepresentedVariable"
+  },
+  {
+    "source": "VariableDescriptorComponent",
+    "target": "VariableValueComponent"
+  },
+  {
+    "source": "VariablePosition",
+    "target": "ConceptualVariable"
+  },
+  {
+    "source": "VariableRelationship",
+    "target": "ConceptualVariable"
+  },
+  {
+    "source": "VariableStructure",
+    "target": "VariableCollection"
+  },
+  {
+    "source": "VariableStructure",
+    "target": "VariableRelationship"
+  }
+]
