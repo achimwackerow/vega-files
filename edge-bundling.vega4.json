@@ -26,13 +26,7 @@
     },
     {
       "name": "extent",
-      "value": 360,
-      "bind": {
-        "input": "range",
-        "min": 0,
-        "max": 360,
-        "step": 1
-      }
+      "value": 360
     },
     {
       "name": "rotate",
@@ -96,7 +90,7 @@
   "data": [
     {
       "name": "tree",
-      "url": "https://raw.githubusercontent.com/achimwackerow/vega-files/refs/heads/master/class_vega_edge-bundling.json",
+      "url": "https://raw.githubusercontent.com/achimwackerow/vega-files/refs/heads/master/class_vega_edge-bundling.v4.json",
       "transform": [
         {
           "type": "stratify",
@@ -243,6 +237,9 @@
               "value": "black"
             }
           ],
+          "cursor": {
+            "value": "default"
+          },
           "tooltip": {
             "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to highlight its associations.'}"
           }
@@ -303,8 +300,11 @@
           "dx": {
             "signal": "textOffset * (datum.leftside ? -1 : 1)"
           },
+          "cursor": {
+            "value": "pointer"
+          },
           "tooltip": {
-            "signal": "'Click for details on the class \"' + datum['name']+ '\"'"
+            "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
@@ -397,10 +397,11 @@
     "text": "Bird's Eye View of the Model with the Associations of all Classes",
     "fontSize": 20,
     "subtitle": [
-      "Sorted by package name and class name.",
+      "Grouped and bundled by package name.",
+      "⠀",
       "Move the mouse pointer over a class to see its definition.",
       "Click on a class to highlight its associations (click on the empty area to get the original view).",
-      "Click on the grey bullet (•) near a class to open the details page (Ctrl+click for new tab, Shift+click for new window)"
+      "Click on the gray bullet point (•) next to a class to open the details page."
     ],
     "subtitleFontSize": 11,
     "subtitlePadding": 10

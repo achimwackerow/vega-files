@@ -186,6 +186,9 @@
           "opacity": {
             "signal": "labels ? 1 : 0"
           },
+          "cursor": {
+            "value": "pointer"
+          },
           "tooltip": {
             "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
           },
@@ -202,6 +205,7 @@
     "subtitle": [
       "Class hierarchy from left to right.",
       "Sorted by package name and class name from top to bottom.",
+      "⠀",
       "Move the mouse pointer over a class to see its definition.",
       "Click on a class to open the details page (Ctrl+click for new tab, Shift+click for new window)"
     ],
