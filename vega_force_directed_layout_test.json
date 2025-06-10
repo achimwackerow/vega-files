@@ -1,0 +1,41 @@
+{
+  "nodes": [
+    {
+      "name": "AgentListing",
+      "group": "Agents",
+      "index": 0
+    },
+    {
+      "name": "Agent",
+      "group": "Agents",
+      "index": 1
+    },
+    {
+      "name": "AgentStructure",
+      "group": "Agents",
+      "index": 2
+    },
+    {
+      "name": "Concept",
+      "group": "Conceptual",
+      "index": 3
+    }
+  ],
+  "links": [
+    {
+      "source": 0,
+      "target": 1,
+      "value": 2
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "value": 1
+    },
+    {
+      "source": 0,
+      "target": 3,
+      "value": 1
+   }
+  ]
+}

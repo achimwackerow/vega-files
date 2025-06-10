@@ -90,7 +90,7 @@
   "data": [
     {
       "name": "tree",
-      "url": "https://raw.githubusercontent.com/achimwackerow/vega-files/refs/heads/master/class_vega_edge-bundling.v6.json",
+      "url": "https://raw.githubusercontent.com/achimwackerow/vega-files/refs/heads/master/class_vega_edge-bundling.v7.json",
       "transform": [
         {
           "type": "stratify",
@@ -304,7 +304,7 @@
             "value": "pointer"
           },
           "tooltip": {
-            "signal": "{'Name': datum.name, 'Definition': datum.definition, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
+            "signal": "{'Name': datum.name, 'Click': 'to open the details page (Ctrl+click for new tab, Shift+click for new window)'}"
           },
           "href": {
             "signal": "isValid(datum[\"url\"]) ? datum[\"url\"] : \"\"+datum[\"url\"]"
